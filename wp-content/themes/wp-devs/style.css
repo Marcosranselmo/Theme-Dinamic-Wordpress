@@ -1,0 +1,1019 @@
+/*
+Theme Name: WP-Devs
+Theme URI: https://website.com/wp-devs
+Author: Marcos R Anselmo
+Author URI: https://website.com/wp-devs
+Description: This theme is for learning purposes only.
+Requires at least: 5.6
+Tested up to: 5.9
+Requires PHP: 8.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wp-devs
+Tags: one-column, custom-menu, custom-logo, featured-images, translation-ready
+*/
+
+/**
+1. Normalize
+2. Theme Specific CSS
+*/
+
+
+/* 1. Normalize */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+
+
+/* 2. Theme Specific CSS */
+
+/* General */
+
+:root{
+    /* Measurements */
+    --wpdevs-big-padding: 60px 0;
+    --wpdevs-mobile-padding: 20px 0;
+    --wpdevs-light-padding: 0 25px;
+    /* Colors */
+    --wpdevs-gray1: #7C7C7C;
+    --wpdevs-gray2: #F7F7F7;
+    --wpdevs-gray3: #DDDDDD;
+    --wpdevs-light-blue: #2A92D3;
+    --wpdevs-deep-blue: #213C4D;
+    --wpdevs-black-blue: #001E32;
+    --wpdevs-yellow: #CFAF07;
+}
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font: normal, 21px/2.1rem, 'Poppins', sans-serif;
+}
+h1{
+    font-size: 66px;
+    line-height: 70px;
+}
+h2{
+    font-size: 40px;
+    line-height: 4.0rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 36px;
+    line-height: 3.6rem;
+    font-weight: bold;
+}
+h4{
+    font-size: 28px;
+    line-height: 2.8rem;
+    font-weight: bold;
+}
+h5{
+    font-size: 22px;
+    line-height: 2.2rem;
+    font-weight: bold;
+}
+p{
+    font-size: 15px;
+    line-height: 1.7rem;
+}
+a{
+    color: var( --wpdevs-gray1 );
+    text-decoration: none;
+}
+a:hover,
+a:visited{
+    color: #6d6d6d;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Containers */
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (max-width: 575px) {
+    .container {
+        padding: var(--wpdevs-light-padding);
+    }
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/************** HOME PAGE *****************/
+
+/* Top Bar Section */
+.top-bar{ 
+    background: #ffffff; 
+    color: #000000; 
+    padding: 15px 0; 
+}
+.top-bar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchbox input[type="text"]{
+    padding: 7px 10px;
+    border: 1px solid #C6C6C6;
+}
+.searchbox input[type="submit"]{
+    padding: 9px 10px;
+    background: #000000;
+    color: #FFFFFF;
+    border: none;
+}
+@media (max-width: 768px) {
+    .searchbox {
+        display: none;
+    }
+    .top-bar .container{
+        justify-content: center;
+    }
+}
+
+/* Main Menu */
+
+.menu-area {
+	background: var( --wpdevs-gray2 );
+}
+.main-menu {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+}
+.main-menu ul {
+    margin: 0;
+    padding-left: 0;
+}
+.main-menu ul li {
+    display: inline-block;
+    line-height: 55px;
+    position: relative;
+}
+.main-menu ul li.current_page_item > a{
+    font-weight: bold;
+}
+.main-menu ul li a {
+    color: #000000;
+    padding: 0 30px;
+    text-decoration: none;
+    display: block;
+}
+.main-menu ul li a:hover,
+.main-menu ul li a:active
+{
+    color: var( --wpdevs-gray1 );
+    transition: .5s all;
+}
+.main-menu ul li a:focus + ul
+{
+    display: block;
+}
+.main-menu li.menu-item-has-children::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: calc( 50% - 6px);
+    width: 0px;
+    height: 0px;
+    border-top: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #000000;
+    border-left: 6px solid transparent;
+}
+.main-menu ul.sub-menu {
+    position: absolute;
+    padding-left: 0;
+    background-color: #000000;
+    z-index: 1;
+    text-align: left;
+    display: none;
+}
+.main-menu ul .menu-item-has-children:hover>ul,
+.main-menu ul .menu-item-has-children:focus+ul {
+    display: block
+}
+.main-menu ul.sub-menu li {
+    width: max-content;
+}
+.main-menu ul.sub-menu a {
+    color: #FFFFFF;
+}
+.menu-icon,
+.check-button {
+	cursor: pointer;
+	display: none;
+}
+.menu-icon .bar1, 
+.menu-icon .bar2, 
+.menu-icon .bar3 {
+    width: 28px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+@media (max-width: 767px){
+    .menu-icon,
+    .check-button {
+		display: block;
+	}
+    .check-button{
+        border: none;
+        background: transparent;
+        height: 55px;
+    }
+	.main-menu ul{
+		position: absolute;
+		width: 100%;
+		background: #000000;
+		left: -999px;
+		text-align: left;
+		transition: all cubic-bezier(.79,.14,.15,.86) .5s;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+	}
+    .main-menu ul:not(.sub-menu){
+        margin-top: 55px;
+    }
+	.main-menu ul li{
+		display: block;
+		margin: 15px 0;
+		line-height: 30px;
+	}
+	.main-menu ul li a {
+		color: #FFFFFF;
+	}
+    .main-menu ul.sub-menu{
+        position: relative;
+        top: 0;
+        margin-left: 30px;
+        display: block;
+        width: auto;
+    }
+    .main-menu ul.sub-menu a{
+        color: var( --wpdevs-gray1 );
+    } 
+    .show-dropdown{
+        left: 0 !important;
+    }   
+    .animate-button .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+        transform: rotate(-45deg) translate(-4px, 4px);
+    }
+    .animate-button .bar2 {opacity: 0;}
+    .animate-button .bar3 {
+        -webkit-transform: rotate(45deg) translate(-7px, -7px);
+        transform: rotate(45deg) translate(-7px, -7px);
+    }
+} 
+
+/* Hero */
+.hero{
+    background-size: cover;
+    background-position: center center;
+    color: #FFFFFF;
+    text-align: center;
+}
+.hero-items{
+    padding: var( --wpdevs-light-padding );
+}
+.hero .overlay{
+    background: rgb(0 0 0 / 27%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .hero-items h1{
+    margin-top: 0;
+    font-weight: normal;
+}
+.hero .hero-items a{
+    color: #FFFFFF;
+    padding: 15px 25px;
+    display: inline-block;
+    background: var( --wpdevs-light-blue );
+    margin: 20px 0 0;
+}
+.hero .hero-items a:hover{
+    background: var( --wpdevs-yellow );
+    transition: .5s all;
+}
+
+/* Services */
+.services{ 
+    background: var( --wpdevs-deep-blue ); 
+    padding: var( --wpdevs-big-padding ); 
+    color: #ffffff; 
+}
+.services .container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.services .container > * {
+    flex: 1 1 250px;
+}
+.services-item{
+    padding: var(--wpdevs-light-padding);
+}
+.services-item p{
+    margin-bottom: 40px;
+}
+.services-item figure{ 
+    background: var( --wpdevs-black-blue );
+    padding: 15px; 
+}
+.services h2{ 
+    text-align: center;
+    position: relative;  
+}
+.services h2::after{
+    content: '';
+    position: absolute;
+    background-color: var( --wpdevs-light-blue );
+    width: 35px;
+    height: 5px;
+    right: calc( 50% - 15px);
+    bottom: 0;
+}
+.services h4{
+    margin: 0;
+}
+@media (max-width: 768px) {
+    .services .container{
+        flex-direction: column;
+        padding: 0;
+    }
+    .services-item{
+        max-width: 100%;
+    }
+}
+
+/* Home Blog */
+.home .home-blog{
+    padding: var( --wpdevs-big-padding );
+}
+.home-blog .container article:first-child{
+    grid-area: feat-item;
+}
+.home-blog .container{
+    display: grid;
+    grid-template-areas: 'feat-item feat-item';
+    grid-gap: 25px;
+}
+.home .home-blog h2{ 
+    text-align: center;
+    position: relative;  
+}
+.home .home-blog h2::after{
+    content: '';
+    position: absolute;
+    background-color: var( --wpdevs-light-blue );
+    width: 35px;
+    height: 5px;
+    right: calc( 50% - 15px);
+    bottom: 0;
+}
+.home .home-blog .latest-news{ 
+    text-align: center; 
+}
+.home .home-blog .col-12 .latest-news{  
+    margin-bottom: 40px;
+}
+.home .home-blog .latest-news img{ 
+    float: none !important;
+    margin: 0 0 25px 0 !important;
+}
+.home .home-blog .latest-news h3{ 
+    color: #000000;
+    margin: 0; 
+    line-height: 2.6rem;
+}
+.home .home-blog .meta-info p{ 
+    font-weight: bold; 
+    margin-bottom: 0; 
+}
+.home .home-blog .meta-info p:last-child{ 
+    margin-top: 5px; 
+}
+.home .home-blog span, 
+.home .home-blog span a{ 
+    color: var( --wpdevs-gray1 ); 
+    font-weight: normal; 
+    text-decoration: none;
+    margin: 0 2px 0 0; 
+}
+@media (max-width: 768px) {
+    .home-blog .container{
+        display: block;
+    }
+}
+
+/* Footer */
+footer{ 
+    background: var( --wpdevs-deep-blue ); 
+    padding: 15px 0; 
+    color: #FFFFFF; 
+}
+footer .container .row{
+    align-items: center;
+}
+
+/* Footer - Footer Menu */
+.site-footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-footer .copyright p{
+    margin: 0;
+}
+.footer-menu ul{ 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+.footer-menu ul li{ 
+    display: inline;  
+    margin: 0 15px 0 0;
+}
+.footer-menu ul li:last-child{ 
+    margin: 0; 
+}
+.footer-menu ul li a{  
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-menu ul li.current_page_item a{ 
+    font-weight: bold; 
+}
+@media (max-width: 768px) {
+    .site-footer .container{
+        justify-content: safe;
+    }
+}
+@media (max-width: 575px) {
+    .site-footer .container{
+        flex-wrap: wrap;
+    }
+}
+
+/************** INNER PAGES *****************/
+
+/* Blog, Archive, Search */
+.blog main .container,
+.archive main .container{
+    display: flex;
+}
+.blog .blog-items,
+.archive .archive-items{
+    padding: 0 15px 0 0;
+    flex: 1;
+}
+.blog .blog-items h2,
+.archive .blog-items h2{
+    margin-top: 0;
+}
+.blog article{
+    margin-bottom: 20px;
+}
+.blog aside,
+.archive aside{
+    padding: 25px;
+    background: var( --wpdevs-gray2 );
+    height: 100%;
+    width: 30%;
+}
+@media screen and (max-width: 991px ) {
+    .blog aside,
+    .archive aside,
+    .blog .blog-items,
+    .archive .archive-items{
+        min-width: 100%;
+    }
+}
+.blog h1,
+.archive h1{
+    text-align: center;
+    margin-top: 0;
+}
+.archive-description{
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto 30px auto;
+}
+.archive-description p{
+    font-size: 85%;
+}
+.home #primary > #main{
+    padding: 0;
+}
+#primary > #main{
+    padding: var(--wpdevs-big-padding);
+}
+@media screen and (max-width: 991px ) {
+    #primary > #main{
+        padding: var(--wpdevs-mobile-padding);
+    }
+}
+.meta-info p{
+    margin: 0;
+}
+.wp-post-image{ 
+    float: left; 
+    margin: 0 15px 10px 0; 
+}
+@media screen and (max-width: 550px ) {
+    .wp-post-image{ 
+        width: 100%; 
+    }
+}
+article{ 
+    display: inline-block;  
+    width: 100%; 
+}
+article.post h1,
+.search h1,
+.archive h1{
+    font-size: 50px;
+    line-height: 4.0rem;
+    margin-bottom: 15px;
+}
+article.post h2{
+    line-height: 3rem;
+    text-transform: none;
+}
+article h2{
+    line-height: 3rem;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+article.post h3,
+article.post h4,
+article.post h5{
+    margin-bottom: 0;
+}
+.searchform input[type="text"]{
+    padding: 7px 10px;
+    border: 1px solid #C6C6C6;
+}
+.searchform input[type="submit"]{
+    padding: 11px 10px;
+    background: #000000;
+    color: #FFFFFF;
+    border: none;
+}
+.searchform div{
+    display: flex;
+}
+.searchform input[type=text]{
+    max-width: 70%;
+}
+.searchform input[type=submit]{
+    max-width: 70%;
+}
+@media (max-width: 991px) {
+    .blog .container,
+    .archive .container{
+        flex-wrap: wrap;
+    }
+}
+
+/* Comments */
+#commentform input[type="submit"]{     
+    color: #FFFFFF;
+    padding: 15px 25px;
+    display: inline-block;
+    background: var( --wpdevs-light-blue );
+    margin: 20px 0 0; 
+    border: none;
+}
+#commentform input[type="submit"]:hover{
+    background: var( --wpdevs-yellow );
+    transition: .5s all;
+}
+#commentform label{
+    display: block;
+}
+#commentform label[for="wp-comment-cookies-consent"]{
+    display: inline;
+    margin-left: 5px;
+}
+#commentform input[type="text"],
+#commentform textarea{
+    padding: 7px 10px;
+    border: 1px solid #C6C6C6;
+    width: 100%;
+}
+.comments-area #reply-title{
+    border-top: 1px solid #ebebeb;
+    padding: 20px 0 0;
+}
+
+/* Pagination */
+.wpdevs-pagination{
+    display: flex;
+    justify-content: space-between;
+}
+.pages{
+    margin-top: 20px;
+}
+.nav-links{
+    margin-top: 40px;
+}
+.nav-links .page-numbers{
+    padding: 10px 15px;
+    display: inline-block;
+    background: var( --wpdevs-gray3 );
+}
+.nav-links .current{
+    background-color: #000000;
+    color: #ffffff;
+}
+.nav-links .next,
+.nav-links .prev{
+    background-color: transparent;
+}
+.nav-links .prev{
+    padding-left: 0;
+}
