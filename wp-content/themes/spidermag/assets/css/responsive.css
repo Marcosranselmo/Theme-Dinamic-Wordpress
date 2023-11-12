@@ -1,0 +1,624 @@
+.widget_spidermag_six_block .row{
+	margin-bottom:20px;
+}
+/* Responsive CSS */
+@media screen and (max-width:1199px){
+	.widget_spidermag_first_block .spmag-hidden .img-thumbnail {
+		display:none;		
+	}
+	.widget_spidermag_eight_block .grid-container .grid .masonry-item {
+	    width: 30.33%;
+	}
+}
+
+@media screen and (max-width:1199px){
+	.blogging-style .grid-container .grid .masonry-item {
+        width: 46%;
+	    margin: 10px 0 0 0;
+	    padding: 10px;
+	    margin-right: 2%;
+	}
+}
+
+
+@media screen and (max-width:991px){
+	.widget_spidermag_eight_block .grid-container .grid .masonry-item {
+	    width: 48%;
+	    margin-right: 2%;
+	}
+}
+
+
+@media (max-width: 1170px) {
+	.pickmeup .pmu-instance .pmu-day-of-week *, .pickmeup .pmu-instance .pmu-days * {
+		width: 37px;
+	}
+	.popular-tags {
+		padding-right: 20px;
+		padding-left: 20px;
+		border-right: 1px solid #486581;
+		border-left: 1px solid #486581;
+		overflow: visible;
+		height: auto;
+	}
+	.right-img-top {
+		height: 220px;
+	}
+	.right-img-top .box {
+		height: 220px;
+	}
+	.right-img-btm {
+		height: 218px;
+	}
+	.right-img-btm .box {
+		height: 218px;
+	}
+}
+
+@media screen and (max-width:1080px) {
+	.grid {
+		width: 100% !important;
+		margin-top: 10px;
+	}
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+	
+	.mega-menu {
+		min-width: 280px;
+	}
+	.mega-sub {
+		border-right: none;
+	}
+	.last-update {
+		font-size: 11px;
+	}
+	.pickmeup .pmu-instance .pmu-day-of-week *, .pickmeup .pmu-instance .pmu-days * {
+		width: 27px;
+	}
+	.popular-tags {
+		height: auto;
+		overflow: visible;
+	}
+	
+	.widget_spidermag_six_block .col-sm-8 p {
+		display:none;		
+	}
+
+}
+
+@media screen and (max-width:992px) {	
+	
+	.widget_spidermag_second_block .last-update{
+		display: none;
+	}
+}
+
+@media screen and (max-width:991px) {	
+
+	/* For navigation Menu */
+	.nav>li>.spider-home-active{
+		display:none;
+	}
+	.navbar-inverse .navbar-nav li a:hover{
+		background-color:transparent !important;
+	}
+	.navbar-inverse .dropdown-menu{
+		background-color:transparent;
+	}
+	.navbar-nav li ul li a,
+	.navbar-inverse .navbar-nav li ul li:first-child a{
+	    padding-left: 40px !important;
+	}
+	.dropdown-menu{
+		-webkit-box-shadow:none;
+		-moz-box-shadow:none;
+		-o-box-shadow:none;
+		box-shadow:none;
+	}
+	.navbar-inverse .main-nav li.current-menu-item a{
+		background-color:transparent;
+	}
+	.second > li:first-child a{
+		border-left:none;
+	}
+	.navbar-inverse .navbar-nav li:first-child a {
+		padding-left: 15px;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+		border: none;
+	}
+	.navbar-inverse .navbar-nav li a, .navbar-inverse .navbar-nav li a:hover, .navbar-inverse .navbar-nav li a:focus {
+		border-right: none !important;
+	}
+	.owl-item img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+	.social a {
+		font-size: 9px;
+	}
+	.nav-justified li a {
+		font-size: 10px;
+	}
+	.breadcrumb {
+		width: 100%;
+	}
+	
+}
+
+@media (min-width: 850px) {
+	.search-container input {
+		font-size: 2em;
+	}
+}
+
+@media (max-width:767px) {
+		
+	.widget_spidermag_eight_block .grid-container .grid .masonry-item ,
+	.widget_spidermag_eight_block .spmnormal .col-md-5, 
+	.widget_spidermag_eight_block .spmgrid .col-md-5{
+	    width: 48%;
+	    margin-right: 2%;
+	}
+
+	.blogging-style .pull-left {
+	    float: none !important;
+	}
+
+	.blogging-style .grid-container .grid .masonry-item {
+        width: 100%;
+	}
+
+	.site-branding, 
+	.spidermag-logo, 
+	.spidermag-logotitle {
+	    margin: 10px 0;
+	}
+
+	.header-toolbar .list-inline.pull-right{
+		float: none !important;
+	}
+
+	.header-toolbar{
+		text-align: center;
+	}
+	.header-toolbar .f-social {
+	    display: inline-block;
+	    float: none !important;
+	}
+
+	.header-toolbar ul.list-inline li {
+	    padding: 6px 6px;
+	}
+	.header {
+	    text-align: center;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		float: none!important;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.navbar-collapse.collapse.in {
+		display: block!important;
+		max-height: 400px;
+	}
+	.collapsing {
+		overflow: hidden!important;
+	}
+	.navbar-inverse .dropdown-menu {
+		background: none;
+		border: none;
+	}
+	.nav li {
+		border-bottom: 1px solid #44617d;
+	}
+	.dropdown-menu li {
+		border-bottom: none;
+	}
+	.mega-menu {
+		min-width: inherit;
+		padding: 0;
+	}
+	.mega-menu a {
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+	}
+	.nav-icn {
+		float: right;
+		margin-right: 10px;
+	}
+	.mega-sub {
+		padding-bottom: 5px;
+		min-height: inherit;
+	}
+	.open {
+		background: #e74c3c;
+	}
+	.open li {
+		border-bottom: 1px solid #da4839;
+	}
+	.open li a {
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+		margin-left: 10px;
+	}
+	.open li:last-child {
+		border-bottom: none;
+	}
+	.open .dropdown-toggle {
+		background: #3d566e !important;
+	}
+	#scrollUp {
+		bottom: 10px;
+	}
+	.main-title {
+		font-size: 15px;
+	}
+	#time-date {
+		text-align: left;
+	}
+	#weather {
+		text-align: left;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	/* .owl-prev, .owl-next {
+		display: none;
+	} */
+	.info {
+		line-height: 54px;
+	}
+	.banner-outer .carousel-caption {
+		font-size: 18px;
+		line-height: 18px;
+		padding-bottom: 20px;
+	}
+	.science {
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #ededed;
+	}
+	.pickmeup .pmu-instance .pmu-day-of-week *, .pickmeup .pmu-instance .pmu-days * {
+		width: 27px;
+	}
+	.subscribe-info {
+		min-height: inherit;
+	}
+	.popular-tags {
+		height: auto;
+		overflow: visible;
+	}
+	.subscribe-info {
+		border-right: none;
+		padding-right: 5px;
+	}
+	.popular-tags {
+		padding-right: 5px;
+		padding-left: 5px;
+		border-right: none;
+	}
+	.recent-posts {
+		padding-left: 5px;
+	}
+	.f-social .list-inline li {
+		float: left;
+	}
+	.f-nav .list-inline li {
+		padding-left: 0;
+		margin-bottom: 5px;
+	}
+	.btm-sec {
+  	    text-align: center;
+	}
+	.copyrights {
+		text-align: center;
+		padding:5px;
+	}
+	.mid-sec .list-unstyled li {
+		width: 100%;
+		padding-bottom: 10px;
+		float: left;
+	}
+	
+	.widget_spidermag_first_block .img-thumbnail,
+	.widget_spidermag_second_block .img-thumbnail,
+	.widget_spidermag_six_block  .img-thumbnail,
+	.widget_spidermag_five_block  .img-thumbnail{
+		width:100%;		
+	}
+	
+	.widget_spidermag_six_block  .img-thumbnail {
+		float:left;	
+	}
+		
+	.widget_spidermag_first_block .spmag-hidden .img-thumbnail {
+		display:block;		
+	}
+
+	
+ 
+}
+
+@media (max-width:480px) {
+	.widget_spidermag_eight_block .grid-container .grid .masonry-item {
+	    width: 100%;
+	}
+	.last-update{
+		display: none;
+	}
+	.hot-news{
+		display: none;
+	}
+	.grid .masonry-item {
+	    width: auto;
+	}
+	.bordered {
+	    border: 0;
+	    padding: 0;
+	}
+	.widget_spidermag_latest_random_post .img-thumbnail,
+	.widget_spidermag_tabbed_format_post .img-thumbnail {
+	    margin-right: 15px;
+	}
+	.nav-tabs.nav-justified li {
+	    border-right: 0;
+	    border: 1px solid #ccc;
+	}
+
+	.nav-tabs.nav-justified>li>a {
+	    margin-bottom: 0;
+	    font-size: 15px;
+	}
+
+	.blogging-style .pull-left{
+		float: none !important;
+	}
+	.blogging-style .grid-container .masonry-item .img-thumbnail{
+		display: block;
+	}
+	.spidermagnav-links .nav-previous a,
+	.spidermagnav-links .nav-next a{
+		width: 100%;
+	}
+	.spidermagnav-links .nav-previous a:before {
+	    top: 22px;
+	}
+
+	.spidermagnav-links .nav-previous a:after {
+	    top: 25px;
+	}
+	.spidermagnav-links .nav-next a:before,
+	.spidermagnav-links .nav-next a:after {
+	    top: 65%;
+	}
+}
+
+@media (max-width:348px) {
+	.grid .sub-info-bordered {
+		height: 50px;
+	}
+	.grid .sub-info-bordered .stars {
+		float: left;
+	}
+	.sec-topic .sub-info-bordered {
+		height: 50px;
+	}
+	.sec-topic .sub-info-bordered .stars {
+		float: left;
+	}
+}
+
+
+/*------------------------------------
+RESPOSIVE VIEW FOR MD VIEW
+-------------------------------------*/
+@media (min-width: 992px){
+   .navbar-inverse .navbar-nav li.menu-item-has-children a {
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+}
+
+/*------------------------------------
+RESPOSIVE VIEW FOR XS VIEW
+-------------------------------------*/
+@media (max-width: 768px){
+    .navbar-nav>li>a, 
+    .navbar-inverse .navbar-nav li:first-child a, 
+    a.spider-home.spider-home-active.ion-home, 
+    a.spider-home.spider-home.ion-home:hover{
+         padding-left: 10px !important;
+    }
+    .list-unstyled li{
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }
+}
+
+
+ 
+/*==========  Non-Mobile First Method  ==========*/
+
+
+@media only screen and (max-width : 1199px) and (min-width : 992px) {
+	body .navbar-inverse .navbar-nav li.menu-item a {
+	    font-size: 12px;
+	    padding-left: 10px;
+	}
+}
+
+
+/* For MD device and lower Devices */
+@media only screen and (max-width : 1199px) {	
+	.widget_spidermag_slider_block{
+		margin-bottom: 5px;
+	}
+	.right-img-top {
+    	height: 175px;
+	}
+	
+	.right-img-top .box{
+	    height: 175px;
+	}
+	
+	 /*  categories tag */
+ 	.banner-outer-thumb .cat{
+ 	    top: 5px;
+ 	}
+ 	.banner-outer-thumb .cat{
+ 	    left: 4px;
+ 	    line-height: 15px;
+ 	}
+ 	.banner-outer-thumb .cat-links a{
+ 	    padding: 0px 5px;
+        width: 68px;
+ 	}
+ 	
+}
+
+/* For SM device and lower Devices */
+@media only screen and (max-width : 991px) {
+	.navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin:0;
+    }
+    .navbar-nav>li {
+        float: none;
+        border-bottom: 1px solid #919191;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-collapse.collapse.in {  
+        display: block!important;
+        max-height: 394px;
+        overflow-y: scroll !important;
+        
+    }
+
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+    	max-height: inherit;
+	}
+    .navbar-nav .dropdown-menu{
+	 	position: relative;
+	    top: inherit;
+	    left: 0;
+	    right: 0;
+	    float: none;
+ 	}
+ 	
+    /*  categories tag */
+ 	.banner-outer-thumb .cat-links a{
+        width: 70px;
+ 	}
+ 	.banner-outer-thumb .cat{
+ 	    left: 3px;
+ 	}
+ 	.banner-outer-thumb .box .carousel-caption{
+ 	    opacity: 1;
+ 	}
+ 	.banner-outer-thumb .box .overlay{
+ 	    opacity: 0.8 !important;
+ 	}
+ 	
+ 	/* home banner slider indicators */
+ 	#sync2{
+ 		margin-bottom: 10px;
+ 	}
+ 	
+}
+ 
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.navbar-header{
+		float: left;
+	}
+	/**
+	 * Update CSS
+	*/
+	span.sub-toggle, 
+	span.sub-toggle-children{
+	    display: block;
+	}
+	.site-branding, 
+	.spidermag-logo, 
+	.spidermag-logotitle {
+	    display: block;
+	}
+
+	.navbar-brand {
+		background-repeat: no-repeat;
+		background-position: center;
+		width:100%;
+	}
+	
+	.list-unstyled li {
+	    width: 100%;
+	    padding-left: 0;
+        padding-right: 0;
+	}
+    
+    .list-unstyled li .img-thumbnail{
+	    float: left;
+        width: 20%;
+	}
+
+	.list-unstyled li .col-sm-16,
+	.list-unstyled li .col-md-12{
+		float: left;
+        width: 80%;
+	}
+
+	.spmag .widget_spidermag_eight_block .masonry-item {
+	    width: 100% !important;  /*Need important because of inline jquery css*/
+	    position: relative !important; /*Need important because of inline jquery css*/
+	    top: inherit !important; /*Need important because of inline jquery css*/
+	    left: inherit !important; /*Need important because of inline jquery css*/
+	}
+	
+	.widget_spidermag_eight_block .spmnormal .col-md-5,
+	.widget_spidermag_eight_block .spmgrid .col-md-5 {
+    	width: 100%;
+    }
+	
+	.banner-outer .col-sm-8.hidden-md {
+		display:none;
+	}
+
+}
+ 
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.list-unstyled li .col-sm-16, .list-unstyled li .col-md-12 {
+    	width: 75%;
+	}
+ 
+}

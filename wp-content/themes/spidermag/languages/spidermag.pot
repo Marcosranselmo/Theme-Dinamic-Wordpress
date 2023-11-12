@@ -1,0 +1,1662 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-14 07:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: functions.php:73
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:74
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:75
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:237
+msgid "Right Sidebar Widget"
+msgstr ""
+
+#: functions.php:247
+msgid "Left Sidebar Widget"
+msgstr ""
+
+#: functions.php:257
+#, php-format
+msgid ""
+"Displays widgets on home page main content area.%1$s Note : Please go to "
+"%2$s \"Static Front Page\"%3$s setting, Select \"A static page\" then "
+"\"Front page\" and \"Posts page\" to show added widgets"
+msgstr ""
+
+#: functions.php:260
+msgid ""
+"Displays widgets on Front/Home page. Note : First Create Page and Select "
+"\"Page Attributes Template\"( SpiderMag - FrontPage ) then Please go to "
+"Setting => Reading, Select \"A static page\" then \"Front page\" and add "
+"widgets to show on Home Page"
+msgstr ""
+
+#: functions.php:264
+msgid "HomePage : Full Banner Section"
+msgstr ""
+
+#: functions.php:274
+msgid "HomePage: Main Block Section"
+msgstr ""
+
+#: functions.php:284
+msgid "HomePage : FullWidth Second Block"
+msgstr ""
+
+#: functions.php:294
+msgid "HomePage : Header Ads Section"
+msgstr ""
+
+#: functions.php:296
+msgid "Show the ads in top header section Ads Stander Size 468x60"
+msgstr ""
+
+#: functions.php:307
+msgid "One"
+msgstr ""
+
+#: functions.php:309
+msgid "Two"
+msgstr ""
+
+#: functions.php:311
+msgid "Three"
+msgstr ""
+
+#: functions.php:313
+msgid "Four"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by Open Sans, translate this to 'off'. Do not translate
+#. into your own language.
+#: functions.php:343
+msgctxt "Ubuntu font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by Raleway, translate this to 'off'. Do not translate
+#. into your own language.
+#: functions.php:349
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:351
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:16
+msgid ""
+"Unfortunately, the page you were looking for could not be found. It may be "
+"temporarily unavailable, moved or no longer exists"
+msgstr ""
+
+#: 404.php:21
+msgid "Go to home page"
+msgstr ""
+
+#: index.php:44 search.php:69 author.php:59
+#: template-parts/archives/archive-normal.php:61
+#: template-parts/archives/archive-normal.php:105
+#: template-parts/archives/archive-masonry.php:64
+#: template-parts/archives/archive-masonry.php:109
+msgid "Prev"
+msgstr ""
+
+#: index.php:45 search.php:70 search.php:94 author.php:60
+#: template-parts/archives/archive-normal.php:62
+#: template-parts/archives/archive-normal.php:106
+#: template-parts/archives/archive-masonry.php:65
+#: template-parts/archives/archive-masonry.php:110
+msgid "Next"
+msgstr ""
+
+#: comments.php:28
+msgid "comments"
+msgstr ""
+
+#: comments.php:37
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:39
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:40
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:46
+msgid "Comment"
+msgstr ""
+
+#: comments.php:52
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:58
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:65
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:69
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: comments.php:80
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:82
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:83
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:94
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:100
+msgid "leave a comment"
+msgstr ""
+
+#: comments.php:104
+msgid "Name *"
+msgstr ""
+
+#: comments.php:108
+msgid "Email Address *"
+msgstr ""
+
+#: comments.php:114
+msgid "Comment *"
+msgstr ""
+
+#: comments.php:117
+msgid "Post Reply"
+msgstr ""
+
+#: sidebar-right.php:17 sidebar-left.php:18
+msgid "No Any widget selected for sidebar"
+msgstr ""
+
+#: search.php:93
+msgid "Previous"
+msgstr ""
+
+#. Name of the template
+msgid "SpiderMag - FrontPage"
+msgstr ""
+
+#: author.php:22
+msgid "Author Posts"
+msgstr ""
+
+#: spidermag/functions.php:37
+msgid "Complete Reading"
+msgstr ""
+
+#: spidermag/functions.php:252
+#, php-format
+msgid "Search Results For : %1$s"
+msgstr ""
+
+#: spidermag/functions.php:355
+#, php-format
+msgid "&copy; %1$s %2$s"
+msgstr ""
+
+#: spidermag/functions.php:357
+#, php-format
+msgid "WordPress Theme : by %2$s"
+msgstr ""
+
+#: spidermag/functions.php:377 template-parts/login-register.php:13
+msgid "First Name"
+msgstr ""
+
+#: spidermag/functions.php:390
+msgid "<strong>ERROR</strong>: You must include a first name."
+msgstr ""
+
+#: spidermag/functions.php:479
+msgid "Define your main menu bar navigation in Apperance > Menus "
+msgstr ""
+
+#: spidermag/functions.php:497
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: spidermag/functions.php:504
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: spidermag/functions.php:588
+msgid "Display Layout Options"
+msgstr ""
+
+#: spidermag/functions.php:597
+msgid "Post settings"
+msgstr ""
+
+#: spidermag/functions.php:614
+msgid "Left Sidebar"
+msgstr ""
+
+#: spidermag/functions.php:619
+msgid "Right Sidebar"
+msgstr ""
+
+#: spidermag/functions.php:624
+msgid "Full width"
+msgstr ""
+
+#: spidermag/functions.php:629
+msgid "Both Sidebar"
+msgstr ""
+
+#: spidermag/functions.php:637
+msgid "Standard Post"
+msgstr ""
+
+#: spidermag/functions.php:642
+msgid "Classic Post"
+msgstr ""
+
+#: spidermag/functions.php:647
+msgid "Screen Width Post"
+msgstr ""
+
+#: spidermag/functions.php:723
+msgid "Choose Post Template Layout as You Want"
+msgstr ""
+
+#: spidermag/functions.php:824
+msgid "Install Required Plugins"
+msgstr ""
+
+#: spidermag/functions.php:825
+msgid "Install Plugins"
+msgstr ""
+
+#: spidermag/functions.php:826
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: spidermag/functions.php:827
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: spidermag/functions.php:828
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:831
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:834
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:837
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:840
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:843
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:846
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:849
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:852
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:855
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:858
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:861
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: spidermag/functions.php:864
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: spidermag/functions.php:865
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: spidermag/functions.php:866
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: spidermag/functions.php:867
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: spidermag/functions.php:868
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: spidermag/functions.php:869
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: spidermag/functions.php:870
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: template-parts/content-single.php:59
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-single.php:64 template-parts/content-page.php:24
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/related-posts.php:12
+#: spidermag/customizer/additional-section/additional-options.php:50
+msgid "Related Posts"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "Sorry, we didnt find any result but you can still try:"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Check your spelling."
+msgstr ""
+
+#: template-parts/content-none.php:17
+msgid "Try more general words."
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Try different words that mean the same thing."
+msgstr ""
+
+#: template-parts/content-none.php:19
+msgid "Post a request"
+msgstr ""
+
+#: template-parts/content-none.php:19
+msgid "and we will help you."
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid "Or you can discover popular topics in:"
+msgstr ""
+
+#: template-parts/login-register.php:8
+msgid "Create Account"
+msgstr ""
+
+#: template-parts/login-register.php:18
+msgid "Last Name"
+msgstr ""
+
+#: template-parts/login-register.php:23
+msgid "Display Name"
+msgstr ""
+
+#: template-parts/login-register.php:26
+msgid "Email Address"
+msgstr ""
+
+#: template-parts/login-register.php:31 template-parts/login-register.php:57
+msgid "Password"
+msgstr ""
+
+#: template-parts/login-register.php:36
+msgid "Confirm Password"
+msgstr ""
+
+#: template-parts/login-register.php:43
+msgid "Register"
+msgstr ""
+
+#: template-parts/login-register.php:51
+msgid "Log In Your Account"
+msgstr ""
+
+#: template-parts/login-register.php:54
+msgid "UserName"
+msgstr ""
+
+#: template-parts/login-register.php:62
+msgid "Log In"
+msgstr ""
+
+#: spidermag/customwidget/widget-banner-carousel-fullwidth.php:16
+msgid "SPMag : Banner Carousel FullWidth"
+msgstr ""
+
+#: spidermag/customwidget/widget-banner-carousel-fullwidth.php:17
+msgid "A widget that show carousel slider view"
+msgstr ""
+
+#: spidermag/customwidget/widget-banner-carousel-fullwidth.php:45
+msgid "Carousel Slider Banner Section"
+msgstr ""
+
+#: spidermag/customwidget/widget-banner-carousel-fullwidth.php:50
+#: spidermag/customwidget/widget-banner-slider.php:45
+msgid "Select Category"
+msgstr ""
+
+#: spidermag/customwidget/widget-banner-carousel-fullwidth.php:56
+#: spidermag/customwidget/widget-thirdblock.php:58
+#: spidermag/customwidget/widget-latest-random.php:47
+#: spidermag/customwidget/widget-banner-slider.php:52
+#: spidermag/customwidget/widget-sixthblock.php:58
+#: spidermag/customwidget/widget-eightblock.php:72
+#: spidermag/customwidget/widget-secondblock.php:62
+#: spidermag/customwidget/widget-secondblock.php:100
+#: spidermag/customwidget/widget-fifthblock.php:54
+msgid "Display Number of Posts"
+msgstr ""
+
+#: spidermag/customwidget/widget-banner-carousel-fullwidth.php:61
+#: spidermag/customwidget/widget-banner-slider.php:58
+msgid "Display Posts Orderby"
+msgstr ""
+
+#: spidermag/customwidget/widget-banner-carousel-fullwidth.php:67
+#: spidermag/customwidget/widget-firstblock.php:71
+#: spidermag/customwidget/widget-banner-slider.php:65
+#: spidermag/customwidget/widget-secondblock.php:118
+#: spidermag/customwidget/widget-fifthblock.php:67
+msgid "Check to Display Category"
+msgstr ""
+
+#: spidermag/customwidget/widget-thirdblock.php:15
+msgid "SPMag : Third Block Section"
+msgstr ""
+
+#: spidermag/customwidget/widget-thirdblock.php:16
+msgid "A widget that shows category Posts thumbnail in slider grid view"
+msgstr ""
+
+#: spidermag/customwidget/widget-thirdblock.php:45
+#: spidermag/customwidget/widget-latest-random.php:31
+#: spidermag/customwidget/widget-sixthblock.php:45
+#: spidermag/customwidget/widget-eightblock.php:45
+#: spidermag/customwidget/widget-secondblock.php:49
+#: spidermag/customwidget/widget-secondblock.php:87
+#: spidermag/customwidget/widget-fifthblock.php:41
+msgid "Title"
+msgstr ""
+
+#: spidermag/customwidget/widget-thirdblock.php:51
+#: spidermag/customwidget/widget-firstblock.php:51
+#: spidermag/customwidget/widget-sixthblock.php:51
+#: spidermag/customwidget/widget-eightblock.php:51
+#: spidermag/customwidget/widget-secondblock.php:55
+#: spidermag/customwidget/widget-secondblock.php:93
+#: spidermag/customwidget/widget-fifthblock.php:47
+msgid "Select Block Category"
+msgstr ""
+
+#: spidermag/customwidget/widget-thirdblock.php:104
+#: spidermag/customwidget/widget-firstblock.php:185
+#: spidermag/customwidget/widget-sixthblock.php:111
+#: spidermag/customwidget/widget-eightblock.php:112
+#: spidermag/customwidget/widget-secondblock.php:184
+#: spidermag/customwidget/widget-secondblock.php:247
+#: spidermag/customwidget/widget-fifthblock.php:103
+msgid "Last update:"
+msgstr ""
+
+#: spidermag/customwidget/widget-latest-random.php:17
+msgid "SPMag : Latest or Random Posts"
+msgstr ""
+
+#: spidermag/customwidget/widget-latest-random.php:18
+msgid "A widget that display the latest or random posts"
+msgstr ""
+
+#: spidermag/customwidget/widget-latest-random.php:37
+msgid "Choose Posts Options"
+msgstr ""
+
+#: spidermag/customwidget/widget-latest-random.php:43
+msgid "Checked to Display Images"
+msgstr ""
+
+#: spidermag/customwidget/widget-firstblock.php:15
+msgid "SPMag : First Block Section"
+msgstr ""
+
+#: spidermag/customwidget/widget-firstblock.php:16
+msgid ""
+"A widget that shows category with thumbinal posts with video post format "
+"options"
+msgstr ""
+
+#: spidermag/customwidget/widget-firstblock.php:39
+msgid "First Block Section"
+msgstr ""
+
+#: spidermag/customwidget/widget-firstblock.php:45
+msgid "Block Title"
+msgstr ""
+
+#: spidermag/customwidget/widget-firstblock.php:58
+#: spidermag/customwidget/widget-firstblock.php:103
+#: spidermag/customwidget/widget-tabbed.php:51
+msgid "Number of Posts to Display"
+msgstr ""
+
+#: spidermag/customwidget/widget-firstblock.php:64
+#: spidermag/customwidget/widget-sixthblock.php:64
+#: spidermag/customwidget/widget-secondblock.php:68
+#: spidermag/customwidget/widget-secondblock.php:106
+#: spidermag/customwidget/widget-fifthblock.php:60
+msgid "Display Posts Order"
+msgstr ""
+
+#: spidermag/customwidget/widget-firstblock.php:83
+msgid "First Block Post Format Section"
+msgstr ""
+
+#: spidermag/customwidget/widget-firstblock.php:89
+msgid "Select Post Format Category"
+msgstr ""
+
+#: spidermag/customwidget/widget-firstblock.php:96
+msgid "Select Posts Format Type"
+msgstr ""
+
+#: spidermag/customwidget/widget-banner-slider.php:15
+msgid "SPMag : Banner Slider With Latest Posts"
+msgstr ""
+
+#: spidermag/customwidget/widget-banner-slider.php:16
+msgid "A widget that show category slider thumbinal posts with latest posts"
+msgstr ""
+
+#: spidermag/customwidget/widget-sixthblock.php:16
+msgid "SPMag : Six Block Section"
+msgstr ""
+
+#: spidermag/customwidget/widget-sixthblock.php:17
+msgid "A widget that shows category Posts with single large images list view"
+msgstr ""
+
+#: spidermag/customwidget/widget-sixthblock.php:71
+msgid "Check to Display Alternative Post"
+msgstr ""
+
+#: spidermag/customwidget/widget-eightblock.php:15
+msgid "SPMag : Eight Block Section"
+msgstr ""
+
+#: spidermag/customwidget/widget-eightblock.php:16
+msgid "A Widget that shows posts with different layout View"
+msgstr ""
+
+#: spidermag/customwidget/widget-eightblock.php:58
+msgid "Choose Post Display Layout"
+msgstr ""
+
+#: spidermag/customwidget/widget-eightblock.php:65
+msgid "Display Number of Column"
+msgstr ""
+
+#: spidermag/customwidget/widget-tabbed.php:18
+msgid "SPMag : Tabbed Widgets"
+msgstr ""
+
+#: spidermag/customwidget/widget-tabbed.php:19
+msgid "A widget that display the Recent, Random, Comments in tabbed format"
+msgstr ""
+
+#: spidermag/customwidget/widget-tabbed.php:34
+msgid "Show Recent Posts"
+msgstr ""
+
+#: spidermag/customwidget/widget-tabbed.php:40
+msgid "Show Random Posts"
+msgstr ""
+
+#: spidermag/customwidget/widget-tabbed.php:46
+msgid "Show Comments"
+msgstr ""
+
+#: spidermag/customwidget/widget-tabbed.php:99
+msgid "Recent"
+msgstr ""
+
+#: spidermag/customwidget/widget-tabbed.php:103
+msgid "popular"
+msgstr ""
+
+#: spidermag/customwidget/widget-tabbed.php:107
+msgid "Comments"
+msgstr ""
+
+#: spidermag/customwidget/spidermag-widget.php:254
+msgid "No file chosen"
+msgstr ""
+
+#: spidermag/customwidget/spidermag-widget.php:258
+#: spidermag/customwidget/spidermag-widget.php:380
+msgid "Upload"
+msgstr ""
+
+#: spidermag/customwidget/spidermag-widget.php:260
+#: spidermag/customwidget/spidermag-widget.php:268
+#: spidermag/customwidget/spidermag-widget.php:381
+msgid "Remove"
+msgstr ""
+
+#: spidermag/customwidget/spidermag-widget.php:263
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: spidermag/customwidget/spidermag-widget.php:278
+msgid "View File"
+msgstr ""
+
+#: spidermag/customwidget/widget-secondblock.php:15
+msgid "SPMag : Second Block Section"
+msgstr ""
+
+#: spidermag/customwidget/widget-secondblock.php:16
+msgid "A widget that shows category with thumbinal posts right and left side"
+msgstr ""
+
+#: spidermag/customwidget/widget-secondblock.php:43
+msgid "Left Block Section"
+msgstr ""
+
+#: spidermag/customwidget/widget-secondblock.php:81
+msgid "Right Block Section"
+msgstr ""
+
+#: spidermag/customwidget/widget-fifthblock.php:15
+msgid "SPMag : Five Block Section"
+msgstr ""
+
+#: spidermag/customwidget/widget-fifthblock.php:16
+msgid ""
+"A widget that shows category Posts with one large image and thumbnail in "
+"list view"
+msgstr ""
+
+#: spidermag/core/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: spidermag/core/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#. used between list items, there is a space after the comma
+#: spidermag/core/template-tags.php:50 spidermag/core/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: spidermag/core/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: spidermag/core/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: spidermag/core/template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: spidermag/core/template-tags.php:64
+msgid "1 Comment"
+msgstr ""
+
+#: spidermag/core/template-tags.php:64
+msgid "% Comments"
+msgstr ""
+
+#: spidermag/core/template-tags.php:70
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: spidermag/customizer/customizer.php:27
+msgid "UPGRADE TO SPIDERMAG PRO"
+msgstr ""
+
+#: spidermag/customizer/customizer.php:39
+msgid "Important Links"
+msgstr ""
+
+#: spidermag/customizer/customizer.php:50
+#: spidermag/admin/about-theme/spidermag-about.php:197
+#: spidermag/admin/about-theme/spidermag-about.php:199
+msgid "Documentation"
+msgstr ""
+
+#: spidermag/customizer/customizer.php:50
+msgid "Live Demo"
+msgstr ""
+
+#: spidermag/customizer/customizer.php:50
+msgid "Support Forum"
+msgstr ""
+
+#: spidermag/customizer/customizer.php:50
+msgid "Like Us in Facebook"
+msgstr ""
+
+#: spidermag/customizer/customizer.php:62
+#, php-format
+msgid "Please do rate our theme if you liked it %1$s"
+msgstr ""
+
+#: spidermag/customizer/customizer.php:62
+msgid "Rate/Review"
+msgstr ""
+
+#: spidermag/customizer/customizer.php:73
+msgid ""
+"</a>\n"
+"            </span>"
+msgstr ""
+
+#: spidermag/customizer/preloader.php:4
+msgid "Preloader Settings"
+msgstr ""
+
+#: spidermag/customizer/preloader.php:14
+msgid "Disable Preloader"
+msgstr ""
+
+#: spidermag/customizer/preloader.php:26
+msgid "Preloader"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:5
+#: spidermag/customizer/design-section/design-layouts.php:78
+msgid "Normal View"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:6
+#: spidermag/customizer/design-section/design-layouts.php:79
+msgid "Masonry View"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:19
+msgid "Boxed"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:20
+msgid "Full Width"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:37
+msgid "Photo Swiper Lightbox"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:38
+msgid "Light Gallery"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:50
+msgid "On Words"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:51
+msgid "On Letters"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:63
+#: spidermag/customizer/additional-section/additional-options.php:42
+#: spidermag/customizer/additional-section/additional-options.php:79
+msgid "Related Posts By Categories"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:64
+#: spidermag/customizer/additional-section/additional-options.php:43
+#: spidermag/customizer/additional-section/additional-options.php:80
+msgid "Related Posts By Tags"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:75
+msgid "Display the Header image just above the site title/text."
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:76
+msgid ""
+"Default: Display the Header image between site title/text and the "
+"main/primary menu."
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:77
+msgid "Display the Header image below main/primary menu."
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:141
+#: spidermag/customizer/design-section/design-layouts.php:96
+#: spidermag/customizer/design-section/design-layouts.php:114
+#: spidermag/customizer/design-section/design-layouts.php:132
+#: spidermag/customizer/design-section/design-layouts.php:189
+#: spidermag/customizer/design-section/design-layouts.php:207
+#: spidermag/customizer/design-section/design-layouts.php:225
+#: spidermag/customizer/design-section/design-layouts.php:243
+#: spidermag/customizer/design-section/design-layouts.php:261
+msgid "Yes"
+msgstr ""
+
+#: spidermag/customizer/sanitize-functions.php:142
+#: spidermag/customizer/design-section/design-layouts.php:97
+#: spidermag/customizer/design-section/design-layouts.php:115
+#: spidermag/customizer/design-section/design-layouts.php:133
+#: spidermag/customizer/design-section/design-layouts.php:190
+#: spidermag/customizer/design-section/design-layouts.php:208
+#: spidermag/customizer/design-section/design-layouts.php:226
+#: spidermag/customizer/design-section/design-layouts.php:244
+#: spidermag/customizer/design-section/design-layouts.php:262
+msgid "No"
+msgstr ""
+
+#: spidermag/hooks/header.php:13
+msgid "Skip to content"
+msgstr ""
+
+#: spidermag/hooks/header.php:57
+msgid "login"
+msgstr ""
+
+#: spidermag/hooks/header.php:61
+msgid "create account"
+msgstr ""
+
+#: spidermag/hooks/header.php:65
+msgid "Welcome"
+msgstr ""
+
+#: spidermag/hooks/header.php:156
+msgid "Toggle navigation"
+msgstr ""
+
+#: spidermag/hooks/header.php:200
+msgid "Type & Hit Enter.."
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:244
+msgid "Browse:"
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:246
+msgid "Home"
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:248
+msgid "Archives"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: spidermag/breadcrumbs/breadcrumbs.php:250
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. %s is the page number.
+#: spidermag/breadcrumbs/breadcrumbs.php:252
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: spidermag/breadcrumbs/breadcrumbs.php:254
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: spidermag/breadcrumbs/breadcrumbs.php:256
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:758
+#: spidermag/breadcrumbs/breadcrumbs.php:787
+#: spidermag/breadcrumbs/breadcrumbs.php:814
+#: spidermag/breadcrumbs/breadcrumbs.php:841
+#: spidermag/breadcrumbs/breadcrumbs.php:1182
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:759
+#: spidermag/breadcrumbs/breadcrumbs.php:815
+#: spidermag/breadcrumbs/breadcrumbs.php:1186
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:760
+#: spidermag/breadcrumbs/breadcrumbs.php:1190
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: spidermag/breadcrumbs/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: spidermag/customizer/social-section/social-icons.php:5
+msgid "Social Media Options"
+msgstr ""
+
+#: spidermag/customizer/social-section/social-icons.php:11
+msgid "Facebook"
+msgstr ""
+
+#: spidermag/customizer/social-section/social-icons.php:16
+msgid "Twitter"
+msgstr ""
+
+#: spidermag/customizer/social-section/social-icons.php:21
+msgid "Google-Plus"
+msgstr ""
+
+#: spidermag/customizer/social-section/social-icons.php:26
+msgid "Instagram"
+msgstr ""
+
+#: spidermag/customizer/social-section/social-icons.php:31
+msgid "Pinterest"
+msgstr ""
+
+#: spidermag/customizer/social-section/social-icons.php:36
+msgid "YouTube"
+msgstr ""
+
+#: spidermag/customizer/social-section/social-icons.php:66
+msgid "Open New Tab"
+msgstr ""
+
+#: spidermag/customizer/additional-section/additional-options.php:5
+msgid "Change the Additional Settings from here as you want"
+msgstr ""
+
+#: spidermag/customizer/additional-section/additional-options.php:7
+msgid "Additional Options"
+msgstr ""
+
+#: spidermag/customizer/additional-section/additional-options.php:13
+msgid "Author Options"
+msgstr ""
+
+#: spidermag/customizer/additional-section/additional-options.php:25
+msgid "Activate the Author posts"
+msgstr ""
+
+#: spidermag/customizer/additional-section/additional-options.php:38
+#: spidermag/customizer/additional-section/additional-options.php:75
+msgid "Related Posts Must Be Shown As:"
+msgstr ""
+
+#: spidermag/customizer/additional-section/additional-options.php:62
+msgid "Activate the related posts"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:5
+msgid "Change the Design Settings from here as you want"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:7
+msgid "Design Layout Settings"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:16
+msgid "Layout for Pages Only"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:28
+msgid ""
+"Select layout for Pages. This layout will be reflected in all pages unless "
+"unique layout is set for specific page"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:43
+msgid "Layout for Archive Page Only"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:55
+msgid "Select Category Page Layout"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:74
+msgid "Archive Page Posts Display Style"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:91
+msgid "Archive Page Post Date"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:94
+#: spidermag/customizer/design-section/design-layouts.php:187
+msgid "Enable or disable the post date"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:109
+msgid "Archive Page Comment Count"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:112
+#: spidermag/customizer/design-section/design-layouts.php:130
+#: spidermag/customizer/design-section/design-layouts.php:205
+#: spidermag/customizer/design-section/design-layouts.php:223
+#: spidermag/customizer/design-section/design-layouts.php:241
+msgid "Enable or disable comment number"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:127
+msgid "Archive page Author"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:140
+msgid "Layout for Single Posts Only"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:152
+msgid "Select Layout for Single Posts"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:171
+msgid "Enable the featured image in lightbox"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:184
+msgid "Single Page Post Date"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:202
+msgid "Single Page Comment Count"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:220
+msgid "Single Page Author"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:238
+msgid "Single Page Tags"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:256
+msgid "Single Page Category"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:259
+msgid "Enable or disable category"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:269
+msgid "Layout for Search Page Only"
+msgstr ""
+
+#: spidermag/customizer/design-section/design-layouts.php:281
+msgid "Select Layout for Search Page"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-pannel.php:7
+msgid "Change the Header Settings from here as you want"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-pannel.php:9
+msgid "Header Settings"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-pannel.php:32
+msgid "Home 1 - Full Width Section"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-pannel.php:43
+msgid "Home 2 - 3/1 Main Block Section"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-pannel.php:54
+msgid "Home 3 - Full Width Section"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-breaking.php:4
+msgid "Breaking News"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-breaking.php:17
+msgid "Enable the breaking news section"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-breaking.php:32
+msgid "Choose the option that you want"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-breaking.php:35
+msgid "Label"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-breaking.php:36
+msgid "Omega Icons"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-breaking.php:38
+#, php-format
+msgid ""
+"If you choose label then enter text what you want to dispaly as Label or "
+"Choose Omega Icons and enter the icon class name : %1$s %2$sicon list "
+"here%3$s"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-breaking.php:52
+msgid "Enter Breaking News Title"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-utility.php:4
+msgid "Header Advance Utility"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-utility.php:16
+msgid "Select Options as your choise"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-utility.php:20
+msgid "Date & Time"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-utility.php:21
+msgid "Social Icon"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-utility.php:35
+msgid "Enable home icon in the primary menu"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-utility.php:50
+msgid "Enable the sticky behavior of the primary menu"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-utility.php:65
+msgid "Enable Search Icon in the primary menu"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-utility.php:78
+msgid "Enable Login in header"
+msgstr ""
+
+#: spidermag/customizer/header-section/header-utility.php:92
+msgid "Enable Create Account in header"
+msgstr ""
+
+#: spidermag/customizer/color-section/color-options.php:4
+msgid "Themes Colors Options"
+msgstr ""
+
+#: spidermag/customizer/color-section/color-options.php:5
+msgid "Change the Colors from here as you want"
+msgstr ""
+
+#: spidermag/customizer/color-section/color-options.php:15
+msgid "Category Color Settings"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:33
+#: spidermag/admin/about-theme/spidermag-about.php:33
+#: spidermag/admin/about-theme/spidermag-about.php:108
+msgid "About"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:67
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:71
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:85
+msgid "Dismiss"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:86
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing spidermag! To fully take advantage of the "
+"best our theme can offer please make sure you visit our %1$swelcome page%2$s."
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:88
+msgid "Get started with SpiderMag"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:124
+#: spidermag/admin/about-theme/spidermag-about.php:187
+msgid "View PRO version"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:126
+msgid "View PRO Demo"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:128
+msgid "Theme Info"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:130
+msgid "View Demo"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:133
+msgid "Rate this theme"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:142
+msgid "Free Vs Pro"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:146
+msgid "More Themes"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:150
+msgid "Changelog"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:185
+msgid "Need more features ?"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:186
+#: spidermag/admin/about-theme/spidermag-about.php:444
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:191
+msgid "Have you need customization?"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:192
+msgid "Please send message with your requirement."
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:193
+msgid "Customization"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:198
+msgid "Please view our documentation page to setup the theme."
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:203
+msgid "Theme Customizer"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:204
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:205
+#: spidermag/admin/about-theme/spidermag-about.php:282
+msgid "Customize"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:209
+msgid "Got theme support question?"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:210
+msgid "Please put it in our dedicated support forum."
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:211
+msgid "Support"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:217
+#: spidermag/admin/about-theme/spidermag-about.php:225
+msgid "Translate"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:221
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:237
+msgid "Return to Updates"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:237
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:240
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:240
+msgid "Go to Dashboard"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:280
+msgid "Active"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:318
+msgid "Activate"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:327
+msgid "Install Now"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:330
+msgid "Live Preview"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:392
+msgid "View changelog below:"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:449
+msgid "Features"
+msgstr ""
+
+#. Name of the theme
+#: spidermag/admin/about-theme/spidermag-about.php:450
+msgid "SpiderMag"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:451
+msgid "SpiderMag Pro"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:456
+msgid "Price"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:457
+msgid "Free"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:458
+msgid "$55"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:461
+msgid "Import Demo Data"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:466
+msgid "Pre Loaders"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:471
+msgid "Header Layouts"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:472
+msgid "1"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:473
+msgid "3"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:477
+msgid "Google Fonts"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:479
+msgid "600+"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:482
+msgid "Typography Options"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:487
+msgid "No. of Widgets"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:488
+msgid "9"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:489
+msgid "14+"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:493
+msgid "Unlimited Colors"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:499
+msgid "Footer Copyright"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:505
+msgid "WooCommerce Compatible"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:511
+msgid "Contact Form 7 Plugin Compatible"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:517
+msgid "Responsive Design"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:523
+msgid "SEO Optimized"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:529
+msgid "Advance Post Format Options"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:535
+msgid "Webpage Boxed/Full width Options"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:541
+msgid "Child Theme Support"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:547
+msgid "Quality Code"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:553
+msgid "Category Color Options"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:561
+msgid "Download"
+msgstr ""
+
+#: spidermag/admin/about-theme/spidermag-about.php:564
+msgid "Buy Pro"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Spidermag is a ultra fast clean and best  responsive free WordPress magazine,"
+" spidermag specially designed for magazine, newspaper, news portals and "
+"editorial style websites.  It comes with the flat, minimalist, magazine "
+"style homepage Design with post banner slider and latest posts, and "
+"different custom widget design layout. Awesome design for categories, tags, "
+"archive pages with multiple sidebars and Ads, widgets. the theme has 10+ "
+"different drag and drop widget and 10+ widget area that allows adding many "
+"section as you want with various beautifully designed layouts suitable for "
+"websites. spidermag theme is completely built on customizer which allows you "
+"to customize most of the theme settings easily with live previews, spidermag "
+"supports many 3rd party plugins, compatible with Jetpack, Contact Form 7, "
+"WooCommerce, AccessPress Social Share, AccessPress Social Counter and many "
+"more. Official Support Forum : https://www.sparklewpthemes.com/support/ "
+"Video : https://www.youtube.com/channel/UCNz4pwcVXsZfVichroSRdKg Full Demo: "
+"http://demo.sparklewpthemes.com/spidermag/demos/ and Docs: http://docs."
+"sparklewpthemes.com/spidermag/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.sparklewpthemes.com/wordpress-themes/spidermag"
+msgstr ""
+
+#. Author of the theme
+msgid "sparklewpthemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://sparklewpthemes.com"
+msgstr ""
