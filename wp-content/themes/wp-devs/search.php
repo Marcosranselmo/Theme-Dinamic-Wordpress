@@ -30,6 +30,7 @@
                 </article>
             <?php
             endwhile;
+            the_posts_pagination();
             ?>
         </div>
     </div>
