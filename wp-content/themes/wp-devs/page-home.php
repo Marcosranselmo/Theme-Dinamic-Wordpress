@@ -2,8 +2,18 @@
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
-                    <section class="hero">
-                        Hero
+                    <section class="hero" style="background-image: url('http://localhost/wp-content/uploads/2023/11/hero1.jpg')">
+                        <div class="overlay" style="min-height: 400px">
+                            <div class="container">
+                                <div class="hero-items">
+                                    <h1>Lorem ipsun dolor</h1>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum magnam doloremque nobis repellat officia, cum aspernatur tempore cumque eos quo laboriosam quasi quas voluptatibus porro assumenda temporibus consequatur? Officia, odit?
+                                    </p>
+                                    <a href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>    
                     </section>
                     <section class="services">
                         <h2>Services</h2>
