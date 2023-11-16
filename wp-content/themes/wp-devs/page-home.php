@@ -48,10 +48,6 @@
                                 if( $postlist->have_posts() ):
                                     while( $postlist->have_posts() ) : $postlist->the_post();
                                     get_template_part( 'parts/content', 'latest-news' );
-                                    if( comments_open() || get_comments_number() ){
-                                        comments_template();
-                                    }
-
                                     endwhile;
                                     wp_reset_postdata();
                                 else: ?>

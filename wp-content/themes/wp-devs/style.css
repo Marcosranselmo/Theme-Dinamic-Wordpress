@@ -1,7 +1,7 @@
 /*
-Theme Name: WP-Devs
+Theme Name: WP Devs
 Theme URI: https://website.com/wp-devs
-Author: Marcos R Anselmo
+Author: Marcelo Vieira
 Author URI: https://website.com/wp-devs
 Description: This theme is for learning purposes only.
 Requires at least: 5.6
@@ -45,7 +45,7 @@ Tags: one-column, custom-menu, custom-logo, featured-images, translation-ready
    */
   
   body {
-    margin: 1200;
+    margin: 0;
   }
   
   /**
@@ -405,7 +405,7 @@ h1{
     line-height: 70px;
 }
 h2{
-    font-size: 25px;
+    font-size: 40px;
     line-height: 4.0rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -635,7 +635,7 @@ img {
     } 
     .show-dropdown{
         left: 0 !important;
-    }   
+    }  
     .animate-button .bar1 {
         -webkit-transform: rotate(-45deg) translate(-4px, 4px);
         transform: rotate(-45deg) translate(-4px, 4px);
@@ -645,7 +645,7 @@ img {
         -webkit-transform: rotate(45deg) translate(-7px, -7px);
         transform: rotate(45deg) translate(-7px, -7px);
     }
-} 
+}  
 
 /* Hero */
 .hero{
@@ -699,7 +699,7 @@ img {
 .services-item p{
     margin-bottom: 40px;
 }
-.services-item figure{ 
+.services-item figure img{ 
     background: var( --wpdevs-black-blue );
     padding: 15px; 
 }
@@ -1016,4 +1016,114 @@ article.post h5{
 }
 .nav-links .prev{
     padding-left: 0;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
 }

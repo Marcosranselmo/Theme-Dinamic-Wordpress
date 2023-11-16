@@ -2,6 +2,12 @@
 
     <header>
         <h1><?php the_title(); ?></h1>
+
+        <?php if (has_post_thumbnail()) : ?>
+            <?php the_post_thumbnail(array(275, 275)); ?>
+        <?php endif; ?>
+
+
         <div class="meta-info">
             <p>Posted in <?php echo get_the_date(); ?>by</p>
             <?php if (has_category()) : ?>

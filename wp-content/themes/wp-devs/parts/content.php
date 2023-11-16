@@ -13,4 +13,4 @@
         <?php endif; ?>
     </div>
     <?php the_excerpt(); ?>
-</article>
+</article> 
