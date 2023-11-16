@@ -6,7 +6,7 @@
 
             <?php
             while (have_posts()) : the_post();
-                get_template_part('part/content', 'single');
+                get_template_part('parts/content', 'single');
             ?>
 
                 <div class="wpdevs-pagination">
