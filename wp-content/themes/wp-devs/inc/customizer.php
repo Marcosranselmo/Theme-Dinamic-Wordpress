@@ -153,5 +153,63 @@ function wpdevs_customizer( $wp_customize ) {
                 'section' => 'sec_hero',
                 'mine_type' => 'image'
             )));
+
+            // 3. Blog
+$wp_customize->add_section( 
+    'sec_blog', 
+    array(
+        'title' => 'Blog Section'
+) );
+
+        // Posts per page
+        $wp_customize->add_setting( 
+            'set_per_page', 
+            array(
+                'type' => 'theme_mod',
+                'sanitize_callback' => 'absint'
+        ) );
+
+        $wp_customize->add_control( 
+            'set_per_page', 
+            array(
+                'label' => 'Posts per page',
+                'description' => 'How many items to display in the post list?',			
+                'section' => 'sec_blog',
+                'type' => 'number'
+        ) );
+
+        // Post categories to include
+        $wp_customize->add_setting( 
+            'set_category_include', 
+            array(
+                'type' => 'theme_mod',
+                'sanitize_callback' => 'sanitize_text_field'
+        ) );
+
+        $wp_customize->add_control( 
+            'set_category_include', 
+            array(
+                'label' => 'Post categories to include',
+                'description' => 'Comma separated values or single category ID',
+                'section' => 'sec_blog',
+                'type' => 'text'
+        ) );	
+
+        // Post categories to exclude
+        $wp_customize->add_setting( 
+            'set_category_exclude', 
+            array(
+                'type' => 'theme_mod',
+                'sanitize_callback' => 'sanitize_text_field'
+        ) );
+
+        $wp_customize->add_control( 
+            'set_category_exclude', 
+            array(
+                'label' => 'Post categories to exclude',
+                'description' => 'Comma separated values or single category ID',			
+                'section' => 'sec_blog',
+                'type' => 'text'
+        ) ); 
 }
 add_action( 'customize_register', 'wpdevs_customizer' );
