@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wp-devs v1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-11-17 11:35-0300\n"
+"POT-Creation-Date: 2023-11-17 18:02-0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -16,260 +16,1498 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
 "_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 3.4.1\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: 404.php:8
-msgid "Page not found"
-msgstr "Página não encontrada"
+#: 811ad5eac11d55929e7fbeb023f159fa-dd89832ce2416cd6df5197104596a0fd2344992f/811ad5eac11d55929e7fbeb023f159fa-dd89832ce2416cd6df5197104596a0fd2344992f/yzc_add_members_directory_random_filter.php:6
+msgid "Random"
+msgstr "Aleatório"
 
-#: 404.php:9
-msgid "Unfortunately, the page you tried to readh does not exist on this site."
-msgstr "Infelizmente, a página que você tentou ler não existe neste site."
-
-#: 404.php:12
-msgid "How about doing a search?"
-msgstr "Que tal fazer uma pesquisa?"
-
-#: 404.php:18
-msgid "Latest Posts"
-msgstr "Últimas Postagens"
-
-#: archive.php:21 index.php:20
-msgid "<< Newer posts"
-msgstr "<< Postagens mais recentes"
-
-#: archive.php:24 index.php:23
-msgid "<< Older posts >>"
-msgstr "<< Postagens mais antigas >>"
-
-#: archive.php:29 general-template.php:27 index.php:28 page-home.php:74
-msgid "Nothing yet to be displayed!"
-msgstr "Nada ainda a ser exibido!"
-
-#: comments.php:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 34/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 35/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 36/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 37/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 38/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 39/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 40/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 41/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 42/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 43/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 44/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 45/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 47/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 48/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 49/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 50/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 52/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/comments.php⁩:31
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 31/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 32/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 33/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 34/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 35/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 36/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 38/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 39/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 40/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 42/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 43/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 45/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 46/curso/comments.php⁩:31
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 48/curso/comments.php⁩:31
 #, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%s&rdquo;"
-msgstr ""
-"Um pensamento em\n"
-" &ldquo;%s&rdquo;"
+msgstr "Um pensamento sobre &ldquo;%s&rdquo;"
 
-#: comments.php:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 34/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 35/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 36/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 37/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 38/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 39/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 40/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 41/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 42/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 43/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 44/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 45/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 47/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 48/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 49/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 50/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 52/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/comments.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 31/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 32/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 33/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 34/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 35/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 36/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 38/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 39/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 40/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 42/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 43/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 45/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 46/curso/comments.php⁩:36
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 48/curso/comments.php⁩:36
 #, php-format
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s pensei em &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s pensamentos &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s pensou em  &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensamentos sobre &ldquo;%2$s&rdquo;"
 
-#: comments.php:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 34/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 35/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 36/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 37/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 38/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 39/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 40/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 41/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 42/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 43/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 44/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 45/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 47/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 48/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 49/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 50/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 52/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/comments.php⁩:71
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/comments.php⁩:71
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 31/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 32/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 33/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 34/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 35/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 36/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 38/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 39/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 40/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 42/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 43/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 45/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 46/curso/comments.php⁩:69
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 48/curso/comments.php⁩:69
 msgid "Comments are closed."
 msgstr "Comentários estão fechados."
 
-#: footer.php:4
-msgid ""
-"Copyright X - All \n"
-"                    Rights Reserved"
-msgstr ""
-"Direitos autorais X - Todos\n"
-"                    Direitos reservados"
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/404.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/404.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/404.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/404.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/404.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/404.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/404.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/404.php⁩:8
+msgid "Page not found"
+msgstr "Página não encontrada"
 
-#: functions.php:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/404.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/404.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/404.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/404.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/404.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/404.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/404.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/404.php⁩:9
+msgid "Unfortunately, the page you tried to reach does not exist on this site."
+msgstr "Infelizmente, a página que você tentou acessar não existe neste site."
+
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/404.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/404.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/404.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/404.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/404.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/404.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/404.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/404.php⁩:13
+msgid "How about doing a search?"
+msgstr "Que tal fazer uma pesquisa?"
+
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/404.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/404.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/404.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/404.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/404.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/404.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/404.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/404.php⁩:19
+msgid "Latest Posts"
+msgstr "Últimas postagens"
+
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/archive.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/index.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/archive.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/index.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/archive.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/index.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/archive.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/index.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/archive.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/index.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/archive.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/index.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/archive.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/index.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/archive.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/index.php⁩:19
+msgid "<< Newer posts"
+msgstr "<< Postagens mais recentes"
+
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/archive.php⁩:23
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/index.php⁩:22
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/archive.php⁩:23
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/index.php⁩:22
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/archive.php⁩:23
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/index.php⁩:22
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/archive.php⁩:23
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/index.php⁩:22
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/archive.php⁩:23
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/index.php⁩:22
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/archive.php⁩:23
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/index.php⁩:22
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/archive.php⁩:23
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/index.php⁩:22
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/archive.php⁩:23
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/index.php⁩:22
+msgid "Older posts >>"
+msgstr "Postagens mais antigas >>"
+
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/archive.php⁩:28
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/general-template.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/index.php⁩:27
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/page-home.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/archive.php⁩:28
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/general-template.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/index.php⁩:27
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/page-home.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/archive.php⁩:28
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/general-template.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/index.php⁩:27
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/page-home.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/archive.php⁩:28
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/general-template.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/index.php⁩:27
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/page-home.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/archive.php⁩:28
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/general-template.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/index.php⁩:27
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/page-home.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/archive.php⁩:28
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/general-template.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/index.php⁩:27
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/page-home.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/archive.php⁩:28
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/general-template.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/index.php⁩:27
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/page-home.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/archive.php⁩:28
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/general-template.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/index.php⁩:27
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/page-home.php⁩:74
+msgid "Nothing yet to be displayed!"
+msgstr "Nada ainda a ser exibido!"
+
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/footer.php⁩:4
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:17
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/footer.php⁩:4
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:17
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/footer.php⁩:4
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:17
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/footer.php⁩:4
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:17
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/footer.php⁩:4
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:17
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/footer.php⁩:4
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:17
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/footer.php⁩:4
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:17
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/footer.php⁩:4
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:17
+msgid "Copyright X - All Rights Reserved"
+msgstr "Copyright X - Todos os direitos reservados"
+
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/functions.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/functions.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/functions.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/functions.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/functions.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/functions.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:19
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/functions.php⁩:19
 msgid "Main Menu"
 msgstr "Menu principal"
 
-#: functions.php:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/functions.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/functions.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/functions.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/functions.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/functions.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/functions.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:20
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/functions.php⁩:20
 msgid "Footer Menu"
 msgstr "Menu de Rodapé"
 
-#: functions.php:47
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/functions.php⁩:46
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/functions.php⁩:46
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/functions.php⁩:46
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/functions.php⁩:46
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/functions.php⁩:51
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/functions.php⁩:67
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:80
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/functions.php⁩:80
 msgid "Blog Sidebar"
 msgstr "Barra lateral do blog"
 
-#: functions.php:49
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/functions.php⁩:48
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/functions.php⁩:48
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/functions.php⁩:48
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/functions.php⁩:48
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/functions.php⁩:53
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/functions.php⁩:69
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:82
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/functions.php⁩:82
 msgid "This is the Blog Sidebar. You can add your widgets here."
 msgstr "Esta é a barra lateral do blog. Você pode adicionar seus widgets aqui."
 
-#: functions.php:58
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/functions.php⁩:57
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/functions.php⁩:57
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/functions.php⁩:57
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/functions.php⁩:57
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/functions.php⁩:62
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/functions.php⁩:78
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:91
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/functions.php⁩:91
 msgid "Service 1"
 msgstr "Serviço 1"
 
-#: functions.php:60
-msgid "First Service Area."
-msgstr "Primeira área de serviço."
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/functions.php⁩:59
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/functions.php⁩:59
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/functions.php⁩:59
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/functions.php⁩:59
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/functions.php⁩:64
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/functions.php⁩:80
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:93
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/functions.php⁩:93
+msgid "First Service Area"
+msgstr "Primeira área de serviço"
 
-#: functions.php:69
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/functions.php⁩:68
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/functions.php⁩:68
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/functions.php⁩:68
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/functions.php⁩:68
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/functions.php⁩:73
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/functions.php⁩:89
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:102
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/functions.php⁩:102
 msgid "Service 2"
 msgstr "Serviço 2"
 
-#: functions.php:71
-msgid "Secund Service Area."
-msgstr "Segunda área de serviço."
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/functions.php⁩:70
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/functions.php⁩:70
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/functions.php⁩:70
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/functions.php⁩:70
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/functions.php⁩:75
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/functions.php⁩:91
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:104
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/functions.php⁩:104
+msgid "Second Service Area"
+msgstr "Segunda área de serviço"
 
-#: functions.php:80
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/functions.php⁩:79
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/functions.php⁩:79
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/functions.php⁩:79
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/functions.php⁩:79
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/functions.php⁩:84
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/functions.php⁩:100
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:113
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/functions.php⁩:113
 msgid "Service 3"
 msgstr "Serviço 3"
 
-#: functions.php:82
-msgid "Third Service Area."
-msgstr "Terceira área de serviço."
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/functions.php⁩:81
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/functions.php⁩:81
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/functions.php⁩:81
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/functions.php⁩:81
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/functions.php⁩:86
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/functions.php⁩:102
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:115
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/functions.php⁩:115
+msgid "Third Service Area"
+msgstr "Terceira área de serviço"
 
-#: inc/customizer.php:8 inc/customizer.php:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:9
 msgid "Copyright Settings"
 msgstr "Configurações de direitos autorais"
 
-#: inc/customizer.php:17
-msgid "Copyright X - All Rights Rserved"
-msgstr "Copyright X - Todos os direitos reservados"
-
-#: inc/customizer.php:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:25
 msgid "Copyright Information"
 msgstr "Informações sobre direitos autorais"
 
-#: inc/customizer.php:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:26
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:26
 msgid "Please, type your copyright here"
 msgstr "Por favor, digite seus direitos autorais aqui"
 
-#: inc/customizer.php:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:36
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:36
 msgid "Hero Section"
 msgstr "Seção Herói"
 
-#: inc/customizer.php:45
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:45
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:45
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:45
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:45
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:45
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:45
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:45
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:45
 msgid "Please, add some title"
 msgstr "Por favor, adicione algum título"
 
-#: inc/customizer.php:53
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:53
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:53
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:53
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:53
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:53
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:53
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:53
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:53
 msgid "Hero Title"
 msgstr "Título de herói"
 
-#: inc/customizer.php:54
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:54
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:54
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:54
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:54
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:54
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:54
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:54
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:54
 msgid "Please, type your here title here"
 msgstr "Por favor, digite seu título aqui"
 
-#: inc/customizer.php:65
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:65
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:65
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:65
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:65
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:65
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:65
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:65
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:65
 msgid "Please, add some subtitle"
 msgstr "Por favor, adicione alguma legenda"
 
-#: inc/customizer.php:73
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:73
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:73
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:73
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:73
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:73
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:73
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:73
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:73
 msgid "Hero Subtitle"
 msgstr "Legenda do herói"
 
-#: inc/customizer.php:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:74
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:74
 msgid "Please, type your subtitle here"
 msgstr "Por favor, digite sua legenda aqui"
 
-#: inc/customizer.php:84
-msgid "theme_mod"
-msgstr ""
-
-#: inc/customizer.php:85 page-home.php:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:85
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/page-home.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:85
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/page-home.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:85
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/page-home.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:85
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/page-home.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:85
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/page-home.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:85
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/page-home.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:85
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/page-home.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:85
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/page-home.php⁩:9
 msgid "Learn More"
 msgstr "Saber mais"
 
-#: inc/customizer.php:93
-msgid "Hero button test"
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:93
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:93
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:93
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:93
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:93
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:93
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:93
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:93
+msgid "Hero button text"
 msgstr "Texto do botão herói"
 
-#: inc/customizer.php:94
-msgid "Please, type your button text here"
-msgstr "Por favor, digite o texto do botão aqui"
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:94
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:94
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:94
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:94
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:94
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:94
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:94
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:94
+msgid "Please, type your hero button text here"
+msgstr "Por favor, digite o texto do botão herói aqui"
 
-#: inc/customizer.php:113
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:113
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:113
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:113
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:113
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:113
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:113
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:113
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:113
 msgid "Hero button link"
 msgstr "Link do botão herói"
 
-#: inc/customizer.php:114
-msgid "Please, type your button link here"
-msgstr "Por favor, digite o link do seu botão aqui"
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:114
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:114
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:114
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:114
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:114
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:114
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:114
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:114
+msgid "Please, type your hero button link here"
+msgstr "Por favor, digite o link do seu botão herói aqui"
 
-#: inc/customizer.php:133
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:133
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:133
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:133
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:133
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:133
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:133
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:133
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:133
 msgid "Hero height"
 msgstr "Altura do herói"
 
-#: inc/customizer.php:134
-msgid "Please, type your here height"
-msgstr "Por favor, digite sua altura aqui"
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:134
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:134
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:134
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:134
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:134
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:134
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:134
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:134
+msgid "Please, type your hero height"
+msgstr "Por favor, digite a altura do seu herói"
 
-#: inc/customizer.php:152
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:152
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:152
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:152
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:152
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:152
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:152
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:152
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:152
 msgid "Hero Image"
 msgstr "Imagem do herói"
 
-#: inc/customizer.php:175
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:161
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:161
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:161
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:161
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:161
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:161
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:161
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:161
+msgid "Blog Section"
+msgstr "Seção do blog"
+
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:175
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:175
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:175
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:175
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:175
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:175
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:175
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:175
+#, fuzzy
 msgid "Posts per page"
 msgstr "Postagens por página"
 
-#: inc/customizer.php:176
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:176
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:176
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:176
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:176
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:176
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:176
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:176
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:176
 msgid "How many items to display in the post list?"
 msgstr "Quantos itens exibir na lista de postagens?"
 
-#: inc/customizer.php:192
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:192
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:192
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:192
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:192
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:192
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:192
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:192
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:192
 msgid "Post categories to include"
 msgstr "Categorias de postagem a serem incluídas"
 
-#: inc/customizer.php:193 inc/customizer.php:210
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:193
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:210
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:193
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:210
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:193
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:210
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:193
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:210
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:193
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:210
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:193
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:210
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:193
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:210
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:193
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:210
 msgid "Comma separated values or single category ID"
 msgstr "Valores separados por vírgula ou ID de categoria única"
 
-#: inc/customizer.php:209
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/inc/customizer.php⁩:209
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/inc/customizer.php⁩:209
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/inc/customizer.php⁩:209
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/inc/customizer.php⁩:209
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/inc/customizer.php⁩:209
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/inc/customizer.php⁩:209
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/inc/customizer.php⁩:209
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/inc/customizer.php⁩:209
 msgid "Post categories to exclude"
 msgstr "Categorias de postagem a serem excluídas"
 
-#: index.php:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/index.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/index.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/index.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/index.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/index.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/index.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/index.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/index.php⁩:8
 msgid "Blog"
-msgstr "Blogue"
+msgstr "Blog"
 
-#: page-home.php:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/page-home.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/page-home.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/page-home.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/page-home.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/page-home.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/page-home.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/page-home.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/page-home.php⁩:6
 msgid "Please, type some title"
 msgstr "Por favor, digite algum título"
 
-#: page-home.php:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/page-home.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/page-home.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/page-home.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/page-home.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/page-home.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/page-home.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/page-home.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/page-home.php⁩:7
 msgid "Please, type some subtitle"
 msgstr "Por favor, digite alguma legenda"
 
-#: page-home.php:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/page-home.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/page-home.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/page-home.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/page-home.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/page-home.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/page-home.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/page-home.php⁩:25
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/page-home.php⁩:25
 msgid "Services"
 msgstr "Serviços"
 
-#: page-home.php:51
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/page-home.php⁩:51
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/page-home.php⁩:51
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/page-home.php⁩:51
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/page-home.php⁩:51
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/page-home.php⁩:51
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/page-home.php⁩:51
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/page-home.php⁩:51
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/page-home.php⁩:51
 msgid "Latest News"
 msgstr "Últimas notícias"
 
-#: parts/content-latest-news.php:8 parts/content-search.php:7
-#: parts/content-single.php:11
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content-latest-news.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content.php⁩:7
 msgid "by"
 msgstr "por"
 
-#: parts/content-latest-news.php:10 parts/content-search.php:8
-#: parts/content-single.php:13 parts/content.php:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content-search.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content-single.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content-search.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content-single.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content-search.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content-single.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content-search.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content-single.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content-search.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content-single.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content-search.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content-single.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content-search.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content-single.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content-latest-news.php⁩:10
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content-search.php⁩:9
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content-single.php⁩:8
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content.php⁩:9
 msgid "Categories"
 msgstr "Categorias"
 
-#: parts/content-latest-news.php:13 parts/content-search.php:11
-#: parts/content-single.php:16
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content-search.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content-single.php⁩:11
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content-search.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content-single.php⁩:11
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content-search.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content-single.php⁩:11
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content-search.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content-single.php⁩:11
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content-search.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content-single.php⁩:11
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content-search.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content-single.php⁩:11
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content-search.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content-single.php⁩:11
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content-latest-news.php⁩:13
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content-search.php⁩:12
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content-single.php⁩:11
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content.php⁩:12
 msgid "Tags"
-msgstr "Tag"
+msgstr "Categorias"
 
-#: parts/content-search.php:7 parts/content-single.php:11 parts/content.php:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/parts/content.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content-search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content-single.php⁩:6
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/parts/content.php⁩:7
 msgid "Posted in"
 msgstr "Postado em"
 
-#: parts/content.php:12
-msgid "Targs"
-msgstr "Postado em"
-
-#: search.php:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/search.php⁩:7
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/search.php⁩:7
 msgid "Search results for"
 msgstr "Resultados da busca por"
 
-#: searchform.php:3
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/searchform.php⁩:3
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/searchform.php⁩:3
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/searchform.php⁩:3
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/searchform.php⁩:3
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/searchform.php⁩:3
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/searchform.php⁩:3
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/searchform.php⁩:3
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/searchform.php⁩:3
 msgid "Search for"
 msgstr "Procurar por"
 
-#: searchform.php:5
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 53/wp-devs/searchform.php⁩:5
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 54/wp-devs/searchform.php⁩:5
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 55/wp-devs/searchform.php⁩:5
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 59/wp-devs/searchform.php⁩:5
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 66/wp-devs/searchform.php⁩:5
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 67/wp-devs/searchform.php⁩:5
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/searchform.php⁩:5
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 69/wp-devs/searchform.php⁩:5 nicepage/includes/controls/search/search.php:7
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/search/search.php:7
 msgid "Search"
 msgstr "Procurar"
+
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:47
+msgid "Primary"
+msgstr "Primário"
+
+#: ⁨Curso - Criação de tema em wordpress/Códigos e materiais/Aula 68/wp-devs/functions.php⁩:52
+msgid "Secondary"
+msgstr "Secundário"
+
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 33/curso/searchform.php⁩:13
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 34/curso/searchform.php⁩:13
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 35/curso/searchform.php⁩:13
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 36/curso/searchform.php⁩:13
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 38/curso/searchform.php⁩:13
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 39/curso/searchform.php⁩:13
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 40/curso/searchform.php⁩:13
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 42/curso/searchform.php⁩:13
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 43/curso/searchform.php⁩:13
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 45/curso/searchform.php⁩:13
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 46/curso/searchform.php⁩:13
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 48/curso/searchform.php⁩:13
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Procurar &hellip;"
+
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 33/curso/searchform.php⁩:15
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 34/curso/searchform.php⁩:15
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 35/curso/searchform.php⁩:15
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 36/curso/searchform.php⁩:15
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 38/curso/searchform.php⁩:15
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 39/curso/searchform.php⁩:15
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 40/curso/searchform.php⁩:15
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 42/curso/searchform.php⁩:15
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 43/curso/searchform.php⁩:15
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 45/curso/searchform.php⁩:15
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 46/curso/searchform.php⁩:15
+#: ⁨Curso - WordPress-Prof. Marcelo Xavier Vieira/Códigos e materiais/Aula 48/curso/searchform.php⁩:15
+msgctxt "submit button"
+msgid "OK"
+msgstr ""
+
+#: ⁨Laravel-10 Carlos Ferreira/curso-de-laravel-10-main/curso-de-laravel-10-main/app/Http/Controllers/Auth/ConfirmablePasswordController.php⁩:33
+msgid "auth.password"
+msgstr ""
+
+#: nicepage/editor/admin.php:119 nicepage/editor/admin.php:575 nicepage/editor/admin.php:2172
+#: wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:119 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:575
+#: wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:2172
+msgid "Turn to Nicepage"
+msgstr "Acesse Nicepage"
+
+#: nicepage/editor/admin.php:123 nicepage/editor/admin.php:2174 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:123
+#: wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:2174
+msgid "Edit with Nicepage"
+msgstr "Edite com Nicepage"
+
+#: nicepage/editor/admin.php:126 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:126
+msgid "The page has unpublished changes."
+msgstr "A página tem alterações não publicadas."
+
+#: nicepage/editor/admin.php:126 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:126
+msgid "Click 'Edit' with Nicepage' button and then click 'Publish' to make them visible on your website."
+msgstr ""
+
+#: nicepage/editor/admin.php:141 nicepage/editor/admin.php:142 nicepage/editor/admin.php:213
+#: wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:141 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:142
+#: wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:213
+msgid "Nicepage"
+msgstr ""
+
+#: nicepage/editor/admin.php:144 nicepage/editor/admin.php:180 nicepage/importer/import.php:8
+#: wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:144 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:180
+#: wordpress_nicepage_plugin-5.15.1/nicepage/importer/import.php:8
+msgid "Import"
+msgstr ""
+
+#: nicepage/editor/admin.php:145 nicepage/editor/admin.php:190 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:145
+#: wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:190
+msgid "Plugin Wizard"
+msgstr ""
+
+#: nicepage/editor/admin.php:147 nicepage/editor/admin.php:192 nicepage/includes/class-np-role-manager.php:81
+#: wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:147 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:192
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-role-manager.php:81
+msgid "Role Manager"
+msgstr ""
+
+#: nicepage/editor/admin.php:149 nicepage/editor/admin.php:178 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:149
+#: wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:178
+msgid "Settings"
+msgstr ""
+
+#: nicepage/editor/admin.php:179 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:179
+msgid "New Page"
+msgstr ""
+
+#: nicepage/editor/admin.php:182 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:182
+msgid "Colors"
+msgstr ""
+
+#: nicepage/editor/admin.php:183 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:183
+msgid "Fonts"
+msgstr ""
+
+#: nicepage/editor/admin.php:184 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:184
+msgid "Typography"
+msgstr ""
+
+#: nicepage/editor/admin.php:185 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:185
+msgid "Headings and Text"
+msgstr ""
+
+#: nicepage/editor/admin.php:186 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:186
+msgid "Header"
+msgstr ""
+
+#: nicepage/editor/admin.php:187 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:187
+msgid "Menu Style"
+msgstr ""
+
+#: nicepage/editor/admin.php:188 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:188
+msgid "Footer"
+msgstr ""
+
+#: nicepage/editor/admin.php:215 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:215
+msgid "Colors and Fonts"
+msgstr ""
+
+#: nicepage/editor/admin.php:1054 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:1054
+msgid "&#x3008;"
+msgstr ""
+
+#: nicepage/editor/admin.php:1055 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:1055
+msgid "&#x3009;"
+msgstr ""
+
+#: nicepage/editor/admin.php:1177 nicepage/editor/admin.php:1182 nicepage/includes/class-np-data-replacer.php:1262
+#: nicepage/includes/class-np-data-replacer.php:1318 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:1177
+#: wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:1182
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-replacer.php:1262
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-replacer.php:1318
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: nicepage/editor/admin.php:1191 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:1191
+msgid "Read more"
+msgstr ""
+
+#: nicepage/editor/admin.php:1196 nicepage/includes/class-np-data-replacer.php:1281
+#: wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:1196
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-replacer.php:1281
+#, php-format
+msgid "Comments (%d)"
+msgstr ""
+
+#: nicepage/editor/admin.php:1267 nicepage/includes/class-np-data-product.php:269 nicepage/includes/class-np-data-replacer.php:326
+#: nicepage/includes/class-np-data-replacer.php:675 wordpress_nicepage_plugin-5.15.1/nicepage/editor/admin.php:1267
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-product.php:269
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-replacer.php:326
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-replacer.php:675
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "SemVer"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "comparator"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "comp"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "caret"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "tildes"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "xrange"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "stars"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "tilde"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "replaceTilde pr"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "tilde return"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "replaceCaret pr"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "no pr"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "caret return"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "replaceXRanges"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "xRange"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "xRange return"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "replaceStars"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "SemVer.compare"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "prerelease compare"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "Comparator.test"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "range"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "hyphen replace"
+msgstr ""
+
+#: nicepage/editor/assets/app/app.js:22 wordpress_nicepage_plugin-5.15.1/nicepage/editor/assets/app/app.js:22
+msgid "comparator trim"
+msgstr ""
+
+#: nicepage/importer/class-np-import-notice.php:13 wordpress_nicepage_plugin-5.15.1/nicepage/importer/class-np-import-notice.php:13
+msgid "<strong>There is content included to Nicepage plugin.</strong><br>Would you like to install it?"
+msgstr ""
+
+#: nicepage/importer/class-np-import-notice.php:16 wordpress_nicepage_plugin-5.15.1/nicepage/importer/class-np-import-notice.php:16
+msgid "Import content"
+msgstr ""
+
+#: nicepage/importer/class-np-import-notice.php:17 wordpress_nicepage_plugin-5.15.1/nicepage/importer/class-np-import-notice.php:17
+msgid "Replace previously imported content"
+msgstr ""
+
+#: nicepage/importer/class-np-import-notice.php:18 wordpress_nicepage_plugin-5.15.1/nicepage/importer/class-np-import-notice.php:18
+msgid "Hide notice"
+msgstr ""
+
+#: nicepage/importer/class-np-import-notice.php:49 wordpress_nicepage_plugin-5.15.1/nicepage/importer/class-np-import-notice.php:49
+msgid "Content was successfully imported."
+msgstr ""
+
+#: nicepage/importer/class-np-import-notice.php:50 wordpress_nicepage_plugin-5.15.1/nicepage/importer/class-np-import-notice.php:50
+msgid "An error occurred while importing."
+msgstr ""
+
+#: nicepage/importer/import.php:14 wordpress_nicepage_plugin-5.15.1/nicepage/importer/import.php:14
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr ""
+
+#: nicepage/importer/import.php:20 wordpress_nicepage_plugin-5.15.1/nicepage/importer/import.php:20
+msgid "Upload your (.zip) file and we&#8217;ll import the pages and images into this site."
+msgstr ""
+
+#: nicepage/importer/import.php:23 wordpress_nicepage_plugin-5.15.1/nicepage/importer/import.php:23
+msgid "Choose a (.zip) file from your computer, then click Upload file and import."
+msgstr ""
+
+#: nicepage/importer/import.php:34 wordpress_nicepage_plugin-5.15.1/nicepage/importer/import.php:34
+msgid "Upload file and import"
+msgstr ""
+
+#: nicepage/importer/wizard.php:46 wordpress_nicepage_plugin-5.15.1/nicepage/importer/wizard.php:46
+msgid "Content has already been imported. Please skip this step"
+msgstr ""
+
+#: nicepage/importer/wizard.php:51 wordpress_nicepage_plugin-5.15.1/nicepage/importer/wizard.php:51
+msgid "Nicepage plugin has Pages, Images, Menu, Header, and Footer. </br></br>Do you want to import the Content?"
+msgstr ""
+
+#: nicepage/importer/wizard.php:56 wordpress_nicepage_plugin-5.15.1/nicepage/importer/wizard.php:56
+msgid "Import Sidebars Content"
+msgstr ""
+
+#: nicepage/importer/wizard.php:61 wordpress_nicepage_plugin-5.15.1/nicepage/importer/wizard.php:61
+msgid "Import Products Content"
+msgstr ""
+
+#: nicepage/importer/wizard.php:75 wordpress_nicepage_plugin-5.15.1/nicepage/importer/wizard.php:75
+msgid "Congratulations! The Nicepage plugin has been activated and your website is ready."
+msgstr ""
+
+#: nicepage/importer/wizard.php:93 wordpress_nicepage_plugin-5.15.1/nicepage/importer/wizard.php:93
+msgid "Your website is ready!"
+msgstr ""
+
+#: nicepage/importer/wizard.php:102 nicepage/importer/wizard.php:107 wordpress_nicepage_plugin-5.15.1/nicepage/importer/wizard.php:102
+#: wordpress_nicepage_plugin-5.15.1/nicepage/importer/wizard.php:107
+msgid "Import Content"
+msgstr ""
+
+#: nicepage/importer/wizard.php:108 wordpress_nicepage_plugin-5.15.1/nicepage/importer/wizard.php:108
+msgid "Replace previously imported Content"
+msgstr ""
+
+#: nicepage/importer/wizard.php:178 wordpress_nicepage_plugin-5.15.1/nicepage/importer/wizard.php:178
+msgid "Skip"
+msgstr ""
+
+#: nicepage/includes/class-np-data-product.php:198 nicepage/includes/class-np-data-product.php:209
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-product.php:198
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-product.php:209
+msgid "Description"
+msgstr ""
+
+#: nicepage/includes/class-np-data-product.php:202 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-product.php:202
+#, php-format
+msgid "Reviews (%d)"
+msgstr ""
+
+#: nicepage/includes/class-np-data-replacer.php:475 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-replacer.php:475
+msgid "Choose an option"
+msgstr ""
+
+#: nicepage/includes/class-np-data-replacer.php:782 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-replacer.php:782
+msgid "Quantity"
+msgstr ""
+
+#: nicepage/includes/class-np-data-replacer.php:806 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-replacer.php:806
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: nicepage/includes/class-np-data-replacer.php:1223 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-data-replacer.php:1223
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: nicepage/includes/class-np-forms.php:246 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-forms.php:246
+#, php-format
+msgid "Header Nicepage Form: %s"
+msgstr ""
+
+#: nicepage/includes/class-np-forms.php:248 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-forms.php:248
+#, php-format
+msgid "Footer Nicepage Form: %s"
+msgstr ""
+
+#: nicepage/includes/class-np-forms.php:250 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-forms.php:250
+#, php-format
+msgid "Dialog Nicepage Form: %s"
+msgstr ""
+
+#: nicepage/includes/class-np-forms.php:252 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-forms.php:252
+#, php-format
+msgid "Nicepage Form: %s"
+msgstr ""
+
+#: nicepage/includes/class-np-forms.php:276 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-forms.php:276
+msgid "feedback"
+msgstr ""
+
+#: nicepage/includes/class-np-role-manager.php:98 nicepage/includes/class-np-settings.php:135
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-role-manager.php:98
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:135
+msgid "Settings saved."
+msgstr ""
+
+#: nicepage/includes/class-np-role-manager.php:104 nicepage/includes/class-np-settings.php:141
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-role-manager.php:104
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:141
+msgid "Settings restored."
+msgstr ""
+
+#: nicepage/includes/class-np-role-manager.php:110 nicepage/includes/class-np-settings.php:147
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-role-manager.php:110
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:147
+#, php-format
+msgid "Used when <strong>\"%s\"</strong> is enabled"
+msgstr ""
+
+#: nicepage/includes/class-np-role-manager.php:174 nicepage/includes/class-np-settings.php:211
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-role-manager.php:174
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:211
+msgid "Save Changes"
+msgstr ""
+
+#: nicepage/includes/class-np-role-manager.php:175 nicepage/includes/class-np-settings.php:212
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-role-manager.php:175
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:212
+msgid "Reset to Default"
+msgstr ""
+
+#: nicepage/includes/class-np-settings.php:15 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:15
+msgid "Create new page with Nicepage editor"
+msgstr ""
+
+#: nicepage/includes/class-np-settings.php:19 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:19
+msgid "jQuery"
+msgstr ""
+
+#: nicepage/includes/class-np-settings.php:24 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:24
+msgid "Use jQuery from plugin"
+msgstr ""
+
+#: nicepage/includes/class-np-settings.php:28 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:28
+msgid "Responsive"
+msgstr ""
+
+#: nicepage/includes/class-np-settings.php:33 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:33
+msgid "Auto Responsive"
+msgstr ""
+
+#: nicepage/includes/class-np-settings.php:39 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:39
+msgid "Header and Footer"
+msgstr ""
+
+#: nicepage/includes/class-np-settings.php:44 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:44
+msgid "Default Page Template"
+msgstr ""
+
+#: nicepage/includes/class-np-settings.php:54 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:54
+msgid "Autosave"
+msgstr ""
+
+#: nicepage/includes/class-np-settings.php:59 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:59
+msgid "Autosave changes"
+msgstr ""
+
+#: nicepage/includes/class-np-settings.php:114 wordpress_nicepage_plugin-5.15.1/nicepage/includes/class-np-settings.php:114
+msgid "Nicepage Settings"
+msgstr ""
+
+#: nicepage/includes/controls/login/login.php:7 wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/login/login.php:7
+msgid "Log in"
+msgstr ""
+
+#: nicepage/includes/controls/login/login.php:10 wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/login/login.php:10
+msgid "Log out"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:38
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:38
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:41
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:41
+msgid "Reviews"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:68
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:68
+msgid "There are no reviews yet."
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:79
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:79
+msgid "Add a review"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:79
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:79
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:81
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:81
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:85
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:85
+msgid "Submit"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:94
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:94
+msgid "Name"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:100
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:100
+msgid "Email"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:125
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:125
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:129
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:129
+msgid "Your rating"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:138
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:138
+msgid "Rate&hellip;"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:139
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:139
+msgid "Perfect"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:140
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:140
+msgid "Good"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:141
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:141
+msgid "Average"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:142
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:142
+msgid "Not that bad"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:143
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:143
+msgid "Very poor"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:147
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:147
+msgid "Your review"
+msgstr ""
+
+#: nicepage/includes/controls/product-tabs/reviews/template.php:154
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/controls/product-tabs/reviews/template.php:154
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: nicepage/includes/templates/passwordProtect/default-template.php:7
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/templates/passwordProtect/default-template.php:7
+msgid "This content is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: nicepage/includes/templates/passwordProtect/default-template.php:8
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/templates/passwordProtect/default-template.php:8
+msgid "Password:"
+msgstr ""
+
+#: nicepage/includes/templates/passwordProtect/default-template.php:8
+#: wordpress_nicepage_plugin-5.15.1/nicepage/includes/templates/passwordProtect/default-template.php:8
+msgctxt "post password form"
+msgid "Enter"
+msgstr ""
+
+#: nicepage/options.php:73 wordpress_nicepage_plugin-5.15.1/nicepage/options.php:73
+msgid "Nicepage Options"
+msgstr ""
+
+#: nicepage/options.php:112 wordpress_nicepage_plugin-5.15.1/nicepage/options.php:112
+msgid "Forms"
+msgstr ""
+
+#: nicepage/options.php:112 wordpress_nicepage_plugin-5.15.1/nicepage/options.php:112
+msgid "Form"
+msgstr ""
+
+#: nicepage/options.php:125 wordpress_nicepage_plugin-5.15.1/nicepage/options.php:125
+msgid "&mdash; Select &mdash;"
+msgstr ""
