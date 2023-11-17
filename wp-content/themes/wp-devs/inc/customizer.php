@@ -5,8 +5,8 @@ function wpdevs_customizer( $wp_customize ) {
     $wp_customize->add_section(
         'sec_copyright',
         array (
-            'title' => 'Copyright Settings',
-            'description' => 'Copyright Settings'
+            'title' => __( 'Copyright Settings', 'devs' ),
+            'description' => __( 'Copyright Settings', 'devs' ), 
         )
     );
 
@@ -14,7 +14,7 @@ function wpdevs_customizer( $wp_customize ) {
         'set_copyright',
         array(
             'type' => 'theme_mod',
-            'default' =>   'Copyright X - All Rights Rserved',
+            'default' => __( 'Copyright X - All Rights Rserved', 'devs' ),
             'sanitize_callback' => 'sanitize_text_field'
         )
     );
@@ -22,8 +22,8 @@ function wpdevs_customizer( $wp_customize ) {
     $wp_customize->add_control(
         'set_copyright',
         array(
-            'label' => 'Copyright Information',
-            'description' => 'Please, type your copyright here',
+            'label' => __( 'Copyright Information', 'devs' ),
+            'description' => __( 'Please, type your copyright here', 'devs' ),
             'section' => 'sec_copyright',
             'type' => 'text'
         )
@@ -33,7 +33,7 @@ function wpdevs_customizer( $wp_customize ) {
     $wp_customize->add_section(
         'sec_hero',
         array(
-            'title' => 'Hero Section'
+            'title' => __( 'Hero Section', 'devs' )
         )
     );
 
@@ -42,7 +42,7 @@ function wpdevs_customizer( $wp_customize ) {
                 'set_hero_title',
                 array(
                     'type' => 'theme_mod',
-                    'default' => 'Please, add some title',
+                    'default' => __( 'Please, add some title', 'devs' ),
                     'sanitize_callback' => 'sanitize_text_field'
                 )
             );
@@ -50,8 +50,8 @@ function wpdevs_customizer( $wp_customize ) {
             $wp_customize->add_control(
                 'set_hero_title',
                 array(
-                    'label' => 'Hero Title',
-                    'description' => 'Please, type your here title here',
+                    'label' => __( 'Hero Title', 'devs' ),
+                    'description' => __( 'Please, type your here title here', 'devs' ),
                     'section' => 'sec_hero',
                     'type' => 'text'
                 )
@@ -62,7 +62,7 @@ function wpdevs_customizer( $wp_customize ) {
                 'set_hero_subtitle',
                 array(
                     'type' => 'theme_mod',
-                    'default' => 'Please, add some subtitle',
+                    'default' => __( 'Please, add some subtitle', 'devs' ),
                     'sanitize_callback' => 'sanitize_textarea_field'
                 )
             );
@@ -70,8 +70,8 @@ function wpdevs_customizer( $wp_customize ) {
             $wp_customize->add_control(
                 'set_hero_subtitle',
                 array(
-                    'label' => 'Hero Subtitle',
-                    'description' => 'Please, type your subtitle here',
+                    'label' => __( 'Hero Subtitle', 'devs' ), 
+                    'description' => __( 'Please, type your subtitle here', 'devs' ),
                     'section' => 'sec_hero',
                     'type' => 'textarea'
                 )
@@ -81,8 +81,8 @@ function wpdevs_customizer( $wp_customize ) {
             $wp_customize->add_setting(
                 'set_hero_button_text',
                 array(
-                    'type' => 'theme_mod',
-                    'default' => 'Learn More',
+                    'type' => __( 'theme_mod', 'devs' ),
+                    'default' => __( 'Learn More', 'devs' ),
                     'sanitize_callback' => 'sanitize_text_field'
                 )
             );
@@ -90,8 +90,8 @@ function wpdevs_customizer( $wp_customize ) {
             $wp_customize->add_control(
                 'set_hero_button_text',
                 array(
-                    'label' => 'Hero button test',
-                    'description' => 'Please, type your button text here',
+                    'label' => __( 'Hero button test', 'devs' ),
+                    'description' => __( 'Please, type your button text here', 'devs' ),
                     'section' => 'sec_hero',
                     'type' => 'text'
                 )
@@ -110,8 +110,8 @@ function wpdevs_customizer( $wp_customize ) {
             $wp_customize->add_control(
                 'set_hero_button_link',
                 array(
-                    'label' => 'Hero button link',
-                    'description' => 'Please, type your button link here',
+                    'label' => __( 'Hero button link', 'devs' ),
+                    'description' => __( 'Please, type your button link here', 'devs' ),
                     'section' => 'sec_hero',
                     'type' => 'url'
                 )
@@ -130,8 +130,8 @@ function wpdevs_customizer( $wp_customize ) {
             $wp_customize->add_control(
                 'set_hero_height',
                 array(
-                    'label' => 'Hero height',
-                    'description' => 'Please, type your here height',
+                    'label' => __( 'Hero height', 'devs' ),
+                    'description' => __( 'Please, type your here height', 'devs' ),
                     'section' => 'sec_hero',
                     'type' => 'number'
                 )
@@ -149,7 +149,7 @@ function wpdevs_customizer( $wp_customize ) {
         $wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize,
             'set_hero_background',
             array(
-                'label' => 'Hero Image',
+                'label' => __( 'Hero Image', 'devs' ),
                 'section' => 'sec_hero',
                 'mine_type' => 'image'
             )));
@@ -172,8 +172,8 @@ $wp_customize->add_section(
         $wp_customize->add_control( 
             'set_per_page', 
             array(
-                'label' => 'Posts per page',
-                'description' => 'How many items to display in the post list?',			
+                'label' => __( 'Posts per page', 'devs' ),
+                'description' => __( 'How many items to display in the post list?', 'devs' ),			
                 'section' => 'sec_blog',
                 'type' => 'number'
         ) );
@@ -189,8 +189,8 @@ $wp_customize->add_section(
         $wp_customize->add_control( 
             'set_category_include', 
             array(
-                'label' => 'Post categories to include',
-                'description' => 'Comma separated values or single category ID',
+                'label' => __( 'Post categories to include', 'devs' ),
+                'description' => __( 'Comma separated values or single category ID', 'devs' ),
                 'section' => 'sec_blog',
                 'type' => 'text'
         ) );	
@@ -206,8 +206,8 @@ $wp_customize->add_section(
         $wp_customize->add_control( 
             'set_category_exclude', 
             array(
-                'label' => 'Post categories to exclude',
-                'description' => 'Comma separated values or single category ID',			
+                'label' => __( 'Post categories to exclude', 'devs' ),
+                'description' => __( 'Comma separated values or single category ID', 'devs' ),			
                 'section' => 'sec_blog',
                 'type' => 'text'
         ) ); 

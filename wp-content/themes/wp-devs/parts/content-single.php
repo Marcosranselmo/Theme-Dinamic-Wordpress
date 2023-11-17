@@ -7,14 +7,13 @@
             <?php the_post_thumbnail(array(275, 275)); ?>
         <?php endif; ?>
 
-
         <div class="meta-info">
-            <p>Posted in <?php echo get_the_date(); ?>by</p>
+            <p><?php _e( 'Posted in', 'wp-devs' ) ?> <?php echo get_the_date(); ?><?php _e( 'by', 'wp-devs' ) ?></p>
             <?php if (has_category()) : ?>
-                <p>Categories: <?php the_category(' '); ?></p>
+                <p><?php _e( 'Categories', 'wp-devs' ) ?>: <?php the_category(' '); ?></p>
             <?php endif; ?>
             <?php if (has_tag()) : ?>
-                <p>Tags: <?php the_tags('', ', '); ?></p>
+                <p><?php _e( 'Tags', 'wp-devs' ) ?>: <?php the_tags('', ', '); ?></p>
             <?php endif; ?>
         </div>
     </header>
