@@ -18,11 +18,11 @@
                             the_custom_logo();
                         }else{
                             ?>
-                                <a href="<?php echo home_url( '/' ); ?>"><span><?php bloginfo
-                                ( 'name' ); ?></span></a>
-                                <?php
-                                }
-                                ?>
+                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><span>
+                                <?php bloginfo( 'name' ); ?></span></a>
+                            <?php
+                        }
+                        ?>
                     </div>
                     <div class="searchbox">
                         <?php get_search_form(); ?>
