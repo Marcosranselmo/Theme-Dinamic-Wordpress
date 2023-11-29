@@ -98,19 +98,7 @@
             </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
 
             <section class="services">
                 <h2><?php esc_html_e('Services', 'wp-devs') ?></h2>
