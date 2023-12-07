@@ -25,7 +25,8 @@
 
 
 
-            <section class="slide">
+            <!--
+                <section class="slide">
                 <div class="flexslider">
                     <ul class="slides">
 
@@ -95,8 +96,8 @@
 
                     </ul>
                 </div>
-            </section>
-
+                </section>
+            -->
 
             
 
