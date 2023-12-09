@@ -100,7 +100,7 @@
             -->
 
             
-
+            <!-- SERVICES -->
             <section class="services">
                 <h2><?php esc_html_e('Services', 'wp-devs') ?></h2>
                 <div class="container">
@@ -127,6 +127,7 @@
                     </div>
                 </div>
             </section>
+            
             <section class="home-blog">
                 <h2><?php esc_html_e('Latest News', 'wp-devs') ?></h2>
                 <div class="container">

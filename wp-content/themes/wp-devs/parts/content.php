@@ -9,7 +9,7 @@
         <p><?php esc_html_e('Categories', 'wp-devs') ?>: <?php the_category(' '); ?></p>
     <?php endif; ?>
     <?php if (has_tag()) : ?>
-        <p><?php esc_html_e('Tags', 'wp-devs') ?>: <?php the_tags('', ', '); ?></p>
+        <p></p><?php esc_html_e('Tags', 'wp-devs') ?>: <?php the_tags('', ', '); ?></p>
     <?php endif; ?>
     </div>
     <?php the_excerpt(); ?>

@@ -34,4 +34,5 @@ width="<?php echo esc_attr( get_custom_header()->width ); ?>" alt="" />
                 </main>
             </div>
         </div>
+        
 <?php get_footer(); ?>

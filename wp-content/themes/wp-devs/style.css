@@ -738,7 +738,7 @@ img {
 }
 .home-blog .container{
     display: grid;
-    grid-template-areas: 'feat-item feat-item';
+    grid-template-areas: 'feat-item feat-item feat-item';
     grid-gap: 25px;
 }
 .home .home-blog h2{ 
