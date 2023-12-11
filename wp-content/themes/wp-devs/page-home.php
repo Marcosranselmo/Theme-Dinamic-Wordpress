@@ -127,7 +127,8 @@
                     </div>
                 </div>
             </section>
-            
+        
+            <!-- ÚLTIMAS NOTÍCIAS -->
             <section class="home-blog">
                 <h2><?php esc_html_e('Latest News', 'wp-devs') ?></h2>
                 <div class="container">
