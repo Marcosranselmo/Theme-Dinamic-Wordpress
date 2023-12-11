@@ -733,9 +733,7 @@ img {
 .home .home-blog{
     padding: var( --wpdevs-big-padding );
 }
-.home-blog .container article:first-child{
-    grid-area: feat-item;
-}
+
 .home-blog .container{
     display: grid;
     grid-template-areas: 'feat-item feat-item feat-item';
