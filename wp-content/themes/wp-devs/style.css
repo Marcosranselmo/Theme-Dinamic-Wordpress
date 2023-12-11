@@ -681,9 +681,9 @@ img {
 
 /* Services */
 .services{ 
-    background: var( --wpdevs-deep-blue ); 
+    background: #f7f7f7; 
     padding: var( --wpdevs-big-padding ); 
-    color: #ffffff; 
+    color: #000000; 
 }
 .services .container{
     display: flex;
@@ -700,8 +700,9 @@ img {
     margin-bottom: 40px;
 }
 .services-item figure img{ 
-    background: var( --wpdevs-black-blue );
-    padding: 15px; 
+    background: #aaaaaa;
+    padding: 4px; 
+    border-radius: 5px;
 }
 .services h2{ 
     text-align: center;
