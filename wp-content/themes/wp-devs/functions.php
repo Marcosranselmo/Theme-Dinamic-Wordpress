@@ -40,6 +40,7 @@ function wpdevs_config(){
 add_action( 'after_setup_theme', 'wpdevs_config', 0 );
 
 add_action( 'widgets_init', 'wpdevs_sidebars' );
+
 function wpdevs_sidebars(){
     register_sidebar(
         array(

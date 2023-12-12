@@ -899,13 +899,26 @@ footer .container .row{
         padding: var(--wpdevs-mobile-padding);
     }
 }
-.meta-info p{
-    margin: 0;
+
+.blog-central .meta-info p{
+    padding: 2px;
+    margin-bottom: 1px;
 }
 .wp-post-image{ 
     float: left; 
-    margin: 0 15px 10px 0; 
+    margin: 10px 10px 0; 
+    border-radius: 5px;
 }
+
+.site-content .blog-central {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.info-excerpt {
+    margin-top: -12px;
+}
+
 @media screen and (max-width: 550px ) {
     .wp-post-image{ 
         width: 100%; 
@@ -1130,3 +1143,4 @@ a img.aligncenter {
 	z-index: 100000;
 	/* Above WP toolbar. */
 }
+
