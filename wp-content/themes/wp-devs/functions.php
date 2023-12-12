@@ -103,3 +103,9 @@ function parea_load_scripts(){
 	wp_enqueue_script( 'flexslider', get_template_directory_uri(). '/flexslider/flexslider.js', array('jquery'), null, false); 
 }
 add_action( 'wp_enqueue_scripts', 'parea_load_scripts' );
+
+// exerpt wpfoco
+function tn_custom_excerpt_length( $length ) {
+    return 17;
+    }
+    add_filter( 'excerpt_length', 'tn_custom_excerpt_length', 10 );

@@ -18,7 +18,7 @@
                 <p><?php esc_html_e('Tags', 'wp-devs') ?>: <?php the_tags('', ', '); ?></p>
             <?php endif; ?>
         </div>
-        <div class="info-excerpt"><?php the_excerpt(); ?></div>
+        <div class="info-excerpt"><?php echo the_excerpt(); ?></div>
     </div>
 
 </article> 

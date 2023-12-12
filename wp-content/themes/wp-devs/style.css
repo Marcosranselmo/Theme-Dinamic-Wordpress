@@ -900,23 +900,22 @@ footer .container .row{
     }
 }
 
+.blog-central {
+    margin-top: -10px;
+}
+
 .blog-central .meta-info p{
     padding: 2px;
-    margin-bottom: 1px;
 }
 .wp-post-image{ 
     float: left; 
-    margin: 10px 10px 0; 
+    margin: 10px 10px 10px 10px; 
     border-radius: 5px;
 }
 
 .site-content .blog-central {
     background-color: #f7f7f7;
     border-radius: 5px;
-}
-
-.info-excerpt {
-    margin-top: -12px;
 }
 
 @media screen and (max-width: 550px ) {
