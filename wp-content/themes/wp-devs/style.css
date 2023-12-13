@@ -401,7 +401,7 @@ body{
     font: normal, 21px/2.1rem, 'Poppins', sans-serif;
 }
 h1{
-    font-size: 33px;
+    font-size: 30px;
     line-height: 70px;
 }
 h2{
@@ -875,6 +875,13 @@ footer .container .row{
         min-width: 100%;
     }
 }
+
+.archive-title-d {
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .blog h1,
 .archive h1{
     text-align: center;
@@ -900,22 +907,23 @@ footer .container .row{
     }
 }
 
-.blog-central {
-    margin-top: -10px;
-}
-
 .blog-central .meta-info p{
     padding: 2px;
 }
 .wp-post-image{ 
     float: left; 
-    margin: 10px 10px 10px 10px; 
+    margin: 10px 10px 0; 
     border-radius: 5px;
 }
 
 .site-content .blog-central {
     background-color: #f7f7f7;
     border-radius: 5px;
+}
+
+.info-excerpt {
+    /* background-color: red; */
+    margin-top: 0px;
 }
 
 @media screen and (max-width: 550px ) {

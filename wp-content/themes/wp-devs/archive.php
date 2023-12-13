@@ -6,7 +6,7 @@ width="<?php echo esc_attr( get_custom_header()->width ); ?>" alt="" />
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
-                    <?php the_archive_title( '<h1 class="archive-title">', '</h1>' ); ?>
+                    <div class="archive-title-d"><?php the_archive_title(); ?></div>
                     <?php the_archive_description( '<div class="archive-description">', '</div>' ); ?>
                     <div class="container">
                         <div class="archive-items">
