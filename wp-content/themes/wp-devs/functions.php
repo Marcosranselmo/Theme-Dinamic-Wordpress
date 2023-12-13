@@ -106,6 +106,6 @@ add_action( 'wp_enqueue_scripts', 'parea_load_scripts' );
 
 // exerpt wpfoco
 function tn_custom_excerpt_length( $length ) {
-    return 17;
+    return 12;
     }
     add_filter( 'excerpt_length', 'tn_custom_excerpt_length', 10 );

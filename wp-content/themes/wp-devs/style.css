@@ -907,24 +907,35 @@ footer .container .row{
     }
 }
 
-.blog-central .meta-info p{
-    padding: 2px;
+.container .blog-items {
+    margin-bottom: 0px;
+}
+
+.blog-central {
+    display: flex;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+.blog-central .meta-info-p p{
+    margin-top: 3px;
+    margin-right: 5px;
 }
 .wp-post-image{ 
     float: left; 
-    margin: 10px 10px 0; 
-    border-radius: 5px;
+    border-radius: 15px;
+    padding: 10px;
 }
 
-.site-content .blog-central {
-    background-color: #f7f7f7;
-    border-radius: 5px;
+.blog-excerpt-p {
+    margin-top: -6px;
 }
 
-.info-excerpt {
-    /* background-color: red; */
-    margin-top: 0px;
+.sidebar {
+    margin-top: 56px;
 }
+
+
 
 @media screen and (max-width: 550px ) {
     .wp-post-image{ 
