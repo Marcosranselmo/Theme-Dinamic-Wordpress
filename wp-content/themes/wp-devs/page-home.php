@@ -133,7 +133,6 @@
                 <h2><?php esc_html_e('Últimas Postagens', 'wp-devs') ?></h2>
                 <div class="container">
                     <?php
-
                     $per_page = get_theme_mod('set_per_page', 3);
                     $category_include = get_theme_mod('set_category_include');
                     $category_exclude = get_theme_mod('set_category_exclude');

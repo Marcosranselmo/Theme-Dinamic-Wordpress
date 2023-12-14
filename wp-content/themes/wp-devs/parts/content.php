@@ -14,7 +14,7 @@
                 <?php esc_html_e('Postado em:', 'wp-devs') ?> <?php echo esc_html(get_the_date()); ?> <br>
                 <?php esc_html_e('Por:', 'wp-devs') ?> <span><?php the_author_posts_link(); ?></span>
                 <?php if (has_category()) : ?> <br>
-                <?php esc_html_e('Categories', 'wp-devs') ?>: <?php the_category(' '); ?>
+                <?php esc_html_e('Categoria', 'wp-devs') ?>: <?php the_category(' '); ?>
             </p>
             <?php endif; ?>
             <?php if (has_tag()) : ?>
