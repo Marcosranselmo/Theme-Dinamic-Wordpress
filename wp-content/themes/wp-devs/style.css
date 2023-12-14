@@ -410,6 +410,11 @@ h2{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.nome-categoria {
+    margin-top: 0px;
+}
+
 h3{
     font-size: 18px;
     line-height: 3.6rem;
@@ -860,6 +865,8 @@ footer .container .row{
 .blog article{
     margin-bottom: 20px;
 }
+
+
 .blog aside,
 .archive aside{
     padding: 25px;
@@ -887,6 +894,7 @@ footer .container .row{
     font-size: 23px;
     text-align: center;
     font-weight: bold;
+  /*   margin-bottom: 50px; */
 }
 
 .blog h1,
@@ -908,6 +916,8 @@ footer .container .row{
 #primary > #main{
     padding: var(--wpdevs-big-padding);
 }
+
+
 @media screen and (max-width: 991px ) {
     #primary > #main{
         padding: var(--wpdevs-mobile-padding);
@@ -922,7 +932,7 @@ footer .container .row{
 }
 
 .blog-central {
-    margin-top: -15px;
+    margin-top: 0px;
     display: flex;
     width: 100%;
     background-color: #F7F7F7;
@@ -945,8 +955,6 @@ footer .container .row{
 .sidebar {
     margin-top: 58px;
 }
-
-
 
 
 

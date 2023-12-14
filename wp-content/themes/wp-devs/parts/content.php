@@ -1,6 +1,6 @@
 <article>
     
-    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <h2 class="nome-categoria"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
     <div class="blog-central">
         <img class="blog-central-img">
