@@ -24,7 +24,7 @@ width="<?php echo esc_attr( get_custom_header()->width ); ?>" alt="" />
                                     <?php
                                     endwhile;
                                 else: ?>
-                                    <p><?php esc_html_e( 'Nothing yet to be displayed!', 'wp-devs' ) ?></p>
+                                    <p><?php esc_html_e( 'Nada ainda a ser exibido!', 'wp-devs' ) ?></p>
                             <?php endif; ?>                                
                         </div>
                     </div>

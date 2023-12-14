@@ -876,6 +876,13 @@ footer .container .row{
     }
 }
 
+.blog-h1 {
+    margin-bottom: -10px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .archive-title-d {
     font-size: 23px;
     text-align: center;
@@ -915,6 +922,7 @@ footer .container .row{
 }
 
 .blog-central {
+    margin-top: -15px;
     display: flex;
     width: 100%;
     background-color: #F7F7F7;

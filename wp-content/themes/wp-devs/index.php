@@ -5,7 +5,7 @@
 <div id="content" class="site-content">
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
-            <h1><?php esc_html_e('Blog', 'wp-devs') ?></h1>
+            <h1 class="blog-h1"><?php esc_html_e('Blog', 'wp-devs') ?></h1>
             <div class="container">
                 <div class="blog-items">
                     <?php

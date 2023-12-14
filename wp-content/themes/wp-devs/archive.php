@@ -21,7 +21,7 @@ width="<?php echo esc_attr( get_custom_header()->width ); ?>" alt="" />
                                                 <?php previous_posts_link( esc_html__( "<< Newer posts" , 'wp-devs' ) ); ?>
                                             </div>
                                             <div class="pages old">
-                                                <?php next_posts_link( esc_html__( "<< Older posts >>", 'wp-devs' ) ); ?>
+                                                <?php next_posts_link( esc_html__( "Postagens mais antigas >>", 'wp-devs' ) ); ?>
                                             </div>
                                         </div>
                                     <?php

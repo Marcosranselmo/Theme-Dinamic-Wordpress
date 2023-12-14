@@ -2,4 +2,4 @@
     <aside class="sidebar">
         <?php dynamic_sidebar( 'sidebar-blog' ); ?>
     </aside>
-<?php endif;
+<?php endif; 
