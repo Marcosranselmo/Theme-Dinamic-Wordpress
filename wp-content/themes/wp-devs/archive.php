@@ -16,11 +16,11 @@ width="<?php echo esc_attr( get_custom_header()->width ); ?>" alt="" />
                                 endwhile;
                                 ?>
                                     <div class="wpdevs-pagination">
-                                        <div class="pages new">
-                                            <?php previous_posts_link( esc_html__( "<< Newer posts" , 'wp-devs' ) ); ?>
+                                        <div class="Avançar">
+                                            <?php previous_posts_link( esc_html__( "<< Voltar" , 'wp-devs' ) ); ?>
                                         </div>
-                                        <div class="pages old">
-                                            <?php next_posts_link( esc_html__( "Postagens menos recentes >>", 'wp-devs' ) ); ?>
+                                        <div class="Voltar">
+                                            <?php next_posts_link( esc_html__( "Avançar >>", 'wp-devs' ) ); ?>
                                         </div>
                                     </div>
                                 <?php

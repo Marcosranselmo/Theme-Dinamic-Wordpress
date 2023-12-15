@@ -1,6 +1,37 @@
 <?php
 
 function wpdevs_customizer( $wp_customize ) {
+
+        // 1 Container rodape
+          $wp_customize->add_section(
+            'sec_endereco',
+            array (
+                'title' => __( 'Configuracao endereco', 'devs' ),
+                'description' => __( 'Configuracao endereco', 'devs' ), 
+            )
+        );
+    
+        $wp_customize->add_setting(
+            'sec_endereco',
+            array(
+                'type' => 'theme_mod',
+                'default' => __( 'Configure o endereco da sua empresa', 'devs' ),
+                'sanitize_callback' => 'sanitize_text_field'
+            )
+        );
+    
+        $wp_customize->add_control(
+            'sec_endereco',
+            array(
+                'label' => __( 'Endereco informcao', 'devs' ),
+                'description' => __( 'Adicione o endereco aqui', 'devs' ),
+                'section' => 'sec_endereco',
+                'type' => 'text'
+            )
+        );
+    
+
+
     // 1 Copyright Section
     $wp_customize->add_section(
         'sec_copyright',

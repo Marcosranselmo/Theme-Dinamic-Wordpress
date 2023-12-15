@@ -799,13 +799,26 @@ img {
 
 /* Footer */
 footer{ 
-    background: var( --wpdevs-deep-blue ); 
+    background: #1a1a1a; 
     padding: 15px 0; 
-    color: #FFFFFF; 
+    color: #696969; 
 }
 footer .container .row{
     align-items: center;
 }
+
+
+/* Container Rodape */
+
+.container-rodape {
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: rgb(168, 168, 168);
+    height: 200px;
+}
+
+
 
 /* Footer - Footer Menu */
 .site-footer .container{
