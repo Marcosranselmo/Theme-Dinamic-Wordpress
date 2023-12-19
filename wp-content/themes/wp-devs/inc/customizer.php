@@ -2,12 +2,12 @@
 
 function wpdevs_customizer( $wp_customize ) {
 
-         // 1 Copyright Section
+    // 1 Copyright Section
     $wp_customize->add_section(
         'sec_endereco',
         array (
-            'title' => __( 'Endereço Settings', 'devs' ),
-            'description' => __( 'Endereço Settings', 'devs' ), 
+            'title' => __( 'Adicionar endereço', 'devs' ),
+            'description' => __( 'Configurações do endereço', 'devs' ), 
         )
     );
 
@@ -15,7 +15,7 @@ function wpdevs_customizer( $wp_customize ) {
         'sec_endereco',
         array(
             'type' => 'theme_mod',
-            'default' => __( 'Endereco da sua empresa', 'devs' ),
+            'default' => __( 'Rua: Santana de Assis', 'devs' ),
             'sanitize_callback' => 'sanitize_text_field'
         )
     );
@@ -23,13 +23,12 @@ function wpdevs_customizer( $wp_customize ) {
     $wp_customize->add_control(
         'sec_endereco',
         array(
-            'label' => __( 'Copyright Information', 'devs' ),
-            'description' => __( 'Preencha o endereco aqui', 'devs' ),
+            'label' => __( 'Informações do endereço', 'devs' ),
+            'description' => __( 'Por favor, digite o endereço aqui', 'devs' ),
             'section' => 'sec_endereco',
             'type' => 'text'
         )
     );
-    
 
 
     // 1 Copyright Section
@@ -45,7 +44,7 @@ function wpdevs_customizer( $wp_customize ) {
         'set_copyright',
         array(
             'type' => 'theme_mod',
-            'default' => __( 'Copyright X - All Rights Rserved', 'devs' ),
+            'default' => __( 'Copyright X - All Rights Reserved', 'devs' ),
             'sanitize_callback' => 'sanitize_text_field'
         )
     );
