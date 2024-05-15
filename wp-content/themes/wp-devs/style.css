@@ -699,14 +699,15 @@ img {
     flex: 1 1 250px;
 }
 .services-item{
-    padding: var(--wpdevs-light-padding);
+    /* padding: var(--wpdevs-light-padding); */
+    padding: 5px;
 }
 .services-item p{
     margin-bottom: 40px;
 }
 .services-item figure img{ 
     background: #aaaaaa;
-    padding: 4px; 
+    padding: 1px; 
     border-radius: 5px;
 }
 .services h2{ 
