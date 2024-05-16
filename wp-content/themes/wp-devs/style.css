@@ -574,7 +574,7 @@ img {
 }
 .main-menu ul .menu-item-has-children:hover>ul,
 .main-menu ul .menu-item-has-children:focus+ul {
-    display: block
+    display: block;
 }
 .main-menu ul.sub-menu li {
     width: max-content;
