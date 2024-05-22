@@ -530,7 +530,7 @@ img {
 }
 .main-menu ul li {
     display: inline-block;
-    line-height: 55px;
+    line-height: 35px;
     position: relative;
 }
 .main-menu ul li.current_page_item > a{
