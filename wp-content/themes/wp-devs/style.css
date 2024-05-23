@@ -520,7 +520,7 @@ img {
 	background: var( --wpdevs-gray2 );
 }
 .main-menu {
-    height: 55px;
+    height: 46px;
     display: flex;
     justify-content: center;
 }
@@ -529,14 +529,17 @@ img {
     padding-left: 0;
 }
 .main-menu ul li {
+    /* margin-top: 10px; */
     display: inline-block;
     line-height: 35px;
     position: relative;
 }
 .main-menu ul li.current_page_item > a{
     font-weight: bold;
+    margin-top: 7px;
 }
 .main-menu ul li a {
+    /* margin-bottom: 10px; */
     color: #000000;
     padding: 0 30px;
     text-decoration: none;
