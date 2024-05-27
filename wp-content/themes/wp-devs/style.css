@@ -807,10 +807,6 @@ footer{
     padding: 15px 0; 
     color: #696969; 
 }
-footer .container .row{
-    align-items: center;
-}
-
 
 /* Container Rodape */
 
@@ -823,16 +819,14 @@ footer .container .row{
 }
 
 
-
 /* Footer - Footer Menu */
-.site-footer .container{
-    display: flex;
-    justify-content: space-between;
+.site-footer .container .copyright p{
     align-items: center;
 }
-.site-footer .copyright p{
+ .copyright p{
+    text-align: center;
     margin: 0;
-}
+}/*
 .footer-menu ul{ 
     list-style: none; 
     padding: 0; 
@@ -861,7 +855,7 @@ footer .container .row{
     .site-footer .container{
         flex-wrap: wrap;
     }
-}
+} */
 
 /************** INNER PAGES *****************/
 

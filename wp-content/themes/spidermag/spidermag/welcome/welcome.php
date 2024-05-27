@@ -243,6 +243,11 @@ if (!class_exists('SpiderMag_Welcome')) :
 
         /** Ajax Plugin Activation */
         public function activate_plugin() {
+            if(current_user_can('activate_plugins') == false){
+                $data = ['message' => 'You cannot activate plugins!'];
+                wp_send_json_error($data);
+            }
+
             $slug = isset($_POST['slug']) ? $_POST['slug'] : '';
             $file = isset($_POST['file']) ? $_POST['file'] : '';
             $success = false;

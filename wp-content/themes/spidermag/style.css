@@ -4,7 +4,7 @@ Theme URI: https://www.sparklewpthemes.com/wordpress-themes/spidermag
 Author: sparklewpthemes
 Author URI: http://sparklewpthemes.com
 Description: Spidermag is a ultra fast clean and best  responsive free WordPress magazine, spidermag specially designed for magazine, newspaper, news portals and editorial style websites.  It comes with the flat, minimalist, magazine style homepage Design with post banner slider and latest posts, and different custom widget design layout. Awesome design for categories, tags, archive pages with multiple sidebars and Ads, widgets. the theme has 10+ different drag and drop widget and 10+ widget area that allows adding many section as you want with various beautifully designed layouts suitable for websites. spidermag theme is completely built on customizer which allows you to customize most of the theme settings easily with live previews, spidermag supports many 3rd party plugins, compatible with Jetpack, Contact Form 7, WooCommerce, AccessPress Social Share, AccessPress Social Counter and many more. Official Support Forum : https://www.sparklewpthemes.com/support/ Video : https://www.youtube.com/channel/UCNz4pwcVXsZfVichroSRdKg Full Demo: http://demo.sparklewpthemes.com/spidermag/demos/ and Docs: http://docs.sparklewpthemes.com/spidermag/
-Version: 1.1.7
+Version: 1.1.8
 Tested up to: 5.9
 Requires PHP: 5.6
 License: GNU General Public License, version 3 (GPLv3) or later
@@ -60,7 +60,7 @@ h1 {
     letter-spacing: 0;
 }
 h2 {
-    font-size: 24px;    
+    font-size: 24px;
 }
 h3 {
     font-size: 18px;
@@ -88,11 +88,11 @@ a:hover h3, a:hover h2 {
 *:focus {
     outline: none;
 }
-body {       
+body {
     font-size: 16px;
     line-height: 1.3;
-    font-family: 'Ubuntu', sans-serif; 
-    color: #919191;    
+    font-family: 'Ubuntu', sans-serif;
+    color: #919191;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #fdfdfd;
@@ -381,7 +381,7 @@ HOMEPAGE MARGIN FOR SECTION
 }
 
 .topmain-nav ul    {
-    margin: 0; 
+    margin: 0;
     padding: 0; /* only needed if you have not done a CSS reset */
 }
 
@@ -637,7 +637,7 @@ HOMEPAGE MARGIN FOR SECTION
     font-weight: 700;
 }
 
-.box-header-nav .main-menu .children>.page_item.current_page_item>a,  
+.box-header-nav .main-menu .children>.page_item.current_page_item>a,
 .box-header-nav .main-menu .sub-menu>.menu-item.current-menu-item>a {
     background: #ffb920;
     color: #fff;
@@ -653,7 +653,7 @@ HOMEPAGE MARGIN FOR SECTION
 .box-header-nav .main-menu .children .children,
 .box-header-nav .main-menu .sub-menu .sub-menu{
     top: 0;
-    left: 100%; 
+    left: 100%;
     -webkit-transform: translateX(20px);
     -moz-transform: translateX(20px);
     -ms-transform: translateX(20px);
@@ -707,21 +707,21 @@ a.spider-home.spider-home-active.ion-home:hover {
     width: 100%;
 }
 ::-webkit-input-placeholder {
- color: #fff;
- opacity: 1 !important;
+    color: #fff;
+    opacity: 1 !important;
 }
 :-moz-placeholder { /* Firefox 18- */
- color: #fff;
- opacity: 1 !important;
+    color: #fff;
+    opacity: 1 !important;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
- color: #fff;
- opacity: 1 !important;
+    color: #fff;
+    opacity: 1 !important;
 }
 :-ms-input-placeholder {
- color: #fff;
- opacity: 1 !important;
+    color: #fff;
+    opacity: 1 !important;
 }
 .toggle-search {
     color: #fff;
@@ -764,7 +764,7 @@ a.spider-home.spider-home-active.ion-home:hover {
 }
 .spider-home {
     font-size: 30px;
-
+    
     color: #fff;
     padding: 0 10px;
 }
@@ -1268,16 +1268,16 @@ object {
 .pagination li a, .pagination li span {
     border: 1px solid #ededed !important;
 }
-.pagination li a:hover, .pagination li span:hover, 
+.pagination li a:hover, .pagination li span:hover,
 .pagination li a:focus, .pagination li span:focus {
     background: #ededed;
     border: 1px soild #ededed;
 }
-.pagination > .active > a, 
-.pagination > .active > span, 
-.pagination > .active > a:hover, 
-.pagination > .active > span:hover, 
-.pagination > .active > a:focus, 
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
 .pagination > .active > span:focus {
     background: #e74c3c;
     border: 1px solid #e74c3c;
@@ -1295,8 +1295,8 @@ object {
     font-size: 15px;
     color: #fff;
 }
-.woocommerce nav.woocommerce-pagination ul li a:focus, 
-.woocommerce nav.woocommerce-pagination ul li a:hover, 
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
 .woocommerce nav.woocommerce-pagination ul li span.current {
     background: #2964a0;
     padding: 12px 15px;
@@ -1440,8 +1440,8 @@ a:hover .thumb-box span {
 .time {
     padding-right: 8px !important;
 }
-.author-16 .hideauthor { 
-    display: none; 
+.author-16 .hideauthor {
+    display: none;
 }
 .sub-info-bordered a:hover {
     text-decoration: none !important;
@@ -1490,11 +1490,11 @@ a:hover .thumb-box span {
     height: 36px;
     line-height: 36px;
 }
-.widget-area .authorleft .author { 
-    display: none; 
+.widget-area .authorleft .author {
+    display: none;
 }
-.no-author { 
-    margin-right: -40px; 
+.no-author {
+    margin-right: -40px;
 }
 
 /*--------------------------------------------------------------
@@ -1539,7 +1539,7 @@ a:hover .thumb-box span {
 .widget_nav_menu li,
 .widget_product_categories a {
     color: #333;
-/*     font-size: 14px; */
+    /*     font-size: 14px; */
     line-height: 32px;
     padding-left: 22px;
     position: relative;
@@ -1641,7 +1641,7 @@ a:hover .thumb-box span {
     padding: 10px;
 }
 
-.widget_archive ul li, 
+.widget_archive ul li,
 .widget_categories ul li,
 .widget_product_categories ul li{
     width: 100%;
@@ -1649,10 +1649,10 @@ a:hover .thumb-box span {
     display: inline-block;
     margin: 0;
 }
-.widget_archive ul li a, 
+.widget_archive ul li a,
 .widget_categories ul li a,
 .widget_product_categories ul li a{
-   float: left;
+    float: left;
 }
 
 /*--------------------------------------------------------------
@@ -1696,7 +1696,7 @@ a:hover .thumb-box span {
     width: 5%;
     text-align: center;
 }
-.calendar_wrap table td#prev, 
+.calendar_wrap table td#prev,
 .calendar_wrap table td#next {
     text-align: left;
     padding-left: 10px;
@@ -1714,10 +1714,10 @@ a:hover .thumb-box span {
     position:relative;
 }
 .widget_search .search-field::-webkit-input-placeholder,
-.widget_search .search-form:-moz-placeholder, 
+.widget_search .search-form:-moz-placeholder,
 .widget_search .search-form:-ms-input-placeholder,
 .widget_product_search .search-field::-webkit-input-placeholder,
-.widget_product_search .search-form:-moz-placeholder, 
+.widget_product_search .search-form:-moz-placeholder,
 .widget_product_search .search-form:-ms-input-placeholder{
     color: #868686;
 }
@@ -1794,7 +1794,7 @@ a:hover .thumb-box span {
 .tagcloud a:hover:before {
     border-color:#e74c3c;
 }
-.widget-area .tagcloud:before, 
+.widget-area .tagcloud:before,
 .widget-area .tagcloud:after{
     content:"";
     display:table;
@@ -1813,23 +1813,23 @@ footer .f-sub-info span {
     font-size: 12px;
 }
 
-footer .widget_archive a::before, 
-footer .widget_categories a::before, 
-footer .widget_recent_entries a::before, 
-footer .widget_meta a::before, 
-footer .widget_recent_comments li::before, 
-footer .widget_rss li:before, 
-footer .widget_pages li:before, 
-footer .widget_nav_menu li:before, 
+footer .widget_archive a::before,
+footer .widget_categories a::before,
+footer .widget_recent_entries a::before,
+footer .widget_meta a::before,
+footer .widget_recent_comments li::before,
+footer .widget_rss li:before,
+footer .widget_pages li:before,
+footer .widget_nav_menu li:before,
 footer .widget_product_categories a:before,
-footer .widget_archive a, 
-footer .widget_categories a, 
-footer .widget_recent_entries a, 
-footer .widget_meta a, 
-footer .widget_recent_comments li, 
-footer .widget_rss li, 
-footer .widget_pages li, 
-footer .widget_nav_menu li, 
+footer .widget_archive a,
+footer .widget_categories a,
+footer .widget_recent_entries a,
+footer .widget_meta a,
+footer .widget_recent_comments li,
+footer .widget_rss li,
+footer .widget_pages li,
+footer .widget_nav_menu li,
 footer .widget_product_categories a,
 footer .calendar_wrap table td,
 footer .calendar_wrap table td a{
@@ -1840,18 +1840,18 @@ footer .calendar_wrap table td a{
 /***********************************************
  * Custom Widget in Sidebar Widget Area
 *************************************************/
-.widget-area .widget_spidermag_latest_random_post .author a, 
-.widget-area .widget_spidermag_latest_random_post .comments a, 
+.widget-area .widget_spidermag_latest_random_post .author a,
+.widget-area .widget_spidermag_latest_random_post .comments a,
 .widget-area .widget_spidermag_latest_random_post .time {
     color: #e74c3c;
     font-size: 13px;
 }
-.tab-content .author a, 
+.tab-content .author a,
 .tab-content .comments a{
     color: #e74c3c;
 }
-.top-sec .tab-content .author a, 
-.top-sec .tab-content .comments a, 
+.top-sec .tab-content .author a,
+.top-sec .tab-content .comments a,
 .top-sec .tab-content .time{
     color: #fff;
 }
@@ -1865,11 +1865,11 @@ footer .calendar_wrap table td a{
     color: #e74c3c;
 }
 .widget-area .widget_spidermag_latest_random_post .img-thumbnail {
-     background: #f8f8f8; 
-     border: 1px solid #ededed; 
+    background: #f8f8f8;
+    border: 1px solid #ededed;
 }
-.widget_spidermag_latest_random_post .list-unstyled li h4 a:hover, 
-.widget_spidermag_latest_random_post .author a:hover, 
+.widget_spidermag_latest_random_post .list-unstyled li h4 a:hover,
+.widget_spidermag_latest_random_post .author a:hover,
 .widget_spidermag_latest_random_post .comments a:hover {
     color: #e74c3c;
 }
@@ -1885,7 +1885,7 @@ footer .calendar_wrap table td a{
 /*--------------------------------------------
 ADVERTISEMENT AREA (336PX*280PX)
 ---------------------------------------------*/
-.sponsored, 
+.sponsored,
 .sponsored:focus {
     display: block;
     text-align: center;
@@ -1911,34 +1911,34 @@ ADVERTISEMENT AREA (336PX*280PX)
 /*--------------------------------------------
 WIDGET BLOCK SECTION
 ---------------------------------------------*/
-/* .widget_spidermag_first_block, 
-.widget_spidermag_second_block, 
-.widget_spidermag_third_block, 
-.widget_spidermag_four_block, 
-.widget_spidermag_five_block, 
-.widget_spidermag_six_block, 
+/* .widget_spidermag_first_block,
+.widget_spidermag_second_block,
+.widget_spidermag_third_block,
+.widget_spidermag_four_block,
+.widget_spidermag_five_block,
+.widget_spidermag_six_block,
 .widget_spidermag_seven_block,
 .widget_text{
     margin-bottom: 20px;
 } */
 
-/*.widget_spidermag_first_block .img-thumbnail,*/ 
+/*.widget_spidermag_first_block .img-thumbnail,*/
 .widget_spidermag_second_block .img-thumbnail,
-.widget_spidermag_second_block .img-thumbnail, 
-.widget_spidermag_third_block .img-thumbnail, 
-.widget_spidermag_four_block .img-thumbnail, 
-.widget_spidermag_five_block .img-thumbnail, 
-.widget_spidermag_five_block .img-thumbnail, 
+.widget_spidermag_second_block .img-thumbnail,
+.widget_spidermag_third_block .img-thumbnail,
+.widget_spidermag_four_block .img-thumbnail,
+.widget_spidermag_five_block .img-thumbnail,
+.widget_spidermag_five_block .img-thumbnail,
 .widget_spidermag_six_block .img-thumbnail {
     margin-bottom: 10px;
 }
 
-.widget_spidermag_first_block p, 
-.widget_spidermag_second_block p, 
-.widget_spidermag_third_block p, 
+.widget_spidermag_first_block p,
+.widget_spidermag_second_block p,
+.widget_spidermag_third_block p,
 .widget_spidermag_four_block p,
-.widget_spidermag_five_block p, 
-.widget_spidermag_six_block p, 
+.widget_spidermag_five_block p,
+.widget_spidermag_six_block p,
 .widget_spidermag_seven_block p {
     margin-bottom: 0;
 }
@@ -1994,7 +1994,7 @@ WIDGET BLOCK SECTION
     padding-bottom: 5px;
     left: 12px;
     right: 0%;
-    line-height: 20px;   
+    line-height: 20px;
 }
 .widget_spidermag_seven_block .carousel-caption a{
     color:#fff;
@@ -2004,9 +2004,9 @@ WIDGET BLOCK SECTION
     bottom:6px;
     line-height:18px;
 }
-.widget_spidermag_seven_block .category-caption {   
-    z-index: 10;   
-    color: #ffffff;  
+.widget_spidermag_seven_block .category-caption {
+    z-index: 10;
+    color: #ffffff;
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
@@ -2015,7 +2015,7 @@ WIDGET BLOCK SECTION
     top: 5px;
 }
 .widget_spidermag_seven_block .box .overlay{
-        opacity: 0.5;
+    opacity: 0.5;
 }
 .widget_spidermag_seven_block .box img.img-thumbnail{
     padding:0px;
@@ -2052,8 +2052,8 @@ WIDGET BLOCK SECTION
 .nav-tabs li a:hover {
     background-color: #78899b;
 }
-.nav-tabs li.active a, 
-.nav-tabs li.active a:hover, 
+.nav-tabs li.active a,
+.nav-tabs li.active a:hover,
 .nav-tabs li.active a:focus {
     background-color: #e74c3c;
     color: #fff;
@@ -2065,8 +2065,8 @@ WIDGET BLOCK SECTION
 .nav-tabs.nav-justified li a {
     border-bottom: none;
 }
-.nav-tabs.nav-justified li.active a, 
-.nav-tabs.nav-justified li.active a:hover, 
+.nav-tabs.nav-justified li.active a,
+.nav-tabs.nav-justified li.active a:hover,
 .nav-tabs.nav-justified li.active a:focus {
     background: #e74c3c;
     border: none;
@@ -2172,7 +2172,7 @@ WIDGET BLOCK SECTION
 .blog-item:hover img {
     opacity: 0.8;
 }
-.read-more, 
+.read-more,
 .read-more:focus {
     display: block;
     color: #e74c3c;
@@ -2210,7 +2210,7 @@ WIDGET BLOCK SECTION
 }
 
 /**
- * Slider Block Widget 
+ * Slider Block Widget
 */
 .widget_spidermag_slider_block .slider-meta{
     bottom: 0px;
@@ -2228,8 +2228,8 @@ WIDGET BLOCK SECTION
     font-size: 11px;
     color: #fff;
 }
-.widget_spidermag_slider_block .cat {   
-   width: 100%
+.widget_spidermag_slider_block .cat {
+    width: 100%
 }
 .widget_spidermag_slider_block .right-img-top .box{
     background-size:100%;
@@ -2242,7 +2242,7 @@ WIDGET BLOCK SECTION
 .widget_spidermag_slider_block .right-img-top .box:hover{
     background-size:110%;
 }
-.cat-links a, 
+.cat-links a,
 .widget_spidermag_second_block .cat-links a {
     background-color: #289dcc;
     color: #fff;
@@ -2257,18 +2257,18 @@ WIDGET BLOCK SECTION
     white-space: nowrap;
     border-radius: 30px !important;
 }
-.widget_spidermag_slider_carousel_block .slider-meta a, 
+.widget_spidermag_slider_carousel_block .slider-meta a,
 .widget_spidermag_slider_carousel_block .carousel-caption a,
-.cat-links a:hover, 
-.cat-links a:focus, 
+.cat-links a:hover,
+.cat-links a:focus,
 .widget_spidermag_second_block .cat-links a:hover ,
 .widget_spidermag_slider_block .author a:hover,
 .widget_spidermag_slider_carousel_block .author .icon,
 .widget_spidermag_slider_block .author a{
     color: #fff !important;
 }
-.cat-links a:hover, 
-.cat-links a:focus, 
+.cat-links a:hover,
+.cat-links a:focus,
 .widget_spidermag_second_block .cat-links a:hover {
     color: #989595 !important;
 }
@@ -2320,7 +2320,7 @@ WIDGET BLOCK SECTION
     border: none;
     outline: none;
 }
-.owl-prev:hover, .owl-prev:focus, 
+.owl-prev:hover, .owl-prev:focus,
 .owl-next:hover, .owl-next:focus {
     outline: none;
     background: #e74c3c;
@@ -2360,7 +2360,7 @@ WIDGET BLOCK SECTION
 .owl-theme .owl-controls .owl-page {
     display: inline-block;
     zoom: 1;
-   *display: inline; /*IE7 life-saver */
+    *display: inline; /*IE7 life-saver */
 }
 .owl-theme .owl-controls .owl-page span {
     display: block;
@@ -2375,7 +2375,7 @@ WIDGET BLOCK SECTION
 .owl-theme .active span {
     background: #e74c3c;
 }
-.owl-theme .owl-controls .owl-page.active span, 
+.owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
     filter: Alpha(Opacity=100);/*IE7 fix*/
     opacity: 1;
@@ -2730,7 +2730,7 @@ WIDGET BLOCK SECTION
 .single-gallery li {
     float: left;
     margin: 6px 6px 0px 0px;
-    list-style-type: none;    
+    list-style-type: none;
 }
 .single-gallery li a img{
     border: 1px solid #2964a0;
@@ -2738,7 +2738,7 @@ WIDGET BLOCK SECTION
 .single-gallery li a img:hover{
     border: 1px solid #E74C3C;
 }
-.f-sub-info .author , 
+.f-sub-info .author ,
 .slider-meta .author {
     display: inline-block !important;
 }
@@ -2747,17 +2747,17 @@ WIDGET BLOCK SECTION
     color: #fff !important;
     background: #E74C3C;
 }
-.box-header-nav .main-menu>ul>.page_item:hover a, 
+.box-header-nav .main-menu>ul>.page_item:hover a,
 .box-header-nav .main-menu>.menu-item:hover a,
 .navbar-inverse .navbar-nav li:focus,
 .navbar-inverse .navbar-nav li:hover {
     background: #212020;
 }
-.box-header-nav .main-menu>ul>.page_item:hover a, 
+.box-header-nav .main-menu>ul>.page_item:hover a,
 .box-header-nav .main-menu>.menu-item:hover a,
 .navbar-inverse .navbar-nav li:focus a,
 .navbar-inverse .navbar-nav li:hover a{
-     color: #fff !important;
+    color: #fff !important;
 }
 .second > li:first-child a {
     padding-left: 15px !important;
@@ -2793,9 +2793,9 @@ WIDGET BLOCK SECTION
 }
 .standardpost .stanterpost-single-post .sub-info-bordered span,
 .standardpost .stanterpost-single-post .sub-info-bordered a,
-.standardpost .stanterpost-single-post .sub-info-bordered a, 
+.standardpost .stanterpost-single-post .sub-info-bordered a,
 .standardpost .stanterpost-single-post .sub-info-bordered span::before {
-    color: #fff !important;   
+    color: #fff !important;
 }
 .standardpost .stanterpost-single-post .sub-info-bordered a:hover{
     color: #d6d2d1 !important;
@@ -2812,12 +2812,12 @@ WIDGET BLOCK SECTION
     font-weight: 600;
     font-size: 30px;
 }
- 
+
 /*------------------------------------
   PREVIOUS AND NEXT POST BUTTON
 -------------------------------------*/
 .spidermagnav-links {
-        margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .spidermagnav-links a{
     font-size: 17px;
@@ -2871,7 +2871,7 @@ WIDGET BLOCK SECTION
     top: 38%;
 }
 .spidermagnav-links .nav-next a:before {
-      content: "";
+    content: "";
     width: 26px;
     height: 26px;
     position: absolute;
@@ -3016,8 +3016,8 @@ WIDGET BLOCK SECTION
     box-shadow: none;
 }
 
-.comments-area ul li, 
-.comments-area li, 
+.comments-area ul li,
+.comments-area li,
 .comment-body{
     list-style:none;
     margin-bottom:15px;
@@ -3119,9 +3119,9 @@ footer .stars {
     color: #b0b7bf;
 }
 
-footer .widget_spidermag_latest_random_post .list-unstyled li h4 a, 
+footer .widget_spidermag_latest_random_post .list-unstyled li h4 a,
 footer .widget_spidermag_latest_random_post .author a,
-footer .widget_spidermag_latest_random_post .comments a, 
+footer .widget_spidermag_latest_random_post .comments a,
 footer .widget_spidermag_latest_random_post .time, .f-sub-info {
     color: #fff;
 }
@@ -3131,7 +3131,7 @@ footer .widget-area .widget_spidermag_latest_random_post .list-unstyled li h4 a 
 }
 
 footer .widget_recent_comments ul li a,
-footer .widget_recent_entries ul li a, 
+footer .widget_recent_entries ul li a,
 footer .widget_meta ul li a,
 footer .widget_rss ul li a,
 footer .rsswidget,
@@ -3150,7 +3150,7 @@ footer a.rsswidget:hover{
 }
 
 
-footer .widget_nav_menu ul.menu li a, 
+footer .widget_nav_menu ul.menu li a,
 footer .widget_pages ul li a{
     color: #fff;
 }
@@ -3241,12 +3241,12 @@ footer .widget_rss ul li a{
 /**
  * Contact 7 Plugins defult css
 */
-div.wpcf7 { 
+div.wpcf7 {
     background-color: #f9f9f9;
     border: 1px solid #e74c3c;
     padding: 20px;
 }
-.wpcf7 label { 
+.wpcf7 label {
     display: block;
     margin-bottom: 15px;
 }
@@ -3257,10 +3257,10 @@ div.wpcf7 {
 .wpcf7 textarea,
 .wpcf7 select {
     width: 100%;
-    padding: 10px;    
+    padding: 10px;
 }
 .wpcf7 input[type="submit"],
-.wpcf7 input[type="button"] { 
+.wpcf7 input[type="button"] {
     background-color:#da4839;
     border: 1px solid #da4839;
     text-align:center;
@@ -3268,7 +3268,7 @@ div.wpcf7 {
     float: right;
 }
 .wpcf7 input[type="submit"]:hover,
-.wpcf7 input[type="button"]:hover { 
+.wpcf7 input[type="button"]:hover {
     background: transparent;
     border: 1px solid #da4839;
     color: #da4839;
@@ -3459,7 +3459,7 @@ div.wpcf7 {
     color: #e74c3c;
 }
 
-.woocommerce form .form-row input.input-text, 
+.woocommerce form .form-row input.input-text,
 .woocommerce form .form-row textarea{
     padding: 10px;
 }
@@ -3491,16 +3491,16 @@ div.wpcf7 {
     font-weight: 500;
 }
 
-.woocommerce #respond input#submit.alt, 
-.woocommerce a.button.alt, 
-.woocommerce button.button.alt, 
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
 .woocommerce input.button.alt {
     background-color: #e74c3c;
 }
 
-.woocommerce #respond input#submit:hover, 
-.woocommerce a.button:hover, 
-.woocommerce button.button:hover, 
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
 .woocommerce input.button:hover {
     background-color: #fff;
     color: #e74c3c;
@@ -3513,8 +3513,8 @@ div.wpcf7 {
     margin: 0;
     background: #2964a0;
 }
-.woocommerce ul.products li.product .woocommerce-loop-category__title, 
-.woocommerce ul.products li.product .woocommerce-loop-product__title, 
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
 .woocommerce ul.products li.product h3 {
     font-size: 1.2em;
     text-align: center;
@@ -3545,7 +3545,7 @@ div.wpcf7 {
 }
 
 /**
- * Product Single Page Product Meta 
+ * Product Single Page Product Meta
 */
 .product_meta {
     padding-bottom: 10px;
@@ -3671,14 +3671,14 @@ div.wpcf7 {
     margin-right: 10px;
 }
 
-.woocommerce ul.cart_list li .star-rating, 
+.woocommerce ul.cart_list li .star-rating,
 .woocommerce ul.product_list_widget li .star-rating,
 .woocommerce .widget_rating_filter ul li a {
     font-size: 12px;
     margin: 5px 0;
 }
 
-footer .woocommerce ul.cart_list li a, 
+footer .woocommerce ul.cart_list li a,
 footer .woocommerce ul.product_list_widget li a {
     color: #fff;
     margin-bottom: 10px;
@@ -3689,14 +3689,14 @@ footer .woocommerce ul.product_list_widget li a {
  * Update CSS
 */
 
-.navbar>div>ul li.menu-item-has-children, 
-.navbar>div>ul li.page_item_has_children, 
+.navbar>div>ul li.menu-item-has-children,
+.navbar>div>ul li.page_item_has_children,
 .navbar>div>ul li.page_item_has_children {
     position: relative;
 }
 
-span.sub-toggle, 
-span.sub-toggle-children, 
+span.sub-toggle,
+span.sub-toggle-children,
 span.sub-toggle-cat {
     display: none;
     position: absolute;
@@ -3729,7 +3729,7 @@ span.sub-toggle-cat {
     margin-left: 0;
 }
 .lSSlideOuter .lSPager.lSGallery img {
-    border-radius: 6px !important; 
+    border-radius: 6px !important;
 }
 .lSSlideOuter .lSPager.lSpg > li a {
     border-radius: 100% !important;
@@ -3794,7 +3794,7 @@ span.sub-toggle-cat {
     justify-content: center;
 }
 
-.lSPrev:hover, .lSPrev:focus, 
+.lSPrev:hover, .lSPrev:focus,
 .lSNext:hover, .lSNext:focus {
     outline: none;
     opacity: 0.7 !important;
@@ -3809,7 +3809,7 @@ span.sub-toggle-cat {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.lSPrev:hover:before, 
+.lSPrev:hover:before,
 .lSNext:hover::before {
     color: #fff !important;
 }
@@ -3826,7 +3826,7 @@ span.sub-toggle-cat {
     content: "\f154";
 }
 
-.lSSlideOuter .lSPager.lSpg>li.active a, 
+.lSSlideOuter .lSPager.lSpg>li.active a,
 .lSSlideOuter .lSPager.lSpg>li:hover a {
     background-color: #e74d3d;
 }
@@ -3955,10 +3955,10 @@ aside.widget_spidermag_tabbed_format_post .list-unstyled li{
     padding: 0;
 }
 .spmag-hidden h4 a,
-.post-list h5 a, 
+.post-list h5 a,
 .small-box h5 a,
-.author-part h5 a, 
-.author-part h4 a, 
+.author-part h5 a,
+.author-part h4 a,
 .author-part h3 a{
     color: #343434;
 }
@@ -3989,12 +3989,12 @@ body.sp-blackmode .section-title h3::after,
 body.sp-blackmode .big-content-part,
 body.sp-blackmode .widget-area aside,
 body.sp-blackmode .section-title h3,
-body.sp-blackmode .pagination .nav-links span, 
+body.sp-blackmode .pagination .nav-links span,
 body.sp-blackmode .pagination .nav-links a,
 body.sp-blackmode footer .top-sec,
 body.sp-blackmode .calendar_wrap caption,
 body.sp-blackmode .author-info,
-body.sp-blackmode .widget_search .search-field, 
+body.sp-blackmode .widget_search .search-field,
 body.sp-blackmode .widget_product_search .search-field,
 body.sp-blackmode .form-control,
 body.sp-blackmode blockquote,
@@ -4003,14 +4003,14 @@ body.sp-blackmode .widget_spidermag_tabbed_format_post,
 body.sp-blackmode .masonry-item,
 body.sp-blackmode .widget_spidermag_second_block {
     background-color: #212121;
-} 
+}
 /* --color--- */
 body.sp-blackmode .post-box-wrapper .section-title h4,
 body.sp-blackmode .section-title h3,
-body.sp-blackmode .post-list h5 a, 
+body.sp-blackmode .post-list h5 a,
 body.sp-blackmode .small-box h5 a,
-body.sp-blackmode .author-part h5 a, 
-body.sp-blackmode .author-part h4 a, 
+body.sp-blackmode .author-part h5 a,
+body.sp-blackmode .author-part h4 a,
 body.sp-blackmode .author-part h3 a,
 body.sp-blackmode .pagination .nav-links span, .pagination .nav-links a,
 body.sp-blackmode .header-toolbar .f-social a,
@@ -4020,25 +4020,25 @@ body.sp-blackmode .calendar_wrap caption,
 body.sp-blackmode .author-box .list-inline > li a,
 body.sp-blackmode .widget_pages a,
 body.sp-blackmode footer .widget_categories a::before,
-body.sp-blackmode footer .widget_archive a::before, 
-body.sp-blackmode footer .widget_categories a::before, 
-body.sp-blackmode footer .widget_recent_entries a::before, 
-body.sp-blackmode footer .widget_meta a::before, 
-body.sp-blackmode footer .widget_recent_comments li::before, 
-body.sp-blackmode footer .widget_rss li::before, 
-body.sp-blackmode footer .widget_pages li::before, 
-body.sp-blackmode footer .widget_nav_menu li::before, 
-body.sp-blackmode footer .widget_product_categories a::before, 
-body.sp-blackmode footer .widget_archive a, 
-body.sp-blackmode footer .widget_categories a, 
-body.sp-blackmode footer .widget_recent_entries a, 
-body.sp-blackmode footer .widget_meta a, 
-body.sp-blackmode footer .widget_recent_comments li, 
-body.sp-blackmode footer .widget_rss li, 
-body.sp-blackmode footer .widget_pages li, 
-body.sp-blackmode footer .widget_nav_menu li, 
-body.sp-blackmode footer .widget_product_categories a, 
-body.sp-blackmode footer .calendar_wrap table td, 
+body.sp-blackmode footer .widget_archive a::before,
+body.sp-blackmode footer .widget_categories a::before,
+body.sp-blackmode footer .widget_recent_entries a::before,
+body.sp-blackmode footer .widget_meta a::before,
+body.sp-blackmode footer .widget_recent_comments li::before,
+body.sp-blackmode footer .widget_rss li::before,
+body.sp-blackmode footer .widget_pages li::before,
+body.sp-blackmode footer .widget_nav_menu li::before,
+body.sp-blackmode footer .widget_product_categories a::before,
+body.sp-blackmode footer .widget_archive a,
+body.sp-blackmode footer .widget_categories a,
+body.sp-blackmode footer .widget_recent_entries a,
+body.sp-blackmode footer .widget_meta a,
+body.sp-blackmode footer .widget_recent_comments li,
+body.sp-blackmode footer .widget_rss li,
+body.sp-blackmode footer .widget_pages li,
+body.sp-blackmode footer .widget_nav_menu li,
+body.sp-blackmode footer .widget_product_categories a,
+body.sp-blackmode footer .calendar_wrap table td,
 body.sp-blackmode footer .calendar_wrap table td a,
 body.sp-blackmode .topmain-nav li a,
 body.sp-blackmode .header-toolbar,
@@ -4052,24 +4052,24 @@ body.sp-blackmode .spidermagnav-links .nav-next a:after,
 body.sp-blackmode .spidermagnav-links .nav-previous a:after,
 body.sp-blackmode .widget_recent_comments li a,
 body.sp-blackmode blockquote p,
-body.sp-blackmode .widget_archive a, 
-body.sp-blackmode .widget_categories a, 
-body.sp-blackmode .widget_recent_entries a, 
-body.sp-blackmode .widget_meta a, 
-body.sp-blackmode .widget_recent_comments li, 
-body.sp-blackmode .widget_rss li, 
-body.sp-blackmode .widget_pages li, 
+body.sp-blackmode .widget_archive a,
+body.sp-blackmode .widget_categories a,
+body.sp-blackmode .widget_recent_entries a,
+body.sp-blackmode .widget_meta a,
+body.sp-blackmode .widget_recent_comments li,
+body.sp-blackmode .widget_rss li,
+body.sp-blackmode .widget_pages li,
 body.sp-blackmode .widget_nav_menu li,
 body.sp-blackmode .widget_nav_menu li a,
 body.sp-blackmode .widget_product_categories a,
 body.sp-blackmode .custom-header-wrapper h1,
 body.sp-blackmode .widget_spidermag_slider_block .author .icon,
-body.sp-blackmode .widget_spidermag_slider_carousel_block .slider-meta a, 
-body.sp-blackmode .widget_spidermag_slider_carousel_block .carousel-caption a, 
-body.sp-blackmode .cat-links a:hover, .cat-links a:focus, 
-body.sp-blackmode .widget_spidermag_second_block .cat-links a:hover, 
-body.sp-blackmode .widget_spidermag_slider_block .author a:hover, 
-body.sp-blackmode .widget_spidermag_slider_carousel_block .author .icon, 
+body.sp-blackmode .widget_spidermag_slider_carousel_block .slider-meta a,
+body.sp-blackmode .widget_spidermag_slider_carousel_block .carousel-caption a,
+body.sp-blackmode .cat-links a:hover, .cat-links a:focus,
+body.sp-blackmode .widget_spidermag_second_block .cat-links a:hover,
+body.sp-blackmode .widget_spidermag_slider_block .author a:hover,
+body.sp-blackmode .widget_spidermag_slider_carousel_block .author .icon,
 body.sp-blackmode .widget_spidermag_slider_block .author a,
 body.sp-blackmode .banner-outer .carousel-caption,
 body.sp-blackmode .navbar-nav > li.menu-item-has-children > a:after,
@@ -4083,10 +4083,10 @@ body.sp-blackmode .spmag-hidden h4 a,
 body.sp-blackmode .main-title,
 body.sp-blackmode .sec-info h3 a,
 body.sp-blackmode .topic h3 a,
-body.sp-blackmode h3 a, 
+body.sp-blackmode h3 a,
 body.sp-blackmode h4 a,
-body.sp-blackmode h1, 
-body.sp-blackmode h2, 
+body.sp-blackmode h1,
+body.sp-blackmode h2,
 body.sp-blackmode h3,
 body.sp-blackmode h4,
 body.sp-blackmode h5,

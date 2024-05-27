@@ -296,5 +296,4 @@ jQuery(document).ready(function($) { "use strict";
             $('.spider_slider').removeClass('cS-hidden');
         },
     });
-    
 });

@@ -354,7 +354,7 @@ if ( ! function_exists( 'spidermag_footer_copyright' ) ){
     function spidermag_footer_copyright() {
         printf( esc_html__('&copy; %1$s %2$s', 'spidermag'), esc_attr( get_the_time("Y") ), esc_attr( get_bloginfo('name') ) );
       ?> - <?php  
-          printf( esc_html__( 'WordPress Theme : by %2$s', 'spidermag' ), '', '<a href="'.esc_url('https://sparklewpthemes.com' ).'">Sparkle Themes</a>'  );
+          printf( esc_html__( 'WordPress Theme : by %2$s', 'spidermag' ), '', '<a href="'.esc_url('https://sparklewp.com' ).'">Sparkle WP</a>'  );
     }
 }
 
