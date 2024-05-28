@@ -1,8 +1,10 @@
 <div class="container-rodape">
     <div class="container">
-    <h2>Endereço</h2>
-        <p><?php echo esc_html(get_theme_mod('set_endereco', __('Configure o endereço da empresa', 
-        'wp-devs'))); ?></p>
+        <div class="endereco">
+        <!-- <h3>Endereço</h3> -->
+            <p><?php echo esc_html(get_theme_mod('set_endereco', __('Configure o endereço da empresa', 
+            'wp-devs'))); ?></p>
+        </div>
     </div>
 </div>
 <footer class="site-footer">

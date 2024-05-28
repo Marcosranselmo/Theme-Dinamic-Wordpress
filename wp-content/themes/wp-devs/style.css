@@ -801,16 +801,8 @@ img {
     }
 }
 
-/* Footer */
-footer{ 
-    background: #1a1a1a; 
-    padding: 15px 0; 
-    color: #696969; 
-}
-
 /* Container Rodape */
-
-.container-rodape{
+.container-rodape .container .endereco p{
     width: 100%;
     text-align: center;
     background-color: #000000;
@@ -819,6 +811,13 @@ footer{
 }
 
 
+/* Footer */
+footer{ 
+    background: #1a1a1a; 
+    padding: 15px 0; 
+    color: #696969; 
+}
+
 /* Footer - Footer Menu */
 .site-footer .container .copyright p{
     align-items: center;
@@ -826,7 +825,7 @@ footer{
  .copyright p{
     text-align: center;
     margin: 0;
-}/*
+}
 .footer-menu ul{ 
     list-style: none; 
     padding: 0; 
@@ -855,7 +854,7 @@ footer{
     .site-footer .container{
         flex-wrap: wrap;
     }
-} */
+}
 
 /************** INNER PAGES *****************/
 
