@@ -23,13 +23,12 @@ function wpdevs_customizer( $wp_customize ) {
     $wp_customize->add_control(
         'sec_endereco',
         array(
-            'label' => __( 'Informações do endereço', 'devs' ),
-            'description' => __( 'Por favor, digite o endereço aqui', 'devs' ),
+            'label' => __( 'Informações do Endereço', 'devs' ),
+            'description' => __( 'Por favor, digite o endereço aqui.', 'devs' ),
             'section' => 'sec_endereco',
             'type' => 'text'
         )
     );
-
 
     // 1 Copyright Section
     $wp_customize->add_section(
