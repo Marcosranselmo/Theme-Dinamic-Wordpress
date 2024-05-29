@@ -1,4 +1,4 @@
-<div class="container-rodape">
+<div class="site-rodape">
     <div class="container">
         <div class="endereco">
         <!-- <h3>Endereço</h3> -->

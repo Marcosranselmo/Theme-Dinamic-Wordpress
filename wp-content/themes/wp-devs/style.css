@@ -802,19 +802,27 @@ img {
 }
 
 /* Container Rodape */
-.container-rodape .container .endereco p{
+.site-rodape .container .endereco p{
     width: 100%;
     text-align: center;
+    padding: 10px 0; 
     background-color: #000000;
     color: rgb(168, 168, 168);
-    height: 150px;
 }
-
+/* .rodape{ 
+    background: #9c0505; 
+    padding: 15px 0; 
+    color: #696969; 
+} */
+.endereco p{
+    text-align: center;
+    margin: 0;
+}
 
 /* Footer */
 footer{ 
     background: #1a1a1a; 
-    padding: 15px 0; 
+    padding: 10px 0; 
     color: #696969; 
 }
 
