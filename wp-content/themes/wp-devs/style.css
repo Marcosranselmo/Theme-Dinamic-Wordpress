@@ -809,15 +809,16 @@ img {
     background-color: #000000;
     color: rgb(168, 168, 168);
 }
-/* .rodape{ 
-    background: #9c0505; 
+.endereco{ 
+    background: #000000; 
     padding: 15px 0; 
     color: #696969; 
-} */
-.endereco p{
+    text-align: center;
+}
+/* .endereco p{
     text-align: center;
     margin: 0;
-}
+} */
 
 /* Footer */
 footer{ 
@@ -834,6 +835,8 @@ footer{
     text-align: center;
     margin: 0;
 }
+
+/* Footer Menu */
 .footer-menu ul{ 
     list-style: none; 
     padding: 0; 

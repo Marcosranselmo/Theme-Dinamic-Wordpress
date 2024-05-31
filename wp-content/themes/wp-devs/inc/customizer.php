@@ -2,7 +2,7 @@
 
 function wpdevs_customizer( $wp_customize ) {
 
-    // 1 Copyright Section
+    // 1 Endereço Section
     $wp_customize->add_section(
         'sec_endereco',
         array (
@@ -183,7 +183,7 @@ $wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize,
         'mine_type' => 'image'
     )));
 
-            // 3. Blog
+    // 3. Blog
 $wp_customize->add_section( 
     'sec_blog', 
     array(
