@@ -801,24 +801,38 @@ img {
     }
 }
 
-/* Container Rodape */
-.site-rodape .container .endereco p{
+/* Container Endereço */
+.site-rodape {
     width: 100%;
+    padding: 0 0 0 0px;
     text-align: center;
-    padding: 10px 0; 
-    background-color: #000000;
+    /* padding: 20px 0; */ 
+    background-color: #770808;
     color: rgb(168, 168, 168);
 }
+
+.site-rodape .container {
+    padding: 0;
+}
+
 .endereco{ 
+    /* width: 100%; */
     background: #000000; 
-    padding: 15px 0; 
+    /* padding: 10px 0;  */
     color: #696969; 
     text-align: center;
+   /*  padding: 0; 
+    margin: 0; */
 }
-/* .endereco p{
+
+.endereco .h3 {
+    margin-bottom: -30px;
+}
+
+.endereco p{
     text-align: center;
     margin: 0;
-} */
+}
 
 /* Footer */
 footer{ 
