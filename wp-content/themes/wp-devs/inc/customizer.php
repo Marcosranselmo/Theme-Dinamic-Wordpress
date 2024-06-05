@@ -12,7 +12,7 @@ function wpdevs_customizer( $wp_customize ) {
     );
 
     $wp_customize->add_setting(
-        'sec_endereco',
+        'set_endereco',
         array(
             'type' => 'theme_mod',
             'default' => __( 'Rua: Santana de Assis', 'devs' ),
@@ -21,7 +21,7 @@ function wpdevs_customizer( $wp_customize ) {
     );
 
     $wp_customize->add_control(
-        'sec_endereco',
+        'set_endereco',
         array(
             'label' => __( 'Informações do Endereço', 'devs' ),
             'description' => __( 'Por favor, digite o endereço aqui.', 'devs' ),
