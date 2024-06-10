@@ -803,9 +803,6 @@ img {
 
 /* Container Endereço */
 .site-rodape {
-    /* padding: 0; */
-    /* margin: 0; */
-    /* width: 100%; */
     text-align: center;
     padding: 0px 0px 0 0; 
     background-color: #000000;
@@ -821,7 +818,6 @@ img {
     color: #696969; 
     text-align: center;
     margin-top: -10px;
-    /* margin-bottom: -50px; */
 }
 
 .endereco h6 {
