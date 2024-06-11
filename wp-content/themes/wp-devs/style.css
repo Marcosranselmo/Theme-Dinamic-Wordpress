@@ -802,19 +802,36 @@ img {
 }
 
 /* Container Endereço */
+.site-rodape .container .endereco1 {
+    float: left;
+    width: 50%;
+}
+
 .site-rodape {
     text-align: center;
     padding: 0px 0px 0 0; 
     background-color: #000000;
-    color: rgb(168, 168, 168);
+    color: rgb(255, 255, 255);
 }
 
 .site-rodape .container {
     padding: 0;
 }
 
+.endereco1{ 
+    background: #3c5aff; 
+    color: #ffffff; 
+    text-align: center;
+    margin-top: -10px;
+}
+
+.site-rodape .container .endereco {
+    float: right;
+    width: 50%;
+}
+
 .endereco{ 
-    background: #000000; 
+    background: #c5c5c5; 
     color: #696969; 
     text-align: center;
     margin-top: -10px;
@@ -826,7 +843,19 @@ img {
     font-size: 18px;
 }
 
+.endereco1 h6 {
+    margin: 0;
+    padding: 50px 0 15px 0;
+    font-size: 18px;
+}
+
 .endereco p{
+    text-align: center;
+    padding: 0px 0 40px 0;
+    margin: 0;
+}
+
+.endereco1 p{
     text-align: center;
     padding: 0px 0 40px 0;
     margin: 0;
