@@ -809,7 +809,7 @@ img {
 
 .site-rodape {
     text-align: center;
-    padding: 0px 0px 0 0; 
+    /* padding: 0px 0px 0 0;  */
     background-color: #000000;
     color: rgb(255, 255, 255);
 }
@@ -866,6 +866,7 @@ footer{
     background: #1a1a1a; 
     color: #696969; 
     float: left;
+    width: 100%;
 }
 
 /* Footer - Footer Menu */
@@ -874,27 +875,27 @@ footer{
 }
  .copyright p{
     text-align: center;
-    margin: 0;
+    /* margin: 0; */
     /* margin-top: 20px; */
 }
 
 /* Footer Menu */
-.footer-menu ul{ 
+/* .footer-menu ul{ 
     list-style: none; 
     padding: 0; 
     margin: 0; 
-}
-.footer-menu ul li{ 
+} */
+/* .footer-menu ul li{ 
     display: inline;  
     margin: 0 15px 0 0;
-}
-.footer-menu ul li:last-child{ 
+} */
+/* .footer-menu ul li:last-child{ 
     margin: 0; 
-}
-.footer-menu ul li a{  
+} */
+/* .footer-menu ul li a{  
     text-decoration: none;
     color: #FFFFFF;
-}
+} */
 .footer-menu ul li.current_page_item a{ 
     font-weight: bold; 
 }
