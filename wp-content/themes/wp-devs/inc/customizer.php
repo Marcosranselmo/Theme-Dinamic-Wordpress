@@ -2,17 +2,17 @@
 
 function wpdevs_customizer( $wp_customize ) {
 
-    // 1 Endereço Section
+    // 1 Localização
     $wp_customize->add_section(
-        'sec_endereco',
+        'sec_localizacao',
         array (
-            'title' => __( 'Adicionar Endereço', 'devs' ),
+            'title' => __( 'Adicionar Endereço da Empresa', 'devs' ),
             'description' => __( 'Configurações do Endereço', 'devs' ), 
         )
     );
 
     $wp_customize->add_setting(
-        'set_endereco',
+        'set_localizacao',
         array(
             'type' => 'theme_mod',
             'default' => __( 'Rua: Santana de Assis', 'devs' ),
@@ -21,11 +21,39 @@ function wpdevs_customizer( $wp_customize ) {
     );
 
     $wp_customize->add_control(
-        'set_endereco',
+        'set_localizacao',
         array(
             'label' => __( 'Informações do Endereço', 'devs' ),
             'description' => __( 'Por favor, digite o endereço aqui.', 'devs' ),
-            'section' => 'sec_endereco',
+            'section' => 'sec_localizacao',
+            'type' => 'text'
+        )
+    );
+
+    // 1 Endereço Section
+    $wp_customize->add_section(
+        'sec_horario-atendimento',
+        array (
+            'title' => __( 'Adicionar Horário de Atendimento', 'devs' ),
+            'description' => __( 'Configurações do Horário', 'devs' ), 
+        )
+    );
+
+    $wp_customize->add_setting(
+        'set_horario-atendimento',
+        array(
+            'type' => 'theme_mod',
+            'default' => __( 'Das 00h as 00h', 'devs' ),
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_horario-atendimento',
+        array(
+            'label' => __( 'Informações do horário atencimento', 'devs' ),
+            'description' => __( 'Por favor, digite o horário aqui.', 'devs' ),
+            'section' => 'sec_horario-atendimento',
             'type' => 'text'
         )
     );

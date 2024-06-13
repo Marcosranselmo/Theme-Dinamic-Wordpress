@@ -4,12 +4,12 @@
     <div class="container">
         <div class="localizacao">
         <h6>Localização</h6>
-            <p><?php echo esc_html(get_theme_mod('set_endereco', __('Configure o endereço da empresa', 
+            <p><?php echo esc_html(get_theme_mod('set_localizacao', __('Configure o endereço da empresa', 
             'wp-devs'))); ?></p>
         </div>
-        <div class="endereco">
-        <h6>Endereço</h6>
-            <p><?php echo esc_html(get_theme_mod('set_endereco', __('Configure o endereço da empresa', 
+        <div class="horario-atendimento">
+        <h6>Horário Atendimento</h6>
+            <p><?php echo esc_html(get_theme_mod('set_horario-atendimento', __('Configure o horário de atendimento da empresa', 
             'wp-devs'))); ?></p>
         </div>
     </div>

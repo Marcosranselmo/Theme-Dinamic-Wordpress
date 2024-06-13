@@ -801,10 +801,10 @@ img {
     }
 }
 
-/* Localização */
+/* Informações */
 .informacoes {
     background-color: #1a1a1a;
-    color: wheat;
+    color: #fff;
     text-align: center;
     font-size: 25px;
     padding: 40px 0 0 0;
@@ -814,60 +814,38 @@ img {
 .site-rodape .container .localizacao {
     float: left;
     width: 50%;
-}
-
-.site-rodape {
-    text-align: center;
-    /* padding: 0px 0px 0 0;  */
-    background-color: #1a1a1a;
-    color: rgb(255, 255, 255);
-}
-
-.site-rodape .container {
     padding: 0;
 }
 
 .localizacao{ 
+    background: #646a8b; 
+    color: #ffffff; 
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
+
+.localizacao p {
+    margin: -10px 30px 30px 30px;
+}
+
+/* Horário Atendimento */
+.site-rodape .container .horario-atendimento {
+    float: left;
+    width: 50%;
+    padding: 0;
+}
+
+.horario-atendimento{ 
     background: #3c5aff; 
     color: #ffffff; 
     text-align: center;
-    /* margin-top: -10px; */
-}
-
-.site-rodape .container .endereco {
-    float: right;
-    width: 50%;
-}
-
-.endereco{ 
-    background: #c5c5c5; 
-    color: #696969; 
-    text-align: center;
-    /* margin-top: -10px; */
-}
-
-.endereco h6 {
-    margin: 0;
-    padding: 50px 0 15px 0;
-    font-size: 18px;
-}
-
-.endereco1 h6 {
-    margin: 0;
-    padding: 50px 0 15px 0;
-    font-size: 18px;
-}
-
-.endereco p{
-    text-align: center;
-    padding: 0px 0 40px 0;
+    font-size: 25px;
     margin: 0;
 }
 
-.endereco1 p{
-    text-align: center;
-    padding: 0px 0 40px 0;
-    margin: 0;
+.horario-atendimento p {
+    margin: -10px 30px 30px 30px;
 }
 
 /* Footer */
