@@ -1,7 +1,9 @@
+<div class="informacoes">Informações</div>
+
 <div class="site-rodape">
     <div class="container">
-        <div class="endereco1">
-        <h6>Endereço1</h6>
+        <div class="localizacao">
+        <h6>Localização</h6>
             <p><?php echo esc_html(get_theme_mod('set_endereco', __('Configure o endereço da empresa', 
             'wp-devs'))); ?></p>
         </div>

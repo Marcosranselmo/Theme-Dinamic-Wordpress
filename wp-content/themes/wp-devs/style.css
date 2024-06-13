@@ -801,8 +801,17 @@ img {
     }
 }
 
+/* Localização */
+.informacoes {
+    background-color: #1a1a1a;
+    color: wheat;
+    text-align: center;
+    font-size: 25px;
+    padding: 40px 0 0 0;
+}
+
 /* Container Endereço */
-.site-rodape .container .endereco1 {
+.site-rodape .container .localizacao {
     float: left;
     width: 50%;
 }
@@ -810,7 +819,7 @@ img {
 .site-rodape {
     text-align: center;
     /* padding: 0px 0px 0 0;  */
-    background-color: #000000;
+    background-color: #1a1a1a;
     color: rgb(255, 255, 255);
 }
 
@@ -818,7 +827,7 @@ img {
     padding: 0;
 }
 
-.endereco1{ 
+.localizacao{ 
     background: #3c5aff; 
     color: #ffffff; 
     text-align: center;
@@ -863,7 +872,7 @@ img {
 
 /* Footer */
 footer{ 
-    background: #1a1a1a; 
+    background: #000000; 
     color: #696969; 
     float: left;
     width: 100%;
