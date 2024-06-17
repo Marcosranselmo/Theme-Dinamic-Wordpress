@@ -828,7 +828,7 @@ img {
 }
 
 .localizacao p {
-    margin: -20px 70px 30px 70px;
+    margin: -30px 70px 30px 70px;
 }
 
 /* Horário Atendimento */
@@ -847,7 +847,7 @@ img {
 }
 
 .horario-atendimento p {
-    margin: -20px 70px 30px 70px;
+    margin: -30px 70px 30px 70px;
 }
 
 /* Fale conosco */
@@ -874,10 +874,12 @@ img {
     text-align: center;
     font-size: 25px;
     margin: 0;
+    letter-spacing: 1px;
 }
 
 .tel-fixo p {
-    margin: -20px 35px 30px 35px;
+    margin: -30px 35px 30px 35px;
+    letter-spacing: 1px;
 }
 
 /* whatsapp */
@@ -893,10 +895,12 @@ img {
     text-align: center;
     font-size: 25px;
     margin: 0;
+    letter-spacing: 1px;
 }
 
 .whatsapp p {
-    margin: -20px 35px 30px 35px;
+    margin: -30px 35px 30px 35px;
+    letter-spacing: 1px;
 }
 
 /* Email */
@@ -912,10 +916,12 @@ img {
     text-align: center;
     font-size: 25px;
     margin: 0;
+    letter-spacing: 1px;
 }
 
 .email p {
-    margin: -20px 35px 30px 35px;
+    margin: -30px 35px 30px 35px;
+    letter-spacing: 1px;
 }
 
 /* Footer */
