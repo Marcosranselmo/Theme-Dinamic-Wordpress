@@ -1,3 +1,5 @@
+<!-- Informações -->
+
 <div class="informacoes">Informações</div>
 
 <div class="site-rodape">
@@ -16,7 +18,30 @@
     </div>
 </div>
 
-<div class="fale-conosco">Fale Conosco</div>
+<!-- Fale Conosco -->
+
+<div class="informacoes">Fale conosco</div>
+
+<div class="site-rodape">
+    <div class="container">
+        <div class="tel-fixo">
+        <h6>Telefone Fixo</h6>
+        <!-- <a href=""><img src="./img/icone-localização.png" alt=""></a> -->
+            <p><?php echo esc_html(get_theme_mod('set_tel-fixo', __('Configure o tel. fixo da empresa', 
+            'wp-devs'))); ?></p>
+        </div>
+        <div class="whatsapp">
+        <h6>WhatsApp</h6>
+            <p><?php echo esc_html(get_theme_mod('set_whatsapp', __('Configure o whasapp da empresa', 
+            'wp-devs'))); ?></p>
+        </div>
+        <div class="email">
+        <h6>E-mail</h6>
+            <p><?php echo esc_html(get_theme_mod('set_email', __('Configure o email da empresa', 
+            'wp-devs'))); ?></p>
+        </div>
+    </div>
+</div>
 
 <footer class="site-footer">
     <div class="container">

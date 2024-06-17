@@ -58,6 +58,90 @@ function wpdevs_customizer( $wp_customize ) {
         )
     );
 
+    // 1 Telefone fixo Section
+    $wp_customize->add_section(
+        'sec_tel-fixo',
+        array (
+            'title' => __( 'Adicionar telefone fixo', 'devs' ),
+            'description' => __( 'Configurações do Tel. fixo', 'devs' ), 
+        )
+    );
+
+    $wp_customize->add_setting(
+        'set_tel-fixo',
+        array(
+            'type' => 'theme_mod',
+            'default' => __( 'tel-fixo', 'devs' ),
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_tel-fixo',
+        array(
+            'label' => __( 'Informações do tel. fixo', 'devs' ),
+            'description' => __( 'Por favor, digite o tel. fixo.', 'devs' ),
+            'section' => 'sec_tel-fixo',
+            'type' => 'text'
+        )
+    );
+
+    // 1 Whatsapp Section
+    $wp_customize->add_section(
+        'sec_whatsapp',
+        array (
+            'title' => __( 'Adicionar whatsapp', 'devs' ),
+            'description' => __( 'Configurações do whatsapp', 'devs' ), 
+        )
+    );
+
+    $wp_customize->add_setting(
+        'set_whatsapp',
+        array(
+            'type' => 'theme_mod',
+            'default' => __( 'whatsapp', 'devs' ),
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_whatsapp',
+        array(
+            'label' => __( 'Informações do whatsapp', 'devs' ),
+            'description' => __( 'Por favor, digite o whatsapp.', 'devs' ),
+            'section' => 'sec_whatsapp',
+            'type' => 'text'
+        )
+    );
+
+    // 1 E-mail Section
+    $wp_customize->add_section(
+        'sec_email',
+        array (
+            'title' => __( 'Adicionar E-mail', 'devs' ),
+            'description' => __( 'Configurações do email', 'devs' ), 
+        )
+    );
+
+    $wp_customize->add_setting(
+        'set_email',
+        array(
+            'type' => 'theme_mod',
+            'default' => __( 'email', 'devs' ),
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_email',
+        array(
+            'label' => __( 'Informações do email', 'devs' ),
+            'description' => __( 'Por favor, digite o email da empresa.', 'devs' ),
+            'section' => 'sec_email',
+            'type' => 'text'
+        )
+    );
+
     // 1 Copyright Section
     $wp_customize->add_section(
         'sec_copyright',
