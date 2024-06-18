@@ -1,7 +1,6 @@
 <!-- Informações -->
 
 <div class="informacoes">Informações
-
     <div class="site-rodape">
         <div class="container">
             <div class="localizacao">
@@ -22,7 +21,6 @@
 <!-- Fale Conosco -->
 
 <div class="fale-conosco">Fale conosco
-
     <div class="site-rodape">
         <div class="container">
             <div class="tel-fixo">
