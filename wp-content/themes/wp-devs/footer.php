@@ -5,7 +5,7 @@
         <div class="container">
             <div class="localizacao">
             <h6>Localização</h6>
-            <!-- <a href=""><img src="./img/icone-localização.png" alt=""></a> -->
+            <!-- <a href=""><img src="./img/icone-localizacao.png" alt=""></a> -->
                 <p><?php echo esc_html(get_theme_mod('set_localizacao', __('Configure o endereço da empresa', 
                 'wp-devs'))); ?></p>
             </div>
