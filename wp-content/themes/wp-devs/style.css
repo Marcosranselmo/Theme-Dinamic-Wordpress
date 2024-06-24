@@ -812,12 +812,45 @@ img {
     padding: 40px 0 0 0;
 }
 
+@media (max-width: 575px) {
+    .informacoes{
+        /* flex-wrap: wrap; */
+        color: red;
+    }
+}
+
 /* Container Endereço */
 .site-rodape .container .localizacao {
     float: left;
     width: 50%;
     padding: 0;
     letter-spacing: 1px;
+}
+
+@media (max-width: 575px) {
+    .site-rodape .container .localizacao{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .site-rodape .container .localizacao h6{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .site-rodape .container .localizacao p{
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-rodape .container .localizacao p{
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 .localizacao{ 
@@ -872,6 +905,14 @@ img {
     padding: 0;
 }
 
+
+@media (max-width: 575px) {
+    .site-rodape .container .tel-fixo{
+        width: 100%;
+        padding: 0;
+    }
+}
+
 .tel-fixo{ 
     background: #0a0a0a; 
     color: #696969; 
@@ -893,6 +934,14 @@ img {
     padding: 0;
 }
 
+
+@media (max-width: 575px) {
+    .site-rodape .container .whatsapp{
+        width: 100%;
+        padding: 0;
+    }
+}
+
 .whatsapp{ 
     background: #0a0a0a; 
     color: #696969; 
@@ -912,6 +961,14 @@ img {
     float: left;
     width: 33%;
     padding: 0;
+}
+
+
+@media (max-width: 575px) {
+    .site-rodape .container .email{
+        width: 100%;
+        padding: 0;
+    }
 }
 
 .email{ 
