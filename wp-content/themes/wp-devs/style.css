@@ -815,7 +815,7 @@ img {
 @media (max-width: 575px) {
     .informacoes{
         /* flex-wrap: wrap; */
-        color: red;
+        color: #000;
     }
 }
 
@@ -851,6 +851,10 @@ img {
         margin-left: 0%;
         width: 100%;
     }
+@media (max-width: 480px) {
+    .site-rodape .container .localizacao h6{
+        margin-top: 15px;
+    }
 }
 
 .localizacao{ 
@@ -871,6 +875,37 @@ img {
     float: left;
     width: 50%;
     padding: 0;
+}
+
+@media (max-width: 575px) {
+.site-rodape .container .horario-atendimento{
+    width: 100%;
+    padding: 0;
+    }
+}
+
+@media (max-width: 575px) {
+.site-rodape .container .horario-atendimento{
+    margin-top: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .site-rodape .container .horario-atendimento p{
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-rodape .container .horario-atendimento p{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+@media (max-width: 480px) {
+    .site-rodape .container .horario-atendimento h6{
+        margin-top: -10px;
+    }
 }
 
 .horario-atendimento{ 
