@@ -851,10 +851,6 @@ img {
         margin-left: 0%;
         width: 100%;
     }
-@media (max-width: 480px) {
-    .site-rodape .container .localizacao h6{
-        margin-top: 15px;
-    }
 }
 
 .localizacao{ 
@@ -900,11 +896,6 @@ img {
     .site-rodape .container .horario-atendimento p{
         margin-left: 0%;
         width: 100%;
-    }
-
-@media (max-width: 480px) {
-    .site-rodape .container .horario-atendimento h6{
-        margin-top: -10px;
     }
 }
 
