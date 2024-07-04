@@ -840,11 +840,24 @@ img {
 }
 
 @media (max-width: 480px) {
+    .site-rodape .container .localizacao h6 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
     .site-rodape .container .localizacao {
         width: 100%;
         margin: -20px 10px 10px 10px;
     }
 }
+
+/* @media (max-width: 575px) {
+    .site-rodape .container .localizacao{
+        width: 50%;
+        padding: 0;
+    }
+} */
 
 /* HORÁRIO ATENDIMENTO */
 .horario-atendimento p {
@@ -915,11 +928,11 @@ img {
 } */
 
 /* Horário Atendimento */
-.site-rodape .container .horario-atendimento {
+/* .site-rodape .container .horario-atendimento {
     float: left;
     width: 50%;
     padding: 0;
-}
+} */
 
 .horario-atendimento{ 
     background: #B2A895; 
