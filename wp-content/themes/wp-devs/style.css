@@ -808,7 +808,7 @@ img {
     background-color: #B2A895;
     color: #000;
     text-align: center;
-    font-size: 28px;
+    font-size: 25px;
     padding: 40px 0 0 0;
 }
 
@@ -818,7 +818,7 @@ img {
     color: #450A0A; 
     text-align: center;
     font-size: 25px;
-    margin: 0;
+    margin-top: -40px;
 }
 
 .site-rodape .container .localizacao {
@@ -841,7 +841,7 @@ img {
 
 @media (max-width: 480px) {
     .site-rodape .container .localizacao h6 {
-        margin-top: 20px;
+        margin-top: 40px;
     }
 }
 
@@ -849,6 +849,13 @@ img {
     .site-rodape .container .localizacao {
         width: 100%;
         margin: -20px 10px 10px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-rodape .container .localizacao p {
+        width: 100%;
+        margin: -30px 10px 10px 10px;
     }
 }
 
@@ -860,6 +867,21 @@ img {
 } */
 
 /* HORÁRIO ATENDIMENTO */
+.horario-atendimento{ 
+    background: #B2A895; 
+    color: #450A0A;  
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/* .site-rodape .container .horario-atendimento {
+    float: left;
+    width: 50%;
+    padding: 0;
+} */
+
 .horario-atendimento p {
     color: #000;
     margin: -30px 70px 30px 70px;
@@ -872,104 +894,23 @@ img {
 }
 
 @media (max-width: 480px) {
+    .site-rodape .container .horario-atendimento h6 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
     .site-rodape .container .horario-atendimento {
         width: 100%;
         margin: -20px 10px 10px 10px;
     }
 }
 
-/* @media (max-width: 575px) {
+@media (max-width: 575px) {
     .informacoes{
         color: #000;
     }
-} */
-
-/* Container Endereço */
-
-/* @media (max-width: 480px) {
-    .site-rodape .container .localizacao p{
-        margin-left: 0%;
-        width: 100%;
-    }
-} */
-
-/* @media (max-width: 575px) {
-    .site-rodape .container .localizacao{
-        width: 100%;
-        padding: 0;
-    }
-} */
-
-/* @media (max-width: 575px) {
-    .site-rodape .container .localizacao h6{
-        margin-top: 10px;
-    }
-} */
-
-/* @media (max-width: 575px) {
-    .site-rodape .container .localizacao p{
-        padding: 0;
-    }
-} */
-
-/* @media (max-width: 768px) {
-    .site-rodape .container .localizacao{
-        width: 50%;
-        padding: 0;
-        align-content: center;
-    }
-} */
-
-/* @media (max-width: 768px) {
-    .site-rodape .container .localizacao p{
-        width: 0%;
-        padding: 0;
-    }
-} */
-
-/* Horário Atendimento */
-/* .site-rodape .container .horario-atendimento {
-    float: left;
-    width: 50%;
-    padding: 0;
-} */
-
-.horario-atendimento{ 
-    background: #B2A895; 
-    color: #450A0A;  
-    text-align: center;
-    font-size: 25px;
-    margin: 0;
-    letter-spacing: 1px;
 }
-
-
-
-/* @media (max-width: 575px) {
-.site-rodape .container .horario-atendimento{
-    width: 100%;
-    padding: 0;
-    }
-} */
-
-/* @media (max-width: 575px) {
-.site-rodape .container .horario-atendimento{
-    margin-top: -30px;
-    }
-} */
-
-/* @media (max-width: 575px) {
-    .site-rodape .container .horario-atendimento p{
-        padding: 0;
-    }
-}
- */
-/* @media (max-width: 480px) {
-    .site-rodape .container .horario-atendimento p{
-        margin-left: 0%;
-        width: 100%;
-    }
-} */
 
 /* Fale conosco */
 .fale-conosco {
