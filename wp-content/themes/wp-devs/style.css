@@ -923,92 +923,119 @@ img {
     padding: 40px 0 0 0;
 }
 
-/* Fale conosco */
+/* Tel fixo */
 .site-rodape .container .tel-fixo {
     float: left;
     width: 33%;
     padding: 0;
 }
 
-
-@media (max-width: 575px) {
-    .site-rodape .container .tel-fixo{
-        width: 100%;
-        padding: 0;
-    }
+.site-rodape .container .tel-fixo p{
+    margin-top: -25px;
+    margin-bottom: 30px;
 }
 
-.tel-fixo{ 
-    background: #0a0a0a; 
-    color: #696969; 
-    text-align: center;
-    font-size: 25px;
-    margin: 0;
-    letter-spacing: 1px;
-}
-
-.tel-fixo p {
-    margin: -30px 35px 30px 35px;
-    letter-spacing: 1px;
-}
-
-/* whatsapp */
 .site-rodape .container .whatsapp {
     float: left;
     width: 33%;
     padding: 0;
 }
 
-
-@media (max-width: 575px) {
-    .site-rodape .container .whatsapp{
-        width: 100%;
-        padding: 0;
-    }
+.site-rodape .container .whatsapp p{
+    margin-top: -25px;
+    margin-bottom: 30px;
 }
 
-.whatsapp{ 
-    background: #0a0a0a; 
-    color: #696969; 
-    text-align: center;
-    font-size: 25px;
-    margin: 0;
-    letter-spacing: 1px;
-}
-
-.whatsapp p {
-    margin: -30px 35px 30px 35px;
-    letter-spacing: 1px;
-}
-
-/* Email */
 .site-rodape .container .email {
     float: left;
     width: 33%;
     padding: 0;
 }
 
+.site-rodape .container .email p{
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
 
-@media (max-width: 575px) {
-    .site-rodape .container .email{
+
+/* @media (max-width: 575px) {
+    .site-rodape .container .tel-fixo{
         width: 100%;
         padding: 0;
     }
-}
+} */
 
-.email{ 
+/* .tel-fixo{ 
     background: #0a0a0a; 
     color: #696969; 
     text-align: center;
     font-size: 25px;
     margin: 0;
     letter-spacing: 1px;
-}
+} */
 
-.email p {
+/* .tel-fixo p {
     margin: -30px 35px 30px 35px;
     letter-spacing: 1px;
+} */
+
+/* whatsapp */
+/* .site-rodape .container .whatsapp {
+    float: left;
+    width: 33%;
+    padding: 0;
+} */
+
+
+/* @media (max-width: 575px) {
+    .site-rodape .container .whatsapp{
+        width: 100%;
+        padding: 0;
+    }
 }
+ */
+/* .whatsapp{ 
+    background: #0a0a0a; 
+    color: #696969; 
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    letter-spacing: 1px;
+} */
+
+/* .whatsapp p {
+    margin: -30px 35px 30px 35px;
+    letter-spacing: 1px;
+} */
+
+/* Email */
+/* .site-rodape .container .email {
+    float: left;
+    width: 33%;
+    padding: 0;
+} */
+
+
+/* @media (max-width: 575px) {
+    .site-rodape .container .email{
+        width: 100%;
+        padding: 0;
+    }
+} */
+
+/* .email{ 
+    background: #0a0a0a; 
+    color: #696969; 
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    letter-spacing: 1px;
+} */
+
+/* .email p {
+    margin: -30px 35px 30px 35px;
+    letter-spacing: 1px;
+} */
 
 /* Footer */
 footer{ 
@@ -1016,7 +1043,7 @@ footer{
     color: #696969; 
     float: left;
     width: 100%;
-    border-top: 1px solid white;
+    border-top: 1px solid rgb(175, 175, 175);
 }
 
 /* Footer - Footer Menu */
