@@ -928,6 +928,7 @@ img {
     float: left;
     width: 33%;
     padding: 0;
+    margin-top: -15px;
 }
 
 .site-rodape .container .tel-fixo p{
@@ -935,10 +936,18 @@ img {
     margin-bottom: 30px;
 }
 
+@media (max-width: 575px) {
+    .site-rodape .container .tel-fixo {
+        float: left;
+        width: 50%;
+    }
+}
+
 .site-rodape .container .whatsapp {
     float: left;
     width: 33%;
     padding: 0;
+    margin-top: -15px;
 }
 
 .site-rodape .container .whatsapp p{
@@ -946,15 +955,31 @@ img {
     margin-bottom: 30px;
 }
 
+@media (max-width: 575px) {
+    .site-rodape .container .whatsapp {
+        float: left;
+        width: 50%;
+    }
+}
+
 .site-rodape .container .email {
     float: left;
     width: 33%;
     padding: 0;
+    margin-top: -15px;
 }
 
 .site-rodape .container .email p{
     margin-top: -25px;
     margin-bottom: 30px;
+}
+
+@media (max-width: 575px) {
+    .site-rodape .container .email {
+        float: left;
+        width: 100%;
+        margin-top: -35px;
+    }
 }
 
 
