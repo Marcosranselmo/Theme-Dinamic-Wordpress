@@ -1,7 +1,7 @@
 /*
 Theme Name: WP NSMarmoraria
 Theme URI: https://website.com/wp-devs
-Author: Marcelo Vieira
+Author: Marcos R Anselmo
 Author URI: https://website.com/wp-devs
 Description: This theme is for learning purposes only.
 Requires at least: 5.6
@@ -18,7 +18,6 @@ Tags: one-column, custom-menu, custom-logo, featured-images, translation-ready
 1. Normalize
 2. Theme Specific CSS
 */
-
 
 /* 1. Normalize */
 
@@ -448,7 +447,6 @@ img {
 }
 
 /* Containers */
-
 .container {
     width: 100%;
     margin-right: auto;
@@ -515,7 +513,6 @@ img {
 }
 
 /* Main Menu */
-
 .menu-area {
 	background: var( --wpdevs-gray2 );
 }
@@ -859,13 +856,6 @@ img {
     }
 }
 
-/* @media (max-width: 575px) {
-    .site-rodape .container .localizacao{
-        width: 50%;
-        padding: 0;
-    }
-} */
-
 /* HORÁRIO ATENDIMENTO */
 .horario-atendimento{ 
     background: #B2A895; 
@@ -875,12 +865,6 @@ img {
     margin: 0;
     letter-spacing: 1px;
 }
-
-/* .site-rodape .container .horario-atendimento {
-    float: left;
-    width: 50%;
-    padding: 0;
-} */
 
 .horario-atendimento p {
     color: #000;
@@ -1091,9 +1075,6 @@ footer{
     }
 }
 
-
-
-
 .container .blog-items {
     margin-bottom: 0px;
 }
@@ -1122,8 +1103,6 @@ footer{
 .sidebar {
     margin-top: 58px;
 }
-
-
 
 @media screen and (max-width: 550px ) {
     .wp-post-image{ 
