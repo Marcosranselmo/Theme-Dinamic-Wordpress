@@ -771,14 +771,19 @@ img {
 }
 .home .home-blog .latest-news h3{ 
     color: #000000;
-    margin: 0; 
+    margin-left: 8px; 
+    margin-top: -20px;
+    margin-bottom: -10px;
     line-height: 2.6rem;
+
 }
 .home .home-blog .meta-info p{ 
     font-weight: bold; 
     margin-bottom: 0; 
     margin-left: 1px;
+    padding: 8px;
 }
+
 .latest-news p span {
     margin-left: 1px;
 }
