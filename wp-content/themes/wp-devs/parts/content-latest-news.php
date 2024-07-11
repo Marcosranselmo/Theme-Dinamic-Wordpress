@@ -16,5 +16,8 @@
                 <?php endif; ?> <br>
             </p>
         </div>
+        <div class="excerpt-news">
         <?php the_excerpt(); ?>
+        </div>
+
 </article>
