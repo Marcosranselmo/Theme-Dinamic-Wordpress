@@ -759,9 +759,7 @@ img {
     right: calc( 50% - 15px);
     bottom: 0;
 }
-/* .home .home-blog .latest-news{ 
-    text-align: center; 
-} */
+
 .home .home-blog .col-12 .latest-news{  
     margin-bottom: 40px;
 }
