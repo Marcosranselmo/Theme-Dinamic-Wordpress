@@ -23,8 +23,8 @@ msgstr "Cabeçalho"
 
 #. Author URI of the theme
 #. Translators: WordPress link.
-#: style.css patterns/footer-centered-logo-nav.php:21
-#: patterns/footer-colophon-3-col.php:90 patterns/footer.php:116
+#: style.css patterns/footer-centered-logo-nav.php:22
+#: patterns/footer-colophon-3-col.php:91 patterns/footer.php:117
 msgid "https://wordpress.org"
 msgstr "https://br.wordpress.org"
 
