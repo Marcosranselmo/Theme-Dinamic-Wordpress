@@ -744,8 +744,12 @@ img {
 .home-blog .container{
     display: grid;
     grid-template-areas: 'feat-item feat-item feat-item';
-    grid-gap: 25px;
+    grid-gap: 0px;
 }
+
+
+
+
 .home .home-blog h2{ 
     text-align: center;
     position: relative;  
@@ -764,6 +768,8 @@ img {
     margin-bottom: 40px;
 }
 .home .home-blog .latest-news img{ 
+    padding: 5px;
+    border-radius: 10px;
     float: none !important;
     margin: 0 0 25px 0 !important;
 }
@@ -807,6 +813,11 @@ img {
         display: block;
     }
 }
+
+/* .home-blog .container1 {
+    left: 4px;
+  
+} */
 
 /* Informações */
 .informacoes {

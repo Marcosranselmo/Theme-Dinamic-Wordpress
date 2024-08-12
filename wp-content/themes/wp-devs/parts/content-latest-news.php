@@ -1,4 +1,4 @@
-<article class="latest-news" style="background-color: #f7f7f7; border-radius: 6px">
+<article class="latest-news" style="background-color: #f7f7f7; border-radius: 6px;">
     <?php if( has_post_thumbnail()): ?>
         <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'large' ); ?></a>
     <?php endif; ?>
