@@ -114,6 +114,31 @@ function wpdevs_customizer( $wp_customize ) {
         )
     );
 
+    // Link whatsapp
+    $wp_customize->add_setting(
+        'set_whatsapp_button_link',
+        array(
+            'type' => 'theme_mod',
+            'default' => '#',
+            'sanitize_callback' => 'esc_url_raw'
+        )
+    );
+
+    $wp_customize->add_control(
+        'set_whatsapp_button_link',
+        array(
+            'label' => __( 'Hero button link', 'devs' ),
+            'description' => __( 'Please, type your link here', 'devs' ),
+            'section' => 'sec_whatsapp',
+            'type' => 'url'
+        )
+    );
+
+
+
+
+
+
     // 1 E-mail Section
     $wp_customize->add_section(
         'sec_email',
